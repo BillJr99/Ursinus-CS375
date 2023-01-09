@@ -1,31 +1,23 @@
 ---
 layout: syllabus
 permalink: /
-title: "CS475: Computer Networks"
-excerpt: "CS475: Computer Networks"
+title: "CS375: Software Engineering"
+excerpt: "CS375: Software Engineering"
     
 info:
-  course_number: CS475
-  course_number: CS475
+  course_number: CS375
   course_sections: 
   - section: "A"
-  course_title: "Computer Networks"
+  course_title: "Software Engineering"
   credit_hours: "4 Semester Hours"
-  course_homepage: "https://www.billmongan.com/Ursinus-CS475-Spring2021/"
-  teamshelproom: https://teams.microsoft.com/l/channel/19%3a6ddddb88493946fa956387e9543a3b06%40thread.tacv2/Mongan%2520Drop-In%2520Office%2520Hours?groupId=b16dcd6b-3522-4564-8306-9051a92c68ba&tenantId=921f1c03-8689-4e60-a722-f5ea581e00fe
-  class_notebook: https://ursinuscollege365-my.sharepoint.com/personal/wmongan_ursinus_edu/Documents/Class%20Notebooks/CS475%20Spring%202021
-  ical: files/CS475.ics
-  course_prerequisites: "CS274"
-  course_start_date: "2021/01/18"
-  course_end_date: "2021/05/05"
-  course_description: "Architecture and protocols of computer networks. Protocol layers; network topology; data-communication principles, including circuit switching, packet switching and error control techniques; sliding window protocols, protocol analysis and verification; routing and flow control; local and wide area networks; network interconnection; client-server interaction; emerging networking trends and technologies; topicsin security and privacy. This course will satisfy the College requirement for a capstone experience in the major. Prerequisite or co-requisite: CS-274. Offered in the spring of odd years. Three hours per week. Four semester hours."
-  welcome_message: "Welcome to CS475!"
-  zoom:
-    zoomrecordings: "Panopto on Canvas"
-    links:
-    - section:
-        zoomlink: "https://ursinus-edu.zoom.us/j/98917954390"
-        phonenumberlink: "https://ursinus-edu.zoom.us/u/acxWkcVQ7O"
+  course_homepage: "https://www.billmongan.com/Ursinus-CS375-Spring2023/"
+  class_notebook: https://ursinuscollege365-my.sharepoint.com/personal/wmongan_ursinus_edu/Documents/Class%20Notebooks/CS375%20Spring%202023
+  ical: files/CS375.ics
+  course_prerequisites: "CS174"
+  course_start_date: "2023/01/16"
+  course_end_date: "2023/05/03"
+  course_description: "Topics integral to the design, implementation and testing of a medium-scale software system combined with the practical experience of implementing such a project as a member of a programming team. Use of the Unified Modeling Language (UML) for software design. Prerequisite: A grade of C– or higher in CS-271. Offered in the spring semester. Three hours per week. Four semester hours. (Q.)"
+  welcome_message: "Welcome to CS375!" 
   class_meets_days:
     isM: true
     isT: false
@@ -37,28 +29,28 @@ info:
   class_meets_locations:
   - section:
     - day: "M"
-      starttime: "10:00 AM"
-      endtime: "10:50 AM"
-      place: "Kaleidoscope"
+      starttime: "11:00 AM"
+      endtime: "11:50 AM"
+      place: "PFA 007"
     - day: "W"
-      starttime: "10:00 AM"
-      endtime: "10:50 AM"
-      place: "Kaleidoscope"
+      starttime: "11:00 AM"
+      endtime: "11:50 AM"
+      place: "PFA 007"     
     - day: "F"
-      starttime: "10:00 AM"
-      endtime: "10:50 AM"
-      place: "Kaleidoscope"
+      starttime: "11:00 AM"
+      endtime: "11:50 AM"
+      place: "PFA 007"
   midtermexam: 
-    - mdate: "2021/02/26"
+    - mdate: "2021/02/24"
       mstarttime: "10:00 AM"
       mendtime: "10:50 AM"
       mroom: "Regular Class Period"      
   finalexam: 
-    - fdate: "2021/05/10"
-      fstarttime: "9:00 AM"
-      fendtime: "12:00 PM"
-      froom: "REMOTE"
-  flexible_submission_policy: "In the absence of <a href=\"#accommodations\">accommodations</a> arranged in advance with the instructor or college, all assignments are due at 10:59PM Eastern Time on the date(s) stated on the schedule.  Assignments will be accepted without prior permission following this time with a points deduction of 4% per day if submitted before 10:59 PM Eastern Time on the day submitted.  Each student will receive a total of 10 &quot;slack days&quot; for the semester with which to waive these grade reductions; for example, one assignment may be submitted 10 days late, or two assignments may be submitted 5 days late, with no grade reduction.  Should an exemption to this policy be requested and granted, a 5% per day reduction will be applied.  Extra credit will not be awarded for assignments submitted under the flexible submission policy.  Students with accommodations will receive additional &quot;slack days&quot; as specified within the accommodations letter; however, some deliverables cannot be subject to accommodations due to the time-sensitive nature of the assignment (for example, group assignments, presentations, and course surveys).  Students who add the class late shall receive additional slack days equal to the number of days between the start of classes and the first date that approval is given or that class is attended (whichever occurs first).  Under no circumstances (including accommodations) can late work be accepted after the final class meeting, nor during final exams week, nor after the exam." 
+    - fdate: "TBD"
+      fstarttime: "TBD"
+      fendtime: "TBD"
+      froom: "TBD"
+  flexible_submission_policy: "In the absence of <a href=\"#accommodations\">accommodations</a> arranged in advance with the instructor or college, all assignments are due at 10:59PM Eastern Time on the date(s) stated on the schedule.  Assignments will be accepted without prior permission following this time with a points deduction of 4% per day if submitted before 10:59 PM Eastern Time on the day submitted.  Each student will receive a total of 10 &quot;slack days&quot; for the semester with which to waive these grade reductions; for example, one assignment may be submitted 10 days late, or two assignments may be submitted 5 days late, with no grade reduction.  Extra credit will not be awarded for assignments submitted under the flexible submission policy.  Students with accommodations will receive additional &quot;slack days&quot; as specified within the accommodations letter; however, some deliverables cannot be subject to accommodations due to the time-sensitive nature of the assignment (for example, group assignments, presentations, and course surveys).  Students who add the class late shall receive additional slack days equal to the number of days between the start of classes and the first date that approval is given or that class is attended (whichever occurs first).  Under no circumstances (including accommodations) can late work be accepted after the final class meeting, nor during final exams week, nor after the exam." 
   late_penalty_per_period: 4
   late_penalty_period: "day"
   banner: |
@@ -86,33 +78,25 @@ instructors:
   picture: /images/profile.png
   officehours:
   - day: "M"
-    starttime: "5:00 PM"
-    endtime: "6:00 PM"
-    location: "Virtual Office Hours on Microsoft Teams Help Room"  
-  - day: "T"
-    starttime: "9:00 AM"
-    endtime: "10:50 AM"
-    location: "Virtual Office Hours on Microsoft Teams Help Room"   
-  - day: "T"
-    starttime: "2:00 PM"
-    endtime: "3:00 PM"
-    location: "Virtual Office Hours on Microsoft Teams Help Room"       
+    starttime: "12:00 PM"
+    endtime: "1:00 PM"
+    location: "Pfahler 101L"        
   - day: "W"
-    starttime: "5:00 PM"
-    endtime: "6:00 PM"
-    location: "Virtual Office Hours on Microsoft Teams Help Room"
+    starttime: "12:00 PM"
+    endtime: "1:00 PM"
+    location: "Pfahler 101L" 
   - day: "R"
     starttime: "9:00 AM"
     endtime: "10:00 AM"
-    location: "Virtual Office Hours on Microsoft Teams Help Room"    
+    location: "Pfahler 101L" 
   - day: "R"
     starttime: "11:00 AM"
     endtime: "12:00 PM"
-    location: "Virtual Office Hours on Microsoft Teams Help Room"        
+    location: "Pfahler 101L" 
   - day: "F"
-    starttime: "1:30 PM"
-    endtime: "3:30 PM"
-    location: "Virtual Office Hours on Microsoft Teams Help Room"  
+    starttime: "12:00 PM"
+    endtime: "1:00 PM"
+    location: "Pfahler 101L" 
     
 textbooks:
 - title: "An Introduction to Computer Networks"
@@ -394,7 +378,7 @@ schedule:
     dlink: "Assignments/FSM"
     points: 100    
 - week: "6"
-  date: "2"
+  date: "1"
   title: "IPv4 Addressing and Subnets" 
   deliverables:
   - dtitle: "Lab: Wi-Fi with Wireshark Due"
@@ -405,16 +389,16 @@ schedule:
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_IP_v8.0.pdf"      
     points: 10
     submission_types: "written"        
-- week: "7"
-  date: "0"
+- week: "6"
+  date: "2"
   title: "IP Multiplexing with NAT"  
   deliverables:
   - dtitle: "Midterm Exam: Midterm Handed Out"
     dlink: false
     points: 100  
     submission_types: "written"            
-- week: "7"
-  date: "1"
+- week: "8"
+  date: "0"
   title: "Outside Address Lookups with DNS" 
   deliverables:    
   - dtitle: "Lab: IP with Wireshark Due"
@@ -432,8 +416,8 @@ schedule:
     rlink: false      
   - rtitle: "Kurose and Ross: DNS"
     rlink: "https://youtu.be/6lRcMh5Yphg"    
-- week: "7"
-  date: "2"
+- week: "8"
+  date: "1"
   title: "Inside Address Lookups with ARP" 
   deliverables:
   - dtitle: "Participation: First Self-Assessment Handed Out"
@@ -445,7 +429,7 @@ schedule:
     points: 100    
     submission_types: "written"        
 - week: "8"
-  date: "0"
+  date: "2"
   title: "Dynamic Configuration with DHCP"
   deliverables:
   - dtitle: "Lab: NAT with Wireshark Due"
@@ -456,8 +440,8 @@ schedule:
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DHCP_v8.0.pdf"    
     points: 10
     submission_types: "written"        
-- week: "8"
-  date: "1"
+- week: "9"
+  date: "0"
   title: "ICMP and Ping" 
   readings:
   - rtitle: "Kurose and Ross: The Internet Control Message Protocol (ICMP)"
@@ -468,8 +452,8 @@ schedule:
     points: 100   
   - dtitle: "Programming Assignment: Traceroute Handed Out"
     dlink: "./Assignments/Traceroute"  
-- week: "8"
-  date: "2"
+- week: "9"
+  date: "1"
   title: "IPv6"  
   deliverables:
     - dtitle: "Participation: First Self-Assessment Due"
@@ -480,7 +464,7 @@ schedule:
   - rtitle: "Dordal Ch. 11"
     rlink: false   
 - week: "9"
-  date: "0"
+  date: "2"
   title: "VPN and Tunneling" 
   deliverables:
   - dtitle: "Lab: DHCP with Wireshark Due"
@@ -491,8 +475,8 @@ schedule:
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_ICMP_v8.0.pdf"     
     points: 10
     submission_types: "written"        
-- week: "9"
-  date: "1"
+- week: "10"
+  date: "0"
   title: "Routing" 
   link: "./Activities/Routing"
   readings:
@@ -506,14 +490,14 @@ schedule:
     rlink: "https://youtu.be/NfHR94JAO-s"   
   - rtitle: "Kurose and Ross: What's Inside a Router? Part 2"
     rlink: "https://youtu.be/zfzzz9KQOog"     
-- week: "9"
-  date: "2"
+- week: "10"
+  date: "1"
   title: "Distance Vector Algorithms"
   readings:
   - rtitle: "Kurose and Ross: Intra-AS Routing"
     rlink: "https://youtu.be/iUQmn3nNjaI"   
 - week: "10"
-  date: "0"
+  date: "2"
   title: "Hierarchical Routing"  
   deliverables:
   - dtitle: "Lab: ICMP with Wireshark Due"
@@ -523,8 +507,8 @@ schedule:
   readings:
   - rtitle: "Dordal Ch. 14"
     rlink: false   
-- week: "10"
-  date: "2"
+- week: "11"
+  date: "0"
   title: "Routing at Scale: BGP"
   readings:
   - rtitle: "Dordal Ch. 15"
@@ -535,7 +519,7 @@ schedule:
   - dtitle: "Programming Assignment: Traceroute Due"
     dlink: "./Assignments/Traceroute"   
 - week: "11"
-  date: "0"
+  date: "1"
   title: "The Transport Layer: Considerations"
   link: "./Activities/TransportLayer"
   deliverables: 
@@ -701,79 +685,68 @@ schedule:
     submission_types: "written"            
 university:
   semester: "Spring"
-  academicyear: "2020-21"
+  academicyear: "2022-23"
   fall:
   - kname: "Add Deadline"
-    kdate: "2020/09/18"
+    kdate: "2022/09/10"
     kdisplay: true
   - kname: "Drop with a W Deadline"
-    kdate: "2020/11/4"
+    kdate: "2022/10/27"
     kdisplay: true  
   - kname: "Mid Semester Grades Posted"
-    kdate: "2020/10/23"
+    kdate: "2022/10/15"
     kdisplay: false
-  - kname: "2020 Transition to Remote Learning after Thanksgiving Break"
-    kdate: "2020/11/30"
+  - kname: "Reading Day"
+    kdate: "2022/12/11"
     kdisplay: true
-  - kname: "Designated Thursday Schedule"
-    kdate: "2020/12/14"
-    kdisplay: true
-  - kname: "Designated Friday Schedule"
-    kdate: "2020/12/15"    
-    kdisplay: true    
   - kname: "Finals Week Begins"
-    kdate: "2020/12/16"
+    kdate: "2022/12/13"
     kdisplay: false
   - kname: "Finals Week Ends"
-    kdate: "2020/12/22"
+    kdate: "2022/12/18"
     kdisplay: false
   spring:
   - kname: "Add Deadline"
-    kdate: "2021/02/2"
+    kdate: "2023/1/31"
     kdisplay: true
   - kname: "Drop with a W Deadline"
-    kdate: "2021/03/24"
+    kdate: "2023/03/22"
     kdisplay: true
   - kname: "Mid Semester Grades Posted"
-    kdate: "2021/03/5"
+    kdate: "2023/03/3"
     kdisplay: false
-  - kname: "Designated Tuesday Schedule"
-    kdate: "2021/04/30"
-    kdisplay: true
-  - kname: "Designated Wednesday Schedule"
-    kdate: "2021/05/3"
-    kdisplay: true
-  - kname: "Designated Thursday Schedule"
-    kdate: "2021/05/5"
-    kdisplay: true    
+  - kname: "CoSA"
+    kdate: "2023/04/19"
+    kdisplay: true  
   - kname: "Reading Day"
-    kdate: "2021/05/6"
+    kdate: "2023/05/4"
     kdisplay: false    
   - kname: "Baccalaureate"
-    kdate: "2021/05/14"
+    kdate: "2023/05/12"
     kdisplay: false
   - kname: "Commencement"
-    kdate: "2021/05/15"
+    kdate: "2023/05/13"
     kdisplay: false
   - kname: "Finals Week Begins"
-    kdate: "2021/05/07"
+    kdate: "2023/05/05"
     kdisplay: false
   - kname: "Finals Week Ends"
-    kdate: "2021/05/13"
+    kdate: "2023/05/11"
     kdisplay: false    
   fallholidays:
-  - date: "2020/11/25"
-  - date: "2020/11/26"
-  - date: "2020/11/27" 
+  - date: "2022/10/17"
+  - date: "2022/10/18"
+  - date: "2022/11/24"
+  - date: "2022/11/25"
+  - date: "2022/11/26" 
   springholidays:
-  - date: "2021/01/18" 
-  - date: "2021/01/19"  
-  - date: "2021/02/18"  
-  - date: "2021/03/3"  
-  - date: "2021/03/9"
-  - date: "2021/03/16" 
-  - date: "2021/03/31"
-  - date: "2021/04/13"     
+  - date: "2023/01/16"  
+  - date: "2023/01/17"
+  - date: "2023/03/6"  
+  - date: "2023/03/7"
+  - date: "2023/03/8" 
+  - date: "2023/03/9"
+  - date: "2023/03/10"   
   
 ---
 

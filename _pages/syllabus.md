@@ -99,29 +99,13 @@ instructors:
     location: "Pfahler 101L" 
     
 textbooks:
-- title: "An Introduction to Computer Networks"
-  authors: "Peter L Dordal"
+- title: "Design Patterns Explained"
+  authors: "Alan Shalloway and James Trott"
   edition: "2nd Edition"
-  isbn: "978-0133594140"
-  link: http://intronetworks.cs.luc.edu/
-  isrequired: true 
-  freelyavailable: http://intronetworks.cs.luc.edu/current2/ComputerNetworks.pdf
-- title: "TCP/IP Tutorial and Technical Overview"
-  authors: "Lydia Parziale et al"
-  edition: "IBM Redbook"
-  isbn: "N/A"
-  link: https://www.redbooks.ibm.com/redbooks/pdfs/gg243376.pdf
-  image: false
-  isrequired: true
-  freelyavailable: https://www.redbooks.ibm.com/redbooks/pdfs/gg243376.pdf
-- title: "Computer Networking: A Top Down Approach"
-  authors: "Jim Kurose and Keith Ross"
-  edition: "8th Edition"
-  isbn: "N/A"
-  link: "http://gaia.cs.umass.edu/kurose_ross"
-  image: false
-  isrequired: false
-  freelyavailable: false  
+  isbn: "978-0321247148"
+  link: false
+  isrequired: false 
+  freelyavailable: false
 
 objectives:
 - objective: "To comprehend the design of a network protocol suitable for implementation"

@@ -18,6 +18,14 @@ info:
   course_end_date: "2023/05/03"
   course_description: "Topics integral to the design, implementation and testing of a medium-scale software system combined with the practical experience of implementing such a project as a member of a programming team. Use of the Unified Modeling Language (UML) for software design. Prerequisite: A grade of C– or higher in CS-271. Offered in the spring semester. Three hours per week. Four semester hours. (Q.)"
   welcome_message: "Welcome to CS375!" 
+  questions: |
+    Specifically, we will collectively consider questions like:
+    <ul>
+    <li>How can we organize large distributed software teams so that everyone can work together efficiently?</li>
+    <li>How can tools help us to organize our code?</li>
+    <li>How do we develop software systems that are easy to maintain and improve?</li>
+    <li>How can we ensure that we are developing systems that both work correctly and satisfy user needs?</li>
+    </ul>    
   class_meets_days:
     isM: true
     isT: false
@@ -41,10 +49,10 @@ info:
       endtime: "11:50 AM"
       place: "PFA 007"
   midtermexam: 
-    - mdate: "2021/02/24"
-      mstarttime: "10:00 AM"
-      mendtime: "10:50 AM"
-      mroom: "Regular Class Period"      
+    - mdate: "TBD"
+      mstarttime: "TBD"
+      mendtime: "TBD"
+      mroom: "TBD"      
   finalexam: 
     - fdate: "TBD"
       fstarttime: "TBD"
@@ -57,13 +65,13 @@ info:
     <div style="width: 100%; display: table; border-collapse:separate; border-spacing:5px;">
     <div style="width: 100%; display: table-row;">
         <div style="display: table-cell; padding:5px; width:33%;">
-            <a title="Offnfopt, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:OSI_Model_v1.svg"><img width="100%" style="display:block;" alt="OSI Model v1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/OSI_Model_v1.svg/256px-OSI_Model_v1.svg.png"></a>
+            <a title="Aflafla1, CC0, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Iterative_development_model.svg"><img width="100%" alt="Iterative development model" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Iterative_development_model.svg/512px-Iterative_development_model.svg.png"></a>
         </div>
         <div style="display: table-cell; padding:5px; width:33%;">
-            <a title="Rarelibra, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:World_map_of_submarine_cables.png"><img width="100%" style="display:block;" alt="World map of submarine cables" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/World_map_of_submarine_cables.png/512px-World_map_of_submarine_cables.png"></a>
+            <a title="Trashtoy, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:UML_class_diagram_example.svg"><img width="100%" alt="UML class diagram example" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/UML_class_diagram_example.svg/512px-UML_class_diagram_example.svg.png"></a>
         </div>
         <div style="display: table-cell; padding:5px; width:33%;">
-            <a title="Shiyu Ji, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:RR_BGP.svg"><img width="100%" style="display:block;" alt="RR BGP" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/RR_BGP.svg/512px-RR_BGP.svg.png"></a>
+            <a title="Ayalshi, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Agile_testing_process_by_ayal_shimoni.png"><img width="100%" alt="Agile testing process by ayal shimoni" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Agile_testing_process_by_ayal_shimoni.png/512px-Agile_testing_process_by_ayal_shimoni.png"></a>
         </div>
     </div>
     </div>
@@ -106,26 +114,44 @@ textbooks:
   link: false
   isrequired: false 
   freelyavailable: false
-
+- title: "The Mythical Man Month"
+  authors: "Frederick P. Brooks, Jr."
+  edition: "20th Anniversary Edition"
+  isbn: "978-0-201-83595-3"
+  link: false
+  isrequired: false 
+  freelyavailable: http://www.cesarkallas.net/arquivos/livros/informatica/Addison.Wesley.The.Mythical.Man-Month.Essays.on.Software.Engineering.20th.Anniversary.Edition.pdf
+  
 objectives:
-- objective: "To comprehend the design of a network protocol suitable for implementation"
-- objective: "To select appropriate network protocols at each layer of abstraction"
-- objective: "To write multithreaded code capable of multiplexing simultaneous socket I/O requests"
+- objective: "To gain perspective into software engineering best practices that enable teams to work together efficiently"
+- objective: "To develop software that is usable, scalable, and maintainable"
 
 goals:
-- goal: "To articulate network privacy concerns with a global context, and to identify practices and techniques to improve online privacy"
-- goal: "To differentiate between various models of network security, including authentication, authorization, and non-repudiation"
-- goal: "To identify and differentiate between approaches to fairness and quality-of-service on the Internet"
+- goal: "To use version control systems such as git to manage software repositories"
+- goal: "To design user stories that capture the functional requirements of a software system"
+- goal: "To develop and implement a code test plan with good code and control flow coverage"
+- goal: "To develop and implement a user acceptance test plan"
+- goal: "To document a software system for both end-users and other developers"
+- goal: "To work efficiently on a software team according to softwre engineering best practices"
+- goal: "To design, develop, test, implement, document, and present a non-trivial software system"
 
 grade_breakdown:
-- category: "Programming Assignments"
-  weight: "25%"
-- category: "Labs"
-  weight: "40%"
-- category: "Midterm Exam"
-  weight: "15%"
-- category: "Final Project"
+- category: "Software Project Proposal"
   weight: "10%"
+- category: "Software Design"
+  weight: "10%"
+- category: "Software Test Plan"
+  weight: "10%"
+- category: "User Acceptance Test Plan"
+  weight: "10%"
+- category: "Software Documentation"
+  weight: "10%"  
+- category: "Final Presentation"
+  weight: "10%"  
+- category: "Peer Review"
+  weight: "10%"   
+- category: "Homework Assignments"
+  weight: "20%"  
 - category: "Class Participation and Quizzes"
   weight: "10%"
 
@@ -158,515 +184,333 @@ letter_grades:
   range: "0-59.49"  
 
 schedule:
-- week: "0"
-  date: "1"
-  title: "Course Overview"
-  link: "../Ursinus-CS475-Overview"
-  deliverables:  
-  - dtitle: "Programming Assignment: Warmup Handed Out"
-    dlink: "./Assignments/Warmup"
-    points: 10 
-    submission_types: "noupload"    
-- week: "0"
-  date: "2"
-  title: "Sending Packets"  
-  deliverables:
-  - dtitle: "Participation: Pre-Assessment Handed Out"
-    dlink: "./Assignments/Participation/PreAssessment"
-    points: 10   
-    submission_types: "written"        
-  readings:
-  - rtitle: "Dordal Ch. 1"
-    rlink: false
-  - rtitle: "Kurose and Ross: What is the Internet?"
-    rlink: "https://youtu.be/74sEFYBBRAY"
-  - rtitle: "Kurose and Ross: The Network Edge"
-    rlink: "https://youtu.be/k8NmM-hImBU"  
-  - rtitle: "Kurose and Ross: The Network Core"
-    rlink: "https://youtu.be/f1nUcCdQJ8Y" 
-  - rtitle: "Kurose and Ross: Network Performance"
-    rlink: "https://youtu.be/hm1y4LsphQQ"     
-- week: "1"
-  date: "0"
-  title: "Motivating Examples: nslookup, HTTP, Traceroute"
-  link: "./Activities/MotivatingExamples"  
-  deliverables:
-  - dtitle: "Lab: Wireshark Overview Handed Out"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Intro_v8.0.pdf"
-    points: 10   
-    submission_types: "written"        
-  readings:
-  - rtitle: "Jim Kurose: Wireshark Demo"
-    rlink: "https://www.youtube.com/watch?v=PYoXowOCppc"
-  - rtitle: "Jim Kurose: Traceroute Demo"
-    rlink: "https://www.youtube.com/watch?v=wEWiYLb7pxg" 
-  - rtitle: "Visualizing Traceroute on a Map of the Earth"
-    rlink: "https://www.youtube.com/watch?v=75yKT3OuE44"  
-- week: "1"
-  date: "1"
-  title: "Networking: A Layered Approach"
-  link: "./Activities/Layers"
-  deliverables:
-  - dtitle: "Programming Assignment: Warmup Due"
-    dlink: "./Assignments/Warmup"
-    points: 10  
-    submission_types: "noupload"    
-  readings:
-  - rtitle: "Kurose and Ross: Protocol Layers"
-    rlink: "https://youtu.be/IZ_PnVXtMeY"  
-  - rtitle: "Kurose and Ross: Networks Under Attack"
-    rlink: "https://youtu.be/yukwBqSwAkg"    
-  - rtitle: "Kurose and Ross: History of Computer Networking"
-    rlink: "https://youtu.be/l4q8iuqbuiQ"  
-- week: "1"
-  date: "2" 
-  title: "Socket Programming"
-  link: "./Activities/SocketProgramming"
-  readings:
-  - rtitle: "Redbook Ch. 11"
-    rlink: false  
-  - rtitle: "Kurose and Ross: Socket Programming"
-    rlink: "https://youtu.be/_iHMMo7SDfQ"   
-  deliverables:
-  - dtitle: "Participation: Pre-Assessment Due"
-    dlink: "./Assignments/Participation/PreAssessment"
-    points: 10 
-    submission_types: "written"   
-- week: "2"
-  date: "0" 
-  title: "Socket Programming"  
-- week: "2"
-  date: "1" 
-  title: "Multithreaded Socket Programming"    
-- week: "2"
-  date: "2" 
-  title: "Multithreaded Socket Programming"   
-  deliverables: 
-  - dtitle: "Programming Assignment: Mini Crypto Handed Out"
-    dlink: "./Assignments/MiniCrypto"
-    points: 100    
-- week: "3"
-  date: "0"
-  title: "The Physical Layer: Considerations"
-  link: "./Activities/PhysicalLayer"           
-  readings:
-  - rtitle: "Dordal Ch. 2"
-    rlink: false  
-- week: "3"
-  date: "1"
-  title: "TDMA with CSMA and ALOHA"  
-  deliverables:
-  - dtitle: "Lab: HTTP with Wireshark Handed Out"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_HTTP_v8.0.pdf"     
-    points: 10 
-    submission_types: "written"        
-  readings:
-  - rtitle: "Transoceanic Cable Video"
-    rlink: "https://www.youtube.com/watch?v=T96P2d2UVsQ"  
-- week: "3"
-  date: "2"
-  title: "CSMA and ALOHA" 
-  deliverables:
-  - dtitle: "Lab: Wireshark Overview Due"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Intro_v8.0.pdf"  
-    points: 10    
-    submission_types: "written"        
-- week: "4"
-  date: "0"
-  title: "Ethernet"  
-  readings:
-  - rtitle: "The RFC Video"
-    rlink: "https://www.youtube.com/watch?v=8IXLpoN8Xj0"
-  deliverables:
-  - dtitle: "Programming Assignment: Mini Crypto Due"
-    dlink: "./Assignments/MiniCrypto"
-    points: 100   
-  - dtitle: "Programming Assignment: Introduction to the RFC Handed Out"  
-    dlink: "Assignments/RFC"
-    points: 100 
-    submission_types: "written"        
-- week: "4"
-  date: "1"
-  title: "Wi-Fi with FDMA and CDMA Wireless Protocols"
-  readings:
-  - rtitle: "Dordal Ch. 4"
-    rlink: false   
-  deliverables: 
-  - dtitle: "Lab: HTTP with Wireshark Due"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_HTTP_v8.0.pdf"   
-    points: 10
-  - dtitle: "Lab: Ethernet with Wireshark Handed Out"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Ethernet_ARP_v8.0.pdf"     
-    points: 10   
-- week: "4"
-  date: "2"
-  title: "The Link Layer" 
-  link: "./Activities/LinkLayer"  
-  readings:
-  - rtitle: "Dordal Ch. 5"
-    rlink: false   
-- week: "5"
-  date: "0"
-  title: "Switching" 
-  readings:
-  - rtitle: "Dordal Ch. 6"
-    rlink: false  
-  - rtitle: "Kurose and Ross: The Link Layer"
-    rlink: "https://youtu.be/lMGWJZLTulY"
-  - rtitle: "Kurose and Ross: Error Detection and Correction"
-    rlink: "https://youtu.be/x-rQ3RiI7I0"     
-- week: "5"
-  date: "1"
-  title: "From Bits to Packets" 
-  readings:
-  - rtitle: "Dordal Ch. 7"
-    rlink: false    
-  - rtitle: "Kurose and Ross: Multiple Access Links and Protocols"
-    rlink: "https://youtu.be/X2cLpzFRMT4"  
-  deliverables:
-  - dtitle: "Lab: Ethernet with Wireshark Due"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Ethernet_ARP_v8.0.pdf"   
-    points: 10
-    submission_types: "written"        
-  - dtitle: "Lab: Wi-Fi with Wireshark Handed Out"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_802.11_v8.0.pdf"   
-    points: 10    
-    submission_types: "written"        
-- week: "5"
-  date: "2"
-  title: "The Network Layer and IPv4"  
-  link: "./Activities/NetworkLayer"
-  readings:
-  - rtitle: "Dordal Ch. 9"
-    rlink: false  
-  - rtitle: "Kurose and Ross: The Network Layer Data Plane"
-    rlink: "https://youtu.be/olbr3WZwrdU"  
-  - rtitle: "Kurose and Ross: The Internet Protocol Part 1"
-    rlink: "https://youtu.be/sdIpLuIR1ZY"   
-  - rtitle: "Kurose and Ross: The Internet Protocol Part 2"
-    rlink: "https://youtu.be/H9DivCEFuUg"       
-- week: "6"
-  date: "0"
-  title: "IPv4 Addressing and Subnets"  
-  readings:
-  - rtitle: "Kurose and Ross: Generalized Forwarding"
-    rlink: "https://youtu.be/HIPVDxTrHqI"       
-  - rtitle: "Kurose and Ross: Middleboxes"
-    rlink: "https://youtu.be/kKZlPeyef0k" 
-  deliverables:
-  - dtitle: "Programming Assignment: Introduction to the RFC Due"  
-    dlink: "Assignments/RFC"
-    points: 100   
-    submission_types: "written"  
-  - dtitle: "Programming Assignment: FSM Handed Out"  
-    dlink: "Assignments/FSM"
-    points: 100    
-- week: "6"
-  date: "1"
-  title: "IPv4 Addressing and Subnets" 
-  deliverables:
-  - dtitle: "Lab: Wi-Fi with Wireshark Due"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_802.11_v8.0.pdf"  
-    points: 10
-    submission_types: "written"        
-  - dtitle: "Lab: IP with Wireshark Handed Out"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_IP_v8.0.pdf"      
-    points: 10
-    submission_types: "written"        
-- week: "6"
-  date: "2"
-  title: "IP Multiplexing with NAT"  
-  deliverables:
-  - dtitle: "Midterm Exam: Midterm Handed Out"
-    dlink: false
-    points: 100  
-    submission_types: "written"            
-- week: "8"
-  date: "0"
-  title: "Outside Address Lookups with DNS" 
-  deliverables:    
-  - dtitle: "Lab: IP with Wireshark Due"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_IP_v8.0.pdf"     
-    points: 10
-    submission_types: "written"        
-  - dtitle: "Lab: NAT with Wireshark Handed Out"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_NAT_v8.0.pdf"      
-    points: 10
-    submission_types: "written"        
-  readings:
-  - rtitle: "Dordal Ch. 10"
-    rlink: false   
-  - rtitle: "Redbook Ch. 12"
-    rlink: false      
-  - rtitle: "Kurose and Ross: DNS"
-    rlink: "https://youtu.be/6lRcMh5Yphg"    
-- week: "8"
-  date: "1"
-  title: "Inside Address Lookups with ARP" 
-  deliverables:
-  - dtitle: "Participation: First Self-Assessment Handed Out"
-    dlink: "./Assignments/Participation/SelfAssessment"
-    points: 10 
-    submission_types: "written"        
-  - dtitle: "Midterm Exam: Midterm Due"
-    dlink: false
-    points: 100    
-    submission_types: "written"        
-- week: "8"
-  date: "2"
-  title: "Dynamic Configuration with DHCP"
-  deliverables:
-  - dtitle: "Lab: NAT with Wireshark Due"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_NAT_v8.0.pdf"  
-    points: 10    
-    submission_types: "written"        
-  - dtitle: "Lab: DHCP with Wireshark Handed Out"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DHCP_v8.0.pdf"    
-    points: 10
-    submission_types: "written"        
-- week: "9"
-  date: "0"
-  title: "ICMP and Ping" 
-  readings:
-  - rtitle: "Kurose and Ross: The Internet Control Message Protocol (ICMP)"
-    rlink: "https://youtu.be/EHV0Q0R--Ns"  
-  deliverables:
-  - dtitle: "Programming Assignment: FSM Due"  
-    dlink: "Assignments/FSM"
-    points: 100   
-  - dtitle: "Programming Assignment: Traceroute Handed Out"
-    dlink: "./Assignments/Traceroute"  
-- week: "9"
-  date: "1"
-  title: "IPv6"  
-  deliverables:
-    - dtitle: "Participation: First Self-Assessment Due"
-      dlink: "./Assignments/Participation/SelfAssessment"
-      points: 10   
-      submission_types: "written"        
-  readings:
-  - rtitle: "Dordal Ch. 11"
-    rlink: false   
-- week: "9"
-  date: "2"
-  title: "VPN and Tunneling" 
-  deliverables:
-  - dtitle: "Lab: DHCP with Wireshark Due"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DHCP_v8.0.pdf" 
-    points: 10
-    submission_types: "written"        
-  - dtitle: "Lab: ICMP with Wireshark Handed Out"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_ICMP_v8.0.pdf"     
-    points: 10
-    submission_types: "written"        
-- week: "10"
-  date: "0"
-  title: "Routing" 
-  link: "./Activities/Routing"
-  readings:
-  - rtitle: "Dordal Ch. 13"
-    rlink: false 
-  - rtitle: "Kurose and Ross: The Network Layer Control Plane"
-    rlink: "https://youtu.be/Aeb80Q_mJp4"     
-  - rtitle: "Kurose and Ross: Routing Algorithms"
-    rlink: "https://youtu.be/bdh2kfgxVuw"        
-  - rtitle: "Kurose and Ross: What's Inside a Router? Part 1"
-    rlink: "https://youtu.be/NfHR94JAO-s"   
-  - rtitle: "Kurose and Ross: What's Inside a Router? Part 2"
-    rlink: "https://youtu.be/zfzzz9KQOog"     
-- week: "10"
-  date: "1"
-  title: "Distance Vector Algorithms"
-  readings:
-  - rtitle: "Kurose and Ross: Intra-AS Routing"
-    rlink: "https://youtu.be/iUQmn3nNjaI"   
-- week: "10"
-  date: "2"
-  title: "Hierarchical Routing"  
-  deliverables:
-  - dtitle: "Lab: ICMP with Wireshark Due"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_ICMP_v8.0.pdf" 
-    points: 10
-    submission_types: "written"            
-  readings:
-  - rtitle: "Dordal Ch. 14"
-    rlink: false   
-- week: "11"
-  date: "0"
-  title: "Routing at Scale: BGP"
-  readings:
-  - rtitle: "Dordal Ch. 15"
-    rlink: false   
-  - rtitle: "Kurose and Ross: Routing Among the ISPs with BGP"
-    rlink: "https://youtu.be/2rV4tJkP-CQ"   
-  deliverables:
-  - dtitle: "Programming Assignment: Traceroute Due"
-    dlink: "./Assignments/Traceroute"   
-- week: "11"
-  date: "1"
-  title: "The Transport Layer: Considerations"
-  link: "./Activities/TransportLayer"
-  deliverables: 
-  - dtitle: "Programming Assignment: HTTP Client Handed Out"
-    dlink: "Assignments/HTTPClient"
-    points: 100
-  readings:
-  - rtitle: "Dordal Ch. 16"
-    rlink: false   
-  - rtitle: "Kurose and Ross: Introduction to Transport-Layer Services"
-    rlink: "https://youtu.be/lAvhH0XJLNE"      
-  - rtitle: "Kurose and Ross: Multiplexing"
-    rlink: "https://youtu.be/CekW6ipRrGA"        
-- week: "11"
-  date: "2"
-  title: "Basic Transport Services with UDP"
-  readings:
-  - rtitle: "Kurose and Ross: Connectionless Transport with UDP"
-    rlink: "https://youtu.be/VjBDgcNno-Q"    
-  deliverables:
-  - dtitle: "Lab: UDP with Wireshark Handed Out"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_UDP_v8.0.pdf" 
-    points: 10  
-    submission_types: "written"       
-- week: "12"
-  date: "0"
-  title: "Coordinating Transport Services with TCP" 
-  readings:
-  - rtitle: "Dordal Ch. 17"
-    rlink: false  
-  - rtitle: "Kurose and Ross: Principles of Reliable Data Transfer Part 1"
-    rlink: "https://youtu.be/nyUHUtmxWg0"      
-  - rtitle: "Kurose and Ross: Principles of Reliable Data Transfer Part 2"
-    rlink: "https://youtu.be/vxgH6r-II2Q"          
-- week: "12"
-  date: "1"
-  title: "TCP" 
-  readings:
-  - rtitle: "Kurose and Ross: Connection Oriented Transport with TCP Part 1"
-    rlink: "https://youtu.be/UYJP-6mhF6E"      
-  - rtitle: "Kurose and Ross: Connection Oriented Transport with TCP Part 2"
-    rlink: "https://youtu.be/E4I6t0mI_is"   
-- week: "12"
-  date: "2"
-  title: "TCP Sliding Window Protocols"   
-  readings:
-  - rtitle: "Dordal Ch. 8"
-    rlink: false 
-  deliverables:
-  - dtitle: "Lab: UDP with Wireshark Due"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_UDP_v8.0.pdf" 
-    points: 10
-    submission_types: "written"        
-  - dtitle: "Lab: TCP with Wireshark Handed Out"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_TCP_v8.0.pdf"     
-    points: 10
-    submission_types: "written"    
-- week: "13"
-  date: "0"
-  title: "Congestion Management with TCP"  
-  deliverables: 
-  - dtitle: "Programming Assignment: HTTP Client Due"
-    dlink: "Assignments/HTTPClient"
-    points: 100 
-  - dtitle: "Participation: Second Self-Assessment Handed Out"
-    dlink: "./Assignments/Participation/SelfAssessment"
-    points: 10 
-    submission_types: "written"     
-  readings:
-  - rtitle: "Dordal Ch. 18"
-    rlink: false  
-  - rtitle: "Kurose and Ross: Principles of Congestion Control"
-    rlink: "https://youtu.be/Fm92xvIp6JY"       
-  - rtitle: "Kurose and Ross: TCP Congestion Control"
-    rlink: "https://youtu.be/cIHiSR4j3g4"    
-  - rtitle: "Kurose and Ross: Evolution of Transport Layer Functionality"
-    rlink: "https://youtu.be/oRUIEmpzk0Y" 
-  - rtitle: "Kurose and Ross: Transport Layer Summary"
-    rlink: "https://youtu.be/XPPsub35eNY"      
-- week: "13"
-  date: "1"
-  title: "Application Layer Protocols"  
-  link: "./Activities/ApplicationLayer"
-  deliverables:
-  - dtitle: "Programming Assignment: TFTP Handed Out"  
-    dlink: "Assignments/TFTP"
-    points: 100     
-  readings:
-  - rtitle: "Redbook Ch. 16"
-    rlink: false
-  - rtitle: "Kurose and Ross: Principles of Network Applications"
-    rlink: "https://youtu.be/abeupgK5z48"  
-  - rtitle: "Kurose and Ross: The Web and HTTP Part 1"
-    rlink: "https://youtu.be/S9GEPaQ1lFs"   
-  - rtitle: "Kurose and Ross: The Web and HTTP Part 2"
-    rlink: "https://youtu.be/4M39gEPWPYs"     
-- week: "13"
-  date: "2"
-  title: "HTTP and SMTP"  
-  link: "/Ursinus-WebMobile-HTTP"
-  readings:
-  - rtitle: "Kurose and Ross: Video Streaming and Content Distribution"
-    rlink: "https://youtu.be/ak5bbb-xHLI"    
-  deliverables:
-  - dtitle: "Final Project: Project and Presentation Handed Out"
-    dlink: "Projects/Final"  
-    points: 100   
-  - dtitle: "Lab: TCP with Wireshark Due"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_TCP_v8.0.pdf"
-    points: 10
-    submission_types: "written"        
-  - dtitle: "Lab: DNS with Wireshark Handed Out"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DNS_v8.0.pdf"     
-    points: 10      
-    submission_types: "written"       
-  readings:
-  - rtitle: "Redbook Ch. 15"
-    rlink: false  
-  - rtitle: "Kurose and Ross: Email"
-    rlink: "https://youtu.be/D3GMrOMR2dk"
-  - rtitle: "Why Files Become Bigger in Emails (Encoding) from Computerphile"
-    rlink: "https://www.youtube.com/watch?v=zV-fR7xA4Hc"       
-- week: "14"
-  date: "0"
-  title: "Security and Privacy"
-  link: "./Activities/SecurityPrivacy"    
-  readings:
-  - rtitle: "Redbook Ch. 22"
-    rlink: false  
-- week: "14"
-  date: "1"
-  title: "Security and Privacy"
-  deliverables:
-    - dtitle: "Lab: DNS with Wireshark Due"
-      dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DNS_v8.0.pdf"  
-      points: 10     
-      submission_types: "written"            
-    - dtitle: "Lab: SSL with Wireshark Handed Out"
-      dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_SSL_v8.0.pdf"     
-      points: 10
-      submission_types: "written"               
-- week: "14"
-  date: "2"
-  title: "Security and Privacy with Public Key Cryptosystems"
-  deliverables:   
-    - dtitle: "Participation: Second Self-Assessment Due"
-      dlink: "./Assignments/Participation/SelfAssessment"
-      points: 10   
-      submission_types: "written"        
-    - dtitle: "Programming Assignment: TFTP Due"  
-      dlink: "Assignments/TFTP"
-      points: 100              
-- week: "15"
-  date: "0"
-  title: "Review"
-  deliverables:
-  - dtitle: "Final Project: Project and Presentation Due"
-    dlink: "Projects/Final"
-    points: 100
-  - dtitle: "Lab: SSL with Wireshark Due"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_SSL_v8.0.pdf" 
-    points: 10   
-    submission_types: "written"            
+  - week: "0"
+    date: "1"
+    title: "Course Overview"
+    link: "../Ursinus-CS375-Overview"
+    deliverables:
+      - dtitle: "Homework Assignment: Warmup Handed Out"
+        dlink: "./Assignments/Warmup"
+        points: 10
+        submission_types: "noupload"
+  - week: "0"
+    date: "2"
+    title: "Course Overview"
+    deliverables:
+      - dtitle: "Participation: Pre-Assessment Handed Out"
+        dlink: "./Assignments/Participation/PreAssessment"
+        points: 10
+        submission_types: "written"
+  - week: "1"
+    date: "0"
+    title: "Software Project Brainstorm"
+    deliverables:
+      - dtitle: "Software Project Proposal: Project Proposal Handed Out"
+        dlink: "./Project/Proposal"
+        points: 100
+        submission_types: "written"
+    readings:
+      - rtitle: "MMM Chapter 16"
+        rlink: false
+  - week: "1"
+    date: "1"
+    title: "Software Team Formation"
+    deliverables:
+      - dtitle: "Homework Assignment: Warmup Due"
+        dlink: "./Assignments/Warmup"
+        points: 10
+        submission_types: "noupload"
+  - week: "1"
+    date: "2"
+    title: "Version Control with git"
+    link: "./Activities/git"
+    deliverables:
+      - dtitle: "Participation: Pre-Assessment Due"
+        dlink: "./Assignments/Participation/PreAssessment"
+        points: 10
+        submission_types: "written"
+  - week: "2"
+    date: "0"
+    title: "Software Engineering: from Waterfall to Agile"
+    link: "./Activities/SEParadigms"
+    deliverables:
+      - dtitle: "Homework Assignment: git Handed Out"
+        dlink: "./Assignments/git"
+        points: 100
+  - week: "2"
+    date: "1"
+    title: "Stakeholder-based Design"
+    link: "./Activities/StakeholderDesign"
+  - week: "2"
+    date: "2"
+    title: "User Stories"
+    link: "./Activities/UserStories"
+  - week: "3"
+    date: "0"
+    title: "Task Dependencies: GANTT Charts and the Critical Path"
+    link: "./Activities/GANTT"
+    deliverables:
+      - dtitle: "Software Project Proposal: Project Proposal Due"
+        dlink: "./Project/Proposal"
+        points: 100
+        submission_types: "written"
+    readings:
+      - rtitle: "MMM Chapter 2"
+        rlink: false
+  - week: "3"
+    date: "1"
+    title: "Scrum Meetings"
+    deliverables:
+      - dtitle: "Homework Assignment: Weekly Scrum Reflection Handed Out"
+        dlink: "./Project/ScrumReflection"
+        points: 10
+        submission_types: "written"
+  - week: "3"
+    date: "2"
+    title: "Software Architecture (front end, microservices, backend)"
+    link: "./Activities/Architecture"
+    readings:
+      - rtitle: "Re-Engineering a Reverse Engineering Portal to a Distributed SOA by William M. Mongan"
+        rlink: "https://www.cs.drexel.edu/~spiros/papers/ICPC08.pdf"
+  - week: "4"
+    date: "0"
+    title: "Software Architecture (front end, microservices, backend)"
+    deliverables:
+      - dtitle: "Homework Assignment: git Due"
+        dlink: "./Assignments/git"
+        points: 100
+    readings:
+      - rtitle: "On the Use of Radio Frequency Identification for Continuous Biomedical Monitoring by William M. Mongan"
+        rlink: "https://dl.acm.org/doi/pdf/10.1145/3054977.3055002?download=true"
+  - week: "4"
+    date: "1"
+    title: "Scrum Meetings"
+  - week: "4"
+    date: "2"
+    title: "Software Design: Design Patterns"
+    link: "./Activities/DesignPatterns"
+    deliverables:
+      - dtitle: "Software Design: Design Report Handed Out"
+        dlink: "./Project/Design"
+        points: 100
+        submission_types: "written"
+      - dtitle: "Homework Assignment: Weekly Scrum Reflection Due"
+        dlink: "./Project/ScrumReflection"
+        points: 10
+        submission_types: "written"
+  - week: "5"
+    date: "0"
+    title: "Software Design: Design Patterns"
+    deliverables:
+      - dtitle: "Participation: First Self-Assessment Handed Out"
+        dlink: "./Assignments/Participation/SelfAssessment"
+        points: 10
+        submission_types: "written"
+  - week: "5"
+    date: "1"
+    title: "Scrum Meetings"
+    link: "./Activities/UML"
+  - week: "5"
+    date: "2"
+    title: "UML Class Diagrams"
+      - dtitle: "Homework Assignment: Weekly Scrum Reflection Due"
+        dlink: "./Project/ScrumReflection"
+        points: 10
+        submission_types: "written"
+  - week: "6"
+    date: "0"
+    title: "User Acceptance Testing"
+    link: "./Activities/UserAcceptanceTesting"
+    deliverables:
+      - dtitle: "User Acceptance Test Plan: Test Plan Handed Out"
+        dlink: "./Project/UserAcceptanceTestPlan"
+        points: 100
+        submission_types: "written"
+  - week: "6"
+    date: "1"
+    title: "Software Testing"
+    link: "./Activities/Testing"
+    deliverables:
+      - dtitle: "Software Design: Design Report Due"
+        dlink: "./Project/Design"
+        points: 100
+        submission_types: "written"
+  - week: "6"
+    date: "2"
+    title: "Scrum Meetings"
+  - week: "8"
+    date: "0"
+    title: "Unit Tests (white box)"
+    deliverables:
+      - dtitle: "Participation: First Self-Assessment Due"
+        dlink: "./Assignments/Participation/SelfAssessment"
+        points: 10
+        submission_types: "written"
+      - dtitle: "Homework Assignment: Weekly Scrum Reflection Due"
+        dlink: "./Project/ScrumReflection"
+        points: 10
+        submission_types: "written"
+  - week: "8"
+    date: "1"
+    title: "Code Coverage"
+    deliverables:
+      - dtitle: "User Acceptance Test Plan: Test Plan Due"
+        dlink: "./Project/UserAcceptanceTestPlan"
+        points: 100
+        submission_types: "written"
+      - dtitle: "Software Test Plan: Test Plan Handed Out"
+        dlink: "./Project/TestPlan"
+        points: 100
+        submission_types: "written"
+  - week: "8"
+    date: "2"
+    title: "Scrum Meetings"
+  - week: "9"
+    date: "0"
+    title: "Output Testing (black box)"
+    deliverables:
+      - dtitle: "Homework Assignment: Weekly Scrum Reflection Due"
+        dlink: "./Project/ScrumReflection"
+        points: 10
+        submission_types: "written"
+  - week: "9"
+    date: "1"
+    title: "Control Flow Coverage"
+  - week: "9"
+    date: "2"
+    title: "Scrum Meetings"
+  - week: "10"
+    date: "0"
+    title: "GUI"
+    link: "./Activities/GUI"
+    deliverables:
+      - dtitle: "Homework Assignment: Weekly Scrum Reflection Due"
+        dlink: "./Project/ScrumReflection"
+        points: 10
+        submission_types: "written"
+  - week: "10"
+    date: "1"
+    title: "Scrum Meetings"
+    deliverables:
+      - dtitle: "Software Test Plan: Test Plan Due"
+        dlink: "./Project/TestPlan"
+        points: 100
+        submission_types: "written"
+  - week: "10"
+    date: "2"
+    title: "GUI"
+  - week: "11"
+    date: "0"
+    title: "Cloud Architectures"
+    link: "./Activities/Cloud"
+    readings:
+      - rtitle: "Development and Specification of a Reference Model for Agent-Based Systems by William C. Regli et al"
+        rlink: "https://tjkopena.com/publications/04926156.pdf"
+  - week: "11"
+    date: "1"
+    title: "Scrum Meetings"
+  - week: "11"
+    date: "2"
+    title: "Cloud Architectures"
+      - dtitle: "Homework Assignment: Weekly Scrum Reflection Due"
+        dlink: "./Project/ScrumReflection"
+        points: 10
+        submission_types: "written"
+  - week: "12"
+    date: "0"
+    title: "Cloud Architectures"
+    deliverables:
+      - dtitle: "Software Documentation: Final Report Handed Out"
+        dlink: "./Project/DocumentationFinalReport"
+        points: 100
+        submission_types: "written"
+    readings:
+      - rtitle: "Developing an Agent Systems Reference Architecture by Duc N. Nguyen et al"
+        rlink: "https://apps.dtic.mil/dtic/tr/fulltext/u2/a549190.pdf"
+  - week: "12"
+    date: "1"
+    title: "Scrum Meetings"
+  - week: "12"
+    date: "2"
+    title: "Ethical Software Engineering Case Study: The Therac-25"
+    link: "./Activities/EthicalCaseTherac25"
+    deliverables:
+      - dtitle: "Final Presentation: Code and Presentation Handed Out"
+        dlink: "./Project/Presentation"
+        points: 100
+      - dtitle: "Homework Assignment: Weekly Scrum Reflection Due"
+        dlink: "./Project/ScrumReflection"
+        points: 10
+        submission_types: "written"
+    readings:
+      - rtitle: "Medical Devices: The Therac-25 by Nancy Levinson"
+        rlink: "https://www.cs.ucf.edu/~dcm/Teaching/COP4600-Fall2010/Literature/Therac25-Leveson.pdf"
+      - rtitle: "Therac-25 Case Narrative"
+        rlink: "https://onlineethics.org/cases/therac-25/therac-25-case-narrative"
+      - rtitle: "THERAC-25: History's Worst Software Error by Kyle Hill"
+        rlink: "https://www.youtube.com/watch?v=Ap0orGCiou8"
+  - week: "13"
+    date: "0"
+    title: "Project Workshop"
+  - week: "13"
+    date: "1"
+    title: "Scrum Meetings"
+    deliverables:
+      - dtitle: "Participation: Second Self-Assessment Handed Out"
+        dlink: "./Assignments/Participation/SelfAssessment"
+        points: 10
+        submission_types: "written"
+  - week: "13"
+    date: "2"
+    title: "Project Workshop"
+      - dtitle: "Homework Assignment: Weekly Scrum Reflection Due"
+        dlink: "./Project/ScrumReflection"
+        points: 10
+        submission_types: "written"
+  - week: "14"
+    date: "0"
+    title: "Project Workshop"
+    deliverables:
+      - dtitle: "Software Documentation: Final Report Due"
+        dlink: "./Project/DocumentationFinalReport"
+        points: 100
+        submission_types: "written"
+  - week: "14"
+    date: "1"
+    title: "Scrum Meetings"
+    deliverables:
+      - dtitle: "Participation: Second Self-Assessment Due"
+        dlink: "./Assignments/Participation/SelfAssessment"
+        points: 10
+        submission_types: "written"
+  - week: "14"
+    date: "2"
+    title: "Project Workshop"
+    deliverables:
+      - dtitle: "Final Presentation: Code and Presentation Due"
+        dlink: "./Project/Presentation"
+        points: 100
+      - dtitle: "Homework Assignment: Weekly Scrum Reflection Due"
+        dlink: "./Project/ScrumReflection"
+        points: 10
+        submission_types: "written"
+  - week: "15"
+    date: "0"
+    title: "Final Presentations"
+    deliverables:
+      - dtitle: "Peer Review: Peer Review Survey Handed Out"
+        dlink: "./Project/PeerReview"
+        points: 10
+        submission_types: "written"
+  - week: "15"
+    date: "1"
+    title: "Final Presentations"
+    deliverables:
+      - dtitle: "Peer Review: Peer Review Survey Due"
+        dlink: "./Project/PeerReview"
+        points: 10
+        submission_types: "written"
+            
 university:
   semester: "Spring"
   academicyear: "2022-23"
@@ -734,28 +578,12 @@ university:
   
 ---
 
-## Overview
-Computer Networks study interconnected computing systems at scale from many different perspectives.  Moving a bit from one computer to another over the Internet is a [complex process](https://www.youtube.com/watch?v=9BGWrLiT9qs).  The bit must travel to its destination from one computer to another, which must have some way of knowing where that bit is trying to go so that it can be moved along the right path.  Wireless communications (and even wired connections) are subject to noise and interference that may corrupt the bit as it transits between any two of those computers.  We need ways to manage these destination addresses, optimal pathways, and mechanisms to detect corrupted messages.  Sometimes, computers might become too overworked to forward your message, and they can be lost: worse yet, we cannot communicate this situation back to the sender (after all, if we had the resources to do so, we could have just forwarded the message properly!).  The sender, then, needs a way to ensure that their message was received, and received in-tact.  Ideally, we would do so efficiently: if new, faster paths to the destination appear (sort of like new expressways on the interstate highway system), we'd like to find out about them and utilize them, traffic permitting.  Even then, we need to define what those bits represent: an e-mail, a webpage, a function call, or data like a shopping cart.  And beyond all this, we need a mechanism to enable these communications to occur privately and securely: we want to ensure that the sender and receiver can validate one another's identity and privilege.  To facilitate all of this, we organize the study of computer networks into a "layered" model, in which we investigate each of these concepts independently of the others.  In fact, networks are implemented according to this layered model, which greatly simplifies the apparent complexity of the network as a whole: we implement an independent algorithm for each concept, and they interact only as much as is required (typically, only with one or two neighboring algorithms, which, in turn interact with their immediately adjacent layers).  
-
 ## Homework
 
-### Labs
-Every week, we will have a lab session where students get a chance to practice concepts we just learned in a safe and [collaborative](#collaboration) environment. Tasks will be given that serve as warm-ups for the larger assignments, and final submissions will be graded on a scale from 0 to 2. Students will have a chance to refine their submissions until the Friday of every week, and there will be help from the Lab T.A.s listed above.
-
 ### Assignments
-The bulk of the grade in the course will be earned by completing individual programming assignments. Be sure to start them early! Note that [collaboration and sharing rules](#collaboration) differ slightly for labs and assignments.
+A portion of the grade in the course will be earned by completing individual assignments. Be sure to start them early! Note that [collaboration and sharing rules](#collaboration) differ slightly for labs and assignments.
 
-## Classroom Participation
-
-### Group Work \[[^1]\]
-In addition to ordinary participation that follows the natural rhythm of a lecture, most days there will be at least one followup problem, which is a question that follows on the heels of newly presented material. Students will split into groups of 2 and try to write some code to address a particular problem. When a group of students believe they have figured out the answer, they raise their hand. The other students can continue to work while I verify that the answer is correct. If the answer is correct, the students present the answer to the class. If the group is not correct upon my checking, then the groups continue this process until one gets it correct.
-
-Other ways to help your fellow classmates in class are as follows:
-
-* Helping to teach a student a topic during office hours.
-* Certain calls for participation in class
-* Particularly helpful or insightful messages on Microsoft Teams
-* Finding mistakes in the book or on the assigned homework and labs
+In addition, a significant portion of the course grade will take the form of a group project, including the design, planning, implementation, testing, documentation, and presentation of your project.  You will follow best practices in software engineering and design to accomplish these.  It is important that you adhere to these practices so that you remain organized and efficient as a software project team.  Part of your grade will evaluate not only your implementation but the extent to which you followed best practice and methodology in the process.
 
 ### Class Participation and Classroom Etiquette \[[^1]\]
 For classroom attendance, the following rules apply:

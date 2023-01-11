@@ -289,6 +289,9 @@ schedule:
     date: "2"
     title: "Software Design: Design Patterns"
     link: "./Activities/DesignPatterns"
+    readings:
+      - rtitle: "DPE Textbook"
+        rlink: false
     deliverables:
       - dtitle: "Software Design: Design Report Handed Out"
         dlink: "./Project/Design"

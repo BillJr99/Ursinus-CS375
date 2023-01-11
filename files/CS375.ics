@@ -78,7 +78,7 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc03
 DTSTAMP:20230118T000000Z
 DTSTART;VALUE=DATE:20230118
-SUMMARY:CS375 Software Engineering: Programming Assignment: Warmup Handed Out
+SUMMARY:CS375 Software Engineering: Homework Assignment: Warmup Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
@@ -89,7 +89,7 @@ DTSTAMP:20230118T000000Z
 DTSTART;VALUE=DATE:20230118
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/../Ursinus-CS475-Overview\nDeliverable: Programming Assignment: Warmup Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/Warmup
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/../Ursinus-CS375-Overview\nDeliverable: Homework Assignment: Warmup Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/Warmup
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -107,14 +107,14 @@ DTSTAMP:20230120T000000Z
 DTSTART;VALUE=DATE:20230120
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Dordal Ch. 1\nReading: Kurose and Ross: What is the Internet? https://youtu.be/74sEFYBBRAY\nReading: Kurose and Ross: The Network Edge https://youtu.be/k8NmM-hImBU\nReading: Kurose and Ross: The Network Core https://youtu.be/f1nUcCdQJ8Y\nReading: Kurose and Ross: Network Performance https://youtu.be/hm1y4LsphQQ\nDeliverable: Participation: Pre-Assessment Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/Participation/PreAssessment
+DESCRIPTION:\nDeliverable: Participation: Pre-Assessment Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/Participation/PreAssessment
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc07
 DTSTAMP:20230123T000000Z
 DTSTART;VALUE=DATE:20230123
-SUMMARY:CS375 Software Engineering: Lab: Wireshark Overview Handed Out
+SUMMARY:CS375 Software Engineering: Software Project Proposal: Project Proposal Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
@@ -125,14 +125,14 @@ DTSTAMP:20230123T000000Z
 DTSTART;VALUE=DATE:20230123
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/MotivatingExamples\nReading: Jim Kurose: Wireshark Demo https://www.youtube.com/watch?v=PYoXowOCppc\nReading: Jim Kurose: Traceroute Demo https://www.youtube.com/watch?v=wEWiYLb7pxg\nReading: Visualizing Traceroute on a Map of the Earth https://www.youtube.com/watch?v=75yKT3OuE44\nDeliverable: Lab: Wireshark Overview Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Intro_v8.0.pdf
+DESCRIPTION:\nReading: MMM Chapter 16\nDeliverable: Software Project Proposal: Project Proposal Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/Proposal
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc09
 DTSTAMP:20230125T000000Z
 DTSTART;VALUE=DATE:20230125
-SUMMARY:CS375 Software Engineering: Programming Assignment: Warmup Due
+SUMMARY:CS375 Software Engineering: Homework Assignment: Warmup Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
@@ -143,7 +143,7 @@ DTSTAMP:20230125T000000Z
 DTSTART;VALUE=DATE:20230125
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/Layers\nReading: Kurose and Ross: Protocol Layers https://youtu.be/IZ_PnVXtMeY\nReading: Kurose and Ross: Networks Under Attack https://youtu.be/yukwBqSwAkg\nReading: Kurose and Ross: History of Computer Networking https://youtu.be/l4q8iuqbuiQ\nDeliverable: Programming Assignment: Warmup Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/Warmup
+DESCRIPTION:\nDeliverable: Homework Assignment: Warmup Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/Warmup
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -161,34 +161,34 @@ DTSTAMP:20230127T000000Z
 DTSTART;VALUE=DATE:20230127
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/SocketProgramming\nReading: Redbook Ch. 11\nReading: Kurose and Ross: Socket Programming https://youtu.be/_iHMMo7SDfQ\nDeliverable: Participation: Pre-Assessment Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/Participation/PreAssessment
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/git\nDeliverable: Participation: Pre-Assessment Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/Participation/PreAssessment
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc0d
 DTSTAMP:20230130T000000Z
 DTSTART;VALUE=DATE:20230130
-SUMMARY:CS375 Software Engineering: Class Meeting
+SUMMARY:CS375 Software Engineering: Homework Assignment: git Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc0e
-DTSTAMP:20230201T000000Z
-DTSTART;VALUE=DATE:20230201
+DTSTAMP:20230130T000000Z
+DTSTART;VALUE=DATE:20230130
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/SEParadigms\nDeliverable: Homework Assignment: git Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/git
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc0f
-DTSTAMP:20230203T000000Z
-DTSTART;VALUE=DATE:20230203
-SUMMARY:CS375 Software Engineering: Programming Assignment: Mini Crypto Handed Out
+DTSTAMP:20230201T000000Z
+DTSTART;VALUE=DATE:20230201
+SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/StakeholderDesign
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -197,43 +197,43 @@ DTSTAMP:20230203T000000Z
 DTSTART;VALUE=DATE:20230203
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Programming Assignment: Mini Crypto Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/MiniCrypto
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/UserStories
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc11
 DTSTAMP:20230206T000000Z
 DTSTART;VALUE=DATE:20230206
-SUMMARY:CS375 Software Engineering: Class Meeting
+SUMMARY:CS375 Software Engineering: Software Project Proposal: Project Proposal Due
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/PhysicalLayer\nReading: Dordal Ch. 2
+DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc12
-DTSTAMP:20230208T000000Z
-DTSTART;VALUE=DATE:20230208
-SUMMARY:CS375 Software Engineering: Lab: HTTP with Wireshark Handed Out
+DTSTAMP:20230206T000000Z
+DTSTART;VALUE=DATE:20230206
+SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/GANTT\nReading: MMM Chapter 2\nDeliverable: Software Project Proposal: Project Proposal Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/Proposal
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc13
 DTSTAMP:20230208T000000Z
 DTSTART;VALUE=DATE:20230208
-SUMMARY:CS375 Software Engineering: Class Meeting
+SUMMARY:CS375 Software Engineering: Homework Assignment: Weekly Scrum Reflection Handed Out
 LOCATION:
-DESCRIPTION:\nReading: Transoceanic Cable Video https://www.youtube.com/watch?v=T96P2d2UVsQ\nDeliverable: Lab: HTTP with Wireshark Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_HTTP_v8.0.pdf
+DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc14
-DTSTAMP:20230210T000000Z
-DTSTART;VALUE=DATE:20230210
-SUMMARY:CS375 Software Engineering: Lab: Wireshark Overview Due
+DTSTAMP:20230208T000000Z
+DTSTART;VALUE=DATE:20230208
+SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:\nDeliverable: Homework Assignment: Weekly Scrum Reflection Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/ScrumReflection
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -242,14 +242,14 @@ DTSTAMP:20230210T000000Z
 DTSTART;VALUE=DATE:20230210
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Lab: Wireshark Overview Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Intro_v8.0.pdf
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/Architecture\nReading: Re-Engineering a Reverse Engineering Portal to a Distributed SOA by William M. Mongan https://www.cs.drexel.edu/~spiros/papers/ICPC08.pdf
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc16
 DTSTAMP:20230213T000000Z
 DTSTART;VALUE=DATE:20230213
-SUMMARY:CS375 Software Engineering: Programming Assignment: Mini Crypto Due
+SUMMARY:CS375 Software Engineering: Homework Assignment: git Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
@@ -258,54 +258,54 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc17
 DTSTAMP:20230213T000000Z
 DTSTART;VALUE=DATE:20230213
-SUMMARY:CS375 Software Engineering: Programming Assignment: Introduction to the RFC Handed Out
+SUMMARY:CS375 Software Engineering: Class Meeting
+LOCATION:
+DESCRIPTION:\nReading: On the Use of Radio Frequency Identification for Continuous Biomedical Monitoring by William M. Mongan https://dl.acm.org/doi/pdf/10.1145/3054977.3055002?download=true\nDeliverable: Homework Assignment: git Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/git
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-03691d6afc18
+DTSTAMP:20230215T000000Z
+DTSTART;VALUE=DATE:20230215
+SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc18
-DTSTAMP:20230213T000000Z
-DTSTART;VALUE=DATE:20230213
-SUMMARY:CS375 Software Engineering: Class Meeting
-LOCATION:
-DESCRIPTION:\nReading: The RFC Video https://www.youtube.com/watch?v=8IXLpoN8Xj0\nDeliverable: Programming Assignment: Mini Crypto Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/MiniCrypto\nDeliverable: Programming Assignment: Introduction to the RFC Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/Assignments/RFC
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc19
-DTSTAMP:20230215T000000Z
-DTSTART;VALUE=DATE:20230215
-SUMMARY:CS375 Software Engineering: Lab: HTTP with Wireshark Due
+DTSTAMP:20230217T000000Z
+DTSTART;VALUE=DATE:20230217
+SUMMARY:CS375 Software Engineering: Software Design: Design Report Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc1a
-DTSTAMP:20230215T000000Z
-DTSTART;VALUE=DATE:20230215
-SUMMARY:CS375 Software Engineering: Lab: Ethernet with Wireshark Handed Out
+DTSTAMP:20230217T000000Z
+DTSTART;VALUE=DATE:20230217
+SUMMARY:CS375 Software Engineering: Homework Assignment: Weekly Scrum Reflection Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc1b
-DTSTAMP:20230215T000000Z
-DTSTART;VALUE=DATE:20230215
-SUMMARY:CS375 Software Engineering: Class Meeting
-LOCATION:
-DESCRIPTION:\nReading: Dordal Ch. 4\nDeliverable: Lab: HTTP with Wireshark Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_HTTP_v8.0.pdf\nDeliverable: Lab: Ethernet with Wireshark Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Ethernet_ARP_v8.0.pdf
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc1c
 DTSTAMP:20230217T000000Z
 DTSTART;VALUE=DATE:20230217
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/LinkLayer\nReading: Dordal Ch. 5
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/DesignPatterns\nDeliverable: Software Design: Design Report Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/Design\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/ScrumReflection
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-03691d6afc1c
+DTSTAMP:20230220T000000Z
+DTSTART;VALUE=DATE:20230220
+SUMMARY:CS375 Software Engineering: Participation: First Self-Assessment Handed Out
+LOCATION:
+DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -314,578 +314,461 @@ DTSTAMP:20230220T000000Z
 DTSTART;VALUE=DATE:20230220
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Dordal Ch. 6\nReading: Kurose and Ross: The Link Layer https://youtu.be/lMGWJZLTulY\nReading: Kurose and Ross: Error Detection and Correction https://youtu.be/x-rQ3RiI7I0
+DESCRIPTION:\nDeliverable: Participation: First Self-Assessment Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/Participation/SelfAssessment
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc1e
 DTSTAMP:20230222T000000Z
 DTSTART;VALUE=DATE:20230222
-SUMMARY:CS375 Software Engineering: Lab: Ethernet with Wireshark Due
+SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/UML
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc1f
-DTSTAMP:20230222T000000Z
-DTSTART;VALUE=DATE:20230222
-SUMMARY:CS375 Software Engineering: Lab: Wi-Fi with Wireshark Handed Out
+DTSTAMP:20230224T000000Z
+DTSTART;VALUE=DATE:20230224
+SUMMARY:CS375 Software Engineering: Homework Assignment: Weekly Scrum Reflection Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc20
-DTSTAMP:20230222T000000Z
-DTSTART;VALUE=DATE:20230222
-SUMMARY:CS375 Software Engineering: Class Meeting
-LOCATION:
-DESCRIPTION:\nReading: Dordal Ch. 7\nReading: Kurose and Ross: Multiple Access Links and Protocols https://youtu.be/X2cLpzFRMT4\nDeliverable: Lab: Ethernet with Wireshark Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Ethernet_ARP_v8.0.pdf\nDeliverable: Lab: Wi-Fi with Wireshark Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_802.11_v8.0.pdf
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc21
 DTSTAMP:20230224T000000Z
 DTSTART;VALUE=DATE:20230224
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/NetworkLayer\nReading: Dordal Ch. 9\nReading: Kurose and Ross: The Network Layer Data Plane https://youtu.be/olbr3WZwrdU\nReading: Kurose and Ross: The Internet Protocol Part 1 https://youtu.be/sdIpLuIR1ZY\nReading: Kurose and Ross: The Internet Protocol Part 2 https://youtu.be/H9DivCEFuUg
+DESCRIPTION:\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/ScrumReflection
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-03691d6afc21
+DTSTAMP:20230227T000000Z
+DTSTART;VALUE=DATE:20230227
+SUMMARY:CS375 Software Engineering: User Acceptance Test Plan: Test Plan Handed Out
+LOCATION:
+DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc22
 DTSTAMP:20230227T000000Z
 DTSTART;VALUE=DATE:20230227
-SUMMARY:CS375 Software Engineering: Programming Assignment: Introduction to the RFC Due
+SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/UserAcceptanceTesting\nDeliverable: User Acceptance Test Plan: Test Plan Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/UserAcceptanceTestPlan
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc23
-DTSTAMP:20230227T000000Z
-DTSTART;VALUE=DATE:20230227
-SUMMARY:CS375 Software Engineering: Programming Assignment: FSM Handed Out
+DTSTAMP:20230301T000000Z
+DTSTART;VALUE=DATE:20230301
+SUMMARY:CS375 Software Engineering: Software Design: Design Report Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc24
-DTSTAMP:20230227T000000Z
-DTSTART;VALUE=DATE:20230227
+DTSTAMP:20230301T000000Z
+DTSTART;VALUE=DATE:20230301
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Kurose and Ross: Generalized Forwarding https://youtu.be/HIPVDxTrHqI\nReading: Kurose and Ross: Middleboxes https://youtu.be/kKZlPeyef0k\nDeliverable: Programming Assignment: Introduction to the RFC Due https://www.billmongan.com/Ursinus-CS375-Spring2023/Assignments/RFC\nDeliverable: Programming Assignment: FSM Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/Assignments/FSM
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/Testing\nDeliverable: Software Design: Design Report Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/Design
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc25
-DTSTAMP:20230301T000000Z
-DTSTART;VALUE=DATE:20230301
-SUMMARY:CS375 Software Engineering: Lab: Wi-Fi with Wireshark Due
+DTSTAMP:20230303T000000Z
+DTSTART;VALUE=DATE:20230303
+SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc26
-DTSTAMP:20230301T000000Z
-DTSTART;VALUE=DATE:20230301
-SUMMARY:CS375 Software Engineering: Lab: IP with Wireshark Handed Out
-LOCATION:
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc27
-DTSTAMP:20230301T000000Z
-DTSTART;VALUE=DATE:20230301
-SUMMARY:CS375 Software Engineering: Class Meeting
-LOCATION:
-DESCRIPTION:\nDeliverable: Lab: Wi-Fi with Wireshark Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_802.11_v8.0.pdf\nDeliverable: Lab: IP with Wireshark Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_IP_v8.0.pdf
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc28
-DTSTAMP:20230303T000000Z
-DTSTART;VALUE=DATE:20230303
-SUMMARY:CS375 Software Engineering: Midterm Exam: Midterm Handed Out
-LOCATION:
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc29
-DTSTAMP:20230303T000000Z
-DTSTART;VALUE=DATE:20230303
-SUMMARY:CS375 Software Engineering: Class Meeting
-LOCATION:
-DESCRIPTION:\nDeliverable: Midterm Exam: Midterm Handed Out
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc2a
 DTSTAMP:20230313T000000Z
 DTSTART;VALUE=DATE:20230313
-SUMMARY:CS375 Software Engineering: Lab: IP with Wireshark Due
-LOCATION:
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc2b
-DTSTAMP:20230313T000000Z
-DTSTART;VALUE=DATE:20230313
-SUMMARY:CS375 Software Engineering: Lab: NAT with Wireshark Handed Out
-LOCATION:
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc2c
-DTSTAMP:20230313T000000Z
-DTSTART;VALUE=DATE:20230313
-SUMMARY:CS375 Software Engineering: Class Meeting
-LOCATION:
-DESCRIPTION:\nReading: Dordal Ch. 10\nReading: Redbook Ch. 12\nReading: Kurose and Ross: DNS https://youtu.be/6lRcMh5Yphg\nDeliverable: Lab: IP with Wireshark Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_IP_v8.0.pdf\nDeliverable: Lab: NAT with Wireshark Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_NAT_v8.0.pdf
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc2d
-DTSTAMP:20230315T000000Z
-DTSTART;VALUE=DATE:20230315
-SUMMARY:CS375 Software Engineering: Participation: First Self-Assessment Handed Out
-LOCATION:
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc2e
-DTSTAMP:20230315T000000Z
-DTSTART;VALUE=DATE:20230315
-SUMMARY:CS375 Software Engineering: Midterm Exam: Midterm Due
-LOCATION:
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc2f
-DTSTAMP:20230315T000000Z
-DTSTART;VALUE=DATE:20230315
-SUMMARY:CS375 Software Engineering: Class Meeting
-LOCATION:
-DESCRIPTION:\nDeliverable: Participation: First Self-Assessment Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/Participation/SelfAssessment\nDeliverable: Midterm Exam: Midterm Due
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc30
-DTSTAMP:20230317T000000Z
-DTSTART;VALUE=DATE:20230317
-SUMMARY:CS375 Software Engineering: Lab: NAT with Wireshark Due
-LOCATION:
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc31
-DTSTAMP:20230317T000000Z
-DTSTART;VALUE=DATE:20230317
-SUMMARY:CS375 Software Engineering: Lab: DHCP with Wireshark Handed Out
-LOCATION:
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc32
-DTSTAMP:20230317T000000Z
-DTSTART;VALUE=DATE:20230317
-SUMMARY:CS375 Software Engineering: Class Meeting
-LOCATION:
-DESCRIPTION:\nDeliverable: Lab: NAT with Wireshark Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_NAT_v8.0.pdf\nDeliverable: Lab: DHCP with Wireshark Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DHCP_v8.0.pdf
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc33
-DTSTAMP:20230320T000000Z
-DTSTART;VALUE=DATE:20230320
-SUMMARY:CS375 Software Engineering: Programming Assignment: FSM Due
-LOCATION:
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc34
-DTSTAMP:20230320T000000Z
-DTSTART;VALUE=DATE:20230320
-SUMMARY:CS375 Software Engineering: Programming Assignment: Traceroute Handed Out
-LOCATION:
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc35
-DTSTAMP:20230320T000000Z
-DTSTART;VALUE=DATE:20230320
-SUMMARY:CS375 Software Engineering: Class Meeting
-LOCATION:
-DESCRIPTION:\nReading: Kurose and Ross: The Internet Control Message Protocol (ICMP) https://youtu.be/EHV0Q0R--Ns\nDeliverable: Programming Assignment: FSM Due https://www.billmongan.com/Ursinus-CS375-Spring2023/Assignments/FSM\nDeliverable: Programming Assignment: Traceroute Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/Traceroute
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc36
-DTSTAMP:20230322T000000Z
-DTSTART;VALUE=DATE:20230322
 SUMMARY:CS375 Software Engineering: Participation: First Self-Assessment Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc37
+UID:00000000-0000-0000-0000-03691d6afc27
+DTSTAMP:20230313T000000Z
+DTSTART;VALUE=DATE:20230313
+SUMMARY:CS375 Software Engineering: Homework Assignment: Weekly Scrum Reflection Due
+LOCATION:
+DESCRIPTION:
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-03691d6afc28
+DTSTAMP:20230313T000000Z
+DTSTART;VALUE=DATE:20230313
+SUMMARY:CS375 Software Engineering: Class Meeting
+LOCATION:
+DESCRIPTION:\nDeliverable: Participation: First Self-Assessment Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/Participation/SelfAssessment\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/ScrumReflection
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-03691d6afc29
+DTSTAMP:20230315T000000Z
+DTSTART;VALUE=DATE:20230315
+SUMMARY:CS375 Software Engineering: User Acceptance Test Plan: Test Plan Due
+LOCATION:
+DESCRIPTION:
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-03691d6afc2a
+DTSTAMP:20230315T000000Z
+DTSTART;VALUE=DATE:20230315
+SUMMARY:CS375 Software Engineering: Software Test Plan: Test Plan Handed Out
+LOCATION:
+DESCRIPTION:
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-03691d6afc2b
+DTSTAMP:20230315T000000Z
+DTSTART;VALUE=DATE:20230315
+SUMMARY:CS375 Software Engineering: Class Meeting
+LOCATION:
+DESCRIPTION:\nDeliverable: User Acceptance Test Plan: Test Plan Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/UserAcceptanceTestPlan\nDeliverable: Software Test Plan: Test Plan Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/TestPlan
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-03691d6afc2c
+DTSTAMP:20230317T000000Z
+DTSTART;VALUE=DATE:20230317
+SUMMARY:CS375 Software Engineering: Class Meeting
+LOCATION:
+DESCRIPTION:
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-03691d6afc2d
+DTSTAMP:20230320T000000Z
+DTSTART;VALUE=DATE:20230320
+SUMMARY:CS375 Software Engineering: Homework Assignment: Weekly Scrum Reflection Due
+LOCATION:
+DESCRIPTION:
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-03691d6afc2e
+DTSTAMP:20230320T000000Z
+DTSTART;VALUE=DATE:20230320
+SUMMARY:CS375 Software Engineering: Class Meeting
+LOCATION:
+DESCRIPTION:\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/ScrumReflection
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-03691d6afc2f
 DTSTAMP:20230322T000000Z
 DTSTART;VALUE=DATE:20230322
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Dordal Ch. 11\nDeliverable: Participation: First Self-Assessment Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/Participation/SelfAssessment
+DESCRIPTION:
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-03691d6afc30
+DTSTAMP:20230324T000000Z
+DTSTART;VALUE=DATE:20230324
+SUMMARY:CS375 Software Engineering: Class Meeting
+LOCATION:
+DESCRIPTION:
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-03691d6afc31
+DTSTAMP:20230327T000000Z
+DTSTART;VALUE=DATE:20230327
+SUMMARY:CS375 Software Engineering: Homework Assignment: Weekly Scrum Reflection Due
+LOCATION:
+DESCRIPTION:
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-03691d6afc32
+DTSTAMP:20230327T000000Z
+DTSTART;VALUE=DATE:20230327
+SUMMARY:CS375 Software Engineering: Class Meeting
+LOCATION:
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/GUI\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/ScrumReflection
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-03691d6afc33
+DTSTAMP:20230329T000000Z
+DTSTART;VALUE=DATE:20230329
+SUMMARY:CS375 Software Engineering: Software Test Plan: Test Plan Due
+LOCATION:
+DESCRIPTION:
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-03691d6afc34
+DTSTAMP:20230329T000000Z
+DTSTART;VALUE=DATE:20230329
+SUMMARY:CS375 Software Engineering: Class Meeting
+LOCATION:
+DESCRIPTION:\nDeliverable: Software Test Plan: Test Plan Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/TestPlan
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-03691d6afc35
+DTSTAMP:20230331T000000Z
+DTSTART;VALUE=DATE:20230331
+SUMMARY:CS375 Software Engineering: Class Meeting
+LOCATION:
+DESCRIPTION:
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-03691d6afc36
+DTSTAMP:20230403T000000Z
+DTSTART;VALUE=DATE:20230403
+SUMMARY:CS375 Software Engineering: Class Meeting
+LOCATION:
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/Cloud\nReading: Development and Specification of a Reference Model for Agent-Based Systems by William C. Regli et al https://tjkopena.com/publications/04926156.pdf
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-03691d6afc37
+DTSTAMP:20230405T000000Z
+DTSTART;VALUE=DATE:20230405
+SUMMARY:CS375 Software Engineering: Class Meeting
+LOCATION:
+DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc38
-DTSTAMP:20230324T000000Z
-DTSTART;VALUE=DATE:20230324
-SUMMARY:CS375 Software Engineering: Lab: DHCP with Wireshark Due
+DTSTAMP:20230407T000000Z
+DTSTART;VALUE=DATE:20230407
+SUMMARY:CS375 Software Engineering: Homework Assignment: Weekly Scrum Reflection Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc39
-DTSTAMP:20230324T000000Z
-DTSTART;VALUE=DATE:20230324
-SUMMARY:CS375 Software Engineering: Lab: ICMP with Wireshark Handed Out
+DTSTAMP:20230407T000000Z
+DTSTART;VALUE=DATE:20230407
+SUMMARY:CS375 Software Engineering: Class Meeting
+LOCATION:
+DESCRIPTION:\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/ScrumReflection
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-03691d6afc3a
+DTSTAMP:20230410T000000Z
+DTSTART;VALUE=DATE:20230410
+SUMMARY:CS375 Software Engineering: Software Documentation: Final Report Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc3a
-DTSTAMP:20230324T000000Z
-DTSTART;VALUE=DATE:20230324
-SUMMARY:CS375 Software Engineering: Class Meeting
-LOCATION:
-DESCRIPTION:\nDeliverable: Lab: DHCP with Wireshark Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DHCP_v8.0.pdf\nDeliverable: Lab: ICMP with Wireshark Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_ICMP_v8.0.pdf
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc3b
-DTSTAMP:20230327T000000Z
-DTSTART;VALUE=DATE:20230327
+DTSTAMP:20230410T000000Z
+DTSTART;VALUE=DATE:20230410
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/Routing\nReading: Dordal Ch. 13\nReading: Kurose and Ross: The Network Layer Control Plane https://youtu.be/Aeb80Q_mJp4\nReading: Kurose and Ross: Routing Algorithms https://youtu.be/bdh2kfgxVuw\nReading: Kurose and Ross: What's Inside a Router? Part 1 https://youtu.be/NfHR94JAO-s\nReading: Kurose and Ross: What's Inside a Router? Part 2 https://youtu.be/zfzzz9KQOog
+DESCRIPTION:\nReading: Developing an Agent Systems Reference Architecture by Duc N. Nguyen et al https://apps.dtic.mil/dtic/tr/fulltext/u2/a549190.pdf\nDeliverable: Software Documentation: Final Report Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/DocumentationFinalReport
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc3c
-DTSTAMP:20230329T000000Z
-DTSTART;VALUE=DATE:20230329
+DTSTAMP:20230412T000000Z
+DTSTART;VALUE=DATE:20230412
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Kurose and Ross: Intra-AS Routing https://youtu.be/iUQmn3nNjaI
+DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc3d
-DTSTAMP:20230331T000000Z
-DTSTART;VALUE=DATE:20230331
-SUMMARY:CS375 Software Engineering: Lab: ICMP with Wireshark Due
+DTSTAMP:20230414T000000Z
+DTSTART;VALUE=DATE:20230414
+SUMMARY:CS375 Software Engineering: Final Presentation: Code and Presentation Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc3e
-DTSTAMP:20230331T000000Z
-DTSTART;VALUE=DATE:20230331
-SUMMARY:CS375 Software Engineering: Class Meeting
+DTSTAMP:20230414T000000Z
+DTSTART;VALUE=DATE:20230414
+SUMMARY:CS375 Software Engineering: Homework Assignment: Weekly Scrum Reflection Due
 LOCATION:
-DESCRIPTION:\nReading: Dordal Ch. 14\nDeliverable: Lab: ICMP with Wireshark Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_ICMP_v8.0.pdf
+DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc3f
-DTSTAMP:20230403T000000Z
-DTSTART;VALUE=DATE:20230403
-SUMMARY:CS375 Software Engineering: Programming Assignment: Traceroute Due
+DTSTAMP:20230414T000000Z
+DTSTART;VALUE=DATE:20230414
+SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/EthicalCaseTherac25\nReading: Medical Devices: The Therac-25 by Nancy Levinson https://www.cs.ucf.edu/~dcm/Teaching/COP4600-Fall2010/Literature/Therac25-Leveson.pdf\nReading: Therac-25 Case Narrative https://onlineethics.org/cases/therac-25/therac-25-case-narrative\nReading: THERAC-25: History's Worst Software Error by Kyle Hill https://www.youtube.com/watch?v=Ap0orGCiou8\nDeliverable: Final Presentation: Code and Presentation Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/Presentation\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/ScrumReflection
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc40
-DTSTAMP:20230403T000000Z
-DTSTART;VALUE=DATE:20230403
+DTSTAMP:20230417T000000Z
+DTSTART;VALUE=DATE:20230417
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Dordal Ch. 15\nReading: Kurose and Ross: Routing Among the ISPs with BGP https://youtu.be/2rV4tJkP-CQ\nDeliverable: Programming Assignment: Traceroute Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/Traceroute
+DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc41
-DTSTAMP:20230405T000000Z
-DTSTART;VALUE=DATE:20230405
-SUMMARY:CS375 Software Engineering: Programming Assignment: HTTP Client Handed Out
-LOCATION:
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc42
-DTSTAMP:20230405T000000Z
-DTSTART;VALUE=DATE:20230405
-SUMMARY:CS375 Software Engineering: Class Meeting
-LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/TransportLayer\nReading: Dordal Ch. 16\nReading: Kurose and Ross: Introduction to Transport-Layer Services https://youtu.be/lAvhH0XJLNE\nReading: Kurose and Ross: Multiplexing https://youtu.be/CekW6ipRrGA\nDeliverable: Programming Assignment: HTTP Client Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/Assignments/HTTPClient
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc43
-DTSTAMP:20230407T000000Z
-DTSTART;VALUE=DATE:20230407
-SUMMARY:CS375 Software Engineering: Lab: UDP with Wireshark Handed Out
-LOCATION:
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc44
-DTSTAMP:20230407T000000Z
-DTSTART;VALUE=DATE:20230407
-SUMMARY:CS375 Software Engineering: Class Meeting
-LOCATION:
-DESCRIPTION:\nReading: Kurose and Ross: Connectionless Transport with UDP https://youtu.be/VjBDgcNno-Q\nDeliverable: Lab: UDP with Wireshark Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_UDP_v8.0.pdf
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc45
-DTSTAMP:20230410T000000Z
-DTSTART;VALUE=DATE:20230410
-SUMMARY:CS375 Software Engineering: Class Meeting
-LOCATION:
-DESCRIPTION:\nReading: Dordal Ch. 17\nReading: Kurose and Ross: Principles of Reliable Data Transfer Part 1 https://youtu.be/nyUHUtmxWg0\nReading: Kurose and Ross: Principles of Reliable Data Transfer Part 2 https://youtu.be/vxgH6r-II2Q
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc46
-DTSTAMP:20230412T000000Z
-DTSTART;VALUE=DATE:20230412
-SUMMARY:CS375 Software Engineering: Class Meeting
-LOCATION:
-DESCRIPTION:\nReading: Kurose and Ross: Connection Oriented Transport with TCP Part 1 https://youtu.be/UYJP-6mhF6E\nReading: Kurose and Ross: Connection Oriented Transport with TCP Part 2 https://youtu.be/E4I6t0mI_is
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc47
-DTSTAMP:20230414T000000Z
-DTSTART;VALUE=DATE:20230414
-SUMMARY:CS375 Software Engineering: Lab: UDP with Wireshark Due
-LOCATION:
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc48
-DTSTAMP:20230414T000000Z
-DTSTART;VALUE=DATE:20230414
-SUMMARY:CS375 Software Engineering: Lab: TCP with Wireshark Handed Out
-LOCATION:
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc49
-DTSTAMP:20230414T000000Z
-DTSTART;VALUE=DATE:20230414
-SUMMARY:CS375 Software Engineering: Class Meeting
-LOCATION:
-DESCRIPTION:\nReading: Dordal Ch. 8\nDeliverable: Lab: UDP with Wireshark Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_UDP_v8.0.pdf\nDeliverable: Lab: TCP with Wireshark Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_TCP_v8.0.pdf
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc4a
-DTSTAMP:20230417T000000Z
-DTSTART;VALUE=DATE:20230417
-SUMMARY:CS375 Software Engineering: Programming Assignment: HTTP Client Due
-LOCATION:
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc4b
-DTSTAMP:20230417T000000Z
-DTSTART;VALUE=DATE:20230417
+DTSTAMP:20230419T000000Z
+DTSTART;VALUE=DATE:20230419
 SUMMARY:CS375 Software Engineering: Participation: Second Self-Assessment Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc4c
-DTSTAMP:20230417T000000Z
-DTSTART;VALUE=DATE:20230417
-SUMMARY:CS375 Software Engineering: Class Meeting
-LOCATION:
-DESCRIPTION:\nReading: Dordal Ch. 18\nReading: Kurose and Ross: Principles of Congestion Control https://youtu.be/Fm92xvIp6JY\nReading: Kurose and Ross: TCP Congestion Control https://youtu.be/cIHiSR4j3g4\nReading: Kurose and Ross: Evolution of Transport Layer Functionality https://youtu.be/oRUIEmpzk0Y\nReading: Kurose and Ross: Transport Layer Summary https://youtu.be/XPPsub35eNY\nDeliverable: Programming Assignment: HTTP Client Due https://www.billmongan.com/Ursinus-CS375-Spring2023/Assignments/HTTPClient\nDeliverable: Participation: Second Self-Assessment Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/Participation/SelfAssessment
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc4d
-DTSTAMP:20230419T000000Z
-DTSTART;VALUE=DATE:20230419
-SUMMARY:CS375 Software Engineering: Programming Assignment: TFTP Handed Out
-LOCATION:
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc4e
+UID:00000000-0000-0000-0000-03691d6afc42
 DTSTAMP:20230419T000000Z
 DTSTART;VALUE=DATE:20230419
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/ApplicationLayer\nReading: Redbook Ch. 16\nReading: Kurose and Ross: Principles of Network Applications https://youtu.be/abeupgK5z48\nReading: Kurose and Ross: The Web and HTTP Part 1 https://youtu.be/S9GEPaQ1lFs\nReading: Kurose and Ross: The Web and HTTP Part 2 https://youtu.be/4M39gEPWPYs\nDeliverable: Programming Assignment: TFTP Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/Assignments/TFTP
+DESCRIPTION:\nDeliverable: Participation: Second Self-Assessment Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/Participation/SelfAssessment
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc4f
+UID:00000000-0000-0000-0000-03691d6afc43
 DTSTAMP:20230421T000000Z
 DTSTART;VALUE=DATE:20230421
-SUMMARY:CS375 Software Engineering: Final Project: Project and Presentation Handed Out
+SUMMARY:CS375 Software Engineering: Homework Assignment: Weekly Scrum Reflection Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc50
-DTSTAMP:20230421T000000Z
-DTSTART;VALUE=DATE:20230421
-SUMMARY:CS375 Software Engineering: Lab: TCP with Wireshark Due
-LOCATION:
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc51
-DTSTAMP:20230421T000000Z
-DTSTART;VALUE=DATE:20230421
-SUMMARY:CS375 Software Engineering: Lab: DNS with Wireshark Handed Out
-LOCATION:
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc52
+UID:00000000-0000-0000-0000-03691d6afc44
 DTSTAMP:20230421T000000Z
 DTSTART;VALUE=DATE:20230421
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023//Ursinus-WebMobile-HTTP\nReading: Redbook Ch. 15\nReading: Kurose and Ross: Email https://youtu.be/D3GMrOMR2dk\nReading: Why Files Become Bigger in Emails (Encoding) from Computerphile https://www.youtube.com/watch?v=zV-fR7xA4Hc\nDeliverable: Final Project: Project and Presentation Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/Projects/Final\nDeliverable: Lab: TCP with Wireshark Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_TCP_v8.0.pdf\nDeliverable: Lab: DNS with Wireshark Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DNS_v8.0.pdf
+DESCRIPTION:\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/ScrumReflection
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc53
+UID:00000000-0000-0000-0000-03691d6afc45
+DTSTAMP:20230424T000000Z
+DTSTART;VALUE=DATE:20230424
+SUMMARY:CS375 Software Engineering: Software Documentation: Final Report Due
+LOCATION:
+DESCRIPTION:
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-03691d6afc46
 DTSTAMP:20230424T000000Z
 DTSTART;VALUE=DATE:20230424
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/SecurityPrivacy\nReading: Redbook Ch. 22
+DESCRIPTION:\nDeliverable: Software Documentation: Final Report Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/DocumentationFinalReport
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc54
+UID:00000000-0000-0000-0000-03691d6afc47
 DTSTAMP:20230426T000000Z
 DTSTART;VALUE=DATE:20230426
-SUMMARY:CS375 Software Engineering: Lab: DNS with Wireshark Due
-LOCATION:
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc55
-DTSTAMP:20230426T000000Z
-DTSTART;VALUE=DATE:20230426
-SUMMARY:CS375 Software Engineering: Lab: SSL with Wireshark Handed Out
-LOCATION:
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc56
-DTSTAMP:20230426T000000Z
-DTSTART;VALUE=DATE:20230426
-SUMMARY:CS375 Software Engineering: Class Meeting
-LOCATION:
-DESCRIPTION:\nDeliverable: Lab: DNS with Wireshark Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DNS_v8.0.pdf\nDeliverable: Lab: SSL with Wireshark Handed Out http://www-net.cs.umass.edu/wireshark-labs/Wireshark_SSL_v8.0.pdf
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc57
-DTSTAMP:20230428T000000Z
-DTSTART;VALUE=DATE:20230428
 SUMMARY:CS375 Software Engineering: Participation: Second Self-Assessment Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc58
+UID:00000000-0000-0000-0000-03691d6afc48
+DTSTAMP:20230426T000000Z
+DTSTART;VALUE=DATE:20230426
+SUMMARY:CS375 Software Engineering: Class Meeting
+LOCATION:
+DESCRIPTION:\nDeliverable: Participation: Second Self-Assessment Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/Participation/SelfAssessment
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-03691d6afc49
 DTSTAMP:20230428T000000Z
 DTSTART;VALUE=DATE:20230428
-SUMMARY:CS375 Software Engineering: Programming Assignment: TFTP Due
+SUMMARY:CS375 Software Engineering: Final Presentation: Code and Presentation Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc59
+UID:00000000-0000-0000-0000-03691d6afc4a
+DTSTAMP:20230428T000000Z
+DTSTART;VALUE=DATE:20230428
+SUMMARY:CS375 Software Engineering: Homework Assignment: Weekly Scrum Reflection Due
+LOCATION:
+DESCRIPTION:
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-03691d6afc4b
 DTSTAMP:20230428T000000Z
 DTSTART;VALUE=DATE:20230428
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Participation: Second Self-Assessment Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/Participation/SelfAssessment\nDeliverable: Programming Assignment: TFTP Due https://www.billmongan.com/Ursinus-CS375-Spring2023/Assignments/TFTP
+DESCRIPTION:\nDeliverable: Final Presentation: Code and Presentation Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/Presentation\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/ScrumReflection
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc5a
+UID:00000000-0000-0000-0000-03691d6afc4c
 DTSTAMP:20230501T000000Z
 DTSTART;VALUE=DATE:20230501
-SUMMARY:CS375 Software Engineering: Final Project: Project and Presentation Due
+SUMMARY:CS375 Software Engineering: Peer Review: Peer Review Survey Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc5b
-DTSTAMP:20230501T000000Z
-DTSTART;VALUE=DATE:20230501
-SUMMARY:CS375 Software Engineering: Lab: SSL with Wireshark Due
-LOCATION:
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc5c
+UID:00000000-0000-0000-0000-03691d6afc4d
 DTSTAMP:20230501T000000Z
 DTSTART;VALUE=DATE:20230501
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Final Project: Project and Presentation Due https://www.billmongan.com/Ursinus-CS375-Spring2023/Projects/Final\nDeliverable: Lab: SSL with Wireshark Due http://www-net.cs.umass.edu/wireshark-labs/Wireshark_SSL_v8.0.pdf
+DESCRIPTION:\nDeliverable: Peer Review: Peer Review Survey Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/PeerReview
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc5d
+UID:00000000-0000-0000-0000-03691d6afc4e
+DTSTAMP:20230503T000000Z
+DTSTART;VALUE=DATE:20230503
+SUMMARY:CS375 Software Engineering: Peer Review: Peer Review Survey Due
+LOCATION:
+DESCRIPTION:
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-03691d6afc4f
+DTSTAMP:20230503T000000Z
+DTSTART;VALUE=DATE:20230503
+SUMMARY:CS375 Software Engineering: Class Meeting
+LOCATION:
+DESCRIPTION:\nDeliverable: Peer Review: Peer Review Survey Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/PeerReview
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-03691d6afc50
 DTSTAMP;TZID=US-Eastern:20230116T120000
 DTSTART;TZID=US-Eastern:20230116T120000
 DTEND;TZID=US-Eastern:20230116T130000
@@ -903,7 +786,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc5e
+UID:00000000-0000-0000-0000-03691d6afc51
 DTSTAMP;TZID=US-Eastern:20230116T120000
 DTSTART;TZID=US-Eastern:20230116T120000
 DTEND;TZID=US-Eastern:20230116T130000
@@ -921,7 +804,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc5f
+UID:00000000-0000-0000-0000-03691d6afc52
 DTSTAMP;TZID=US-Eastern:20230116T090000
 DTSTART;TZID=US-Eastern:20230116T090000
 DTEND;TZID=US-Eastern:20230116T100000
@@ -939,7 +822,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc60
+UID:00000000-0000-0000-0000-03691d6afc53
 DTSTAMP;TZID=US-Eastern:20230116T110000
 DTSTART;TZID=US-Eastern:20230116T110000
 DTEND;TZID=US-Eastern:20230116T120000
@@ -957,7 +840,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc61
+UID:00000000-0000-0000-0000-03691d6afc54
 DTSTAMP;TZID=US-Eastern:20230116T120000
 DTSTART;TZID=US-Eastern:20230116T120000
 DTEND;TZID=US-Eastern:20230116T130000
@@ -975,17 +858,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc62
-DTSTAMP;TZID=US-Eastern:20210224T100000
-DTSTART;TZID=US-Eastern:20210224T100000
-DTEND;TZID=US-Eastern:20210224T105000
-SUMMARY:CS375 Software Engineering: Midterm Exam
-LOCATION:Regular Class Period
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc63
+UID:00000000-0000-0000-0000-03691d6afc55
 DTSTAMP:20230131T000000Z
 DTSTART;VALUE=DATE:20230131
 SUMMARY:Add Deadline
@@ -994,7 +867,7 @@ DESCRIPTION:Add Deadline
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc64
+UID:00000000-0000-0000-0000-03691d6afc56
 DTSTAMP:20230322T000000Z
 DTSTART;VALUE=DATE:20230322
 SUMMARY:Drop with a W Deadline
@@ -1003,7 +876,7 @@ DESCRIPTION:Drop with a W Deadline
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc65
+UID:00000000-0000-0000-0000-03691d6afc57
 DTSTAMP:20230303T000000Z
 DTSTART;VALUE=DATE:20230303
 SUMMARY:Mid Semester Grades Posted
@@ -1012,7 +885,7 @@ DESCRIPTION:Mid Semester Grades Posted
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc66
+UID:00000000-0000-0000-0000-03691d6afc58
 DTSTAMP:20230419T000000Z
 DTSTART;VALUE=DATE:20230419
 SUMMARY:CoSA
@@ -1021,7 +894,7 @@ DESCRIPTION:CoSA
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc67
+UID:00000000-0000-0000-0000-03691d6afc59
 DTSTAMP:20230504T000000Z
 DTSTART;VALUE=DATE:20230504
 SUMMARY:Reading Day
@@ -1030,7 +903,7 @@ DESCRIPTION:Reading Day
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc68
+UID:00000000-0000-0000-0000-03691d6afc5a
 DTSTAMP:20230512T000000Z
 DTSTART;VALUE=DATE:20230512
 SUMMARY:Baccalaureate
@@ -1039,7 +912,7 @@ DESCRIPTION:Baccalaureate
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc69
+UID:00000000-0000-0000-0000-03691d6afc5b
 DTSTAMP:20230513T000000Z
 DTSTART;VALUE=DATE:20230513
 SUMMARY:Commencement
@@ -1048,7 +921,7 @@ DESCRIPTION:Commencement
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc6a
+UID:00000000-0000-0000-0000-03691d6afc5c
 DTSTAMP:20230505T000000Z
 DTSTART;VALUE=DATE:20230505
 SUMMARY:Finals Week Begins
@@ -1057,7 +930,7 @@ DESCRIPTION:Finals Week Begins
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc6b
+UID:00000000-0000-0000-0000-03691d6afc5d
 DTSTAMP:20230511T000000Z
 DTSTART;VALUE=DATE:20230511
 SUMMARY:Finals Week Ends

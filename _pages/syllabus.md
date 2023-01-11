@@ -313,6 +313,7 @@ schedule:
   - week: "5"
     date: "2"
     title: "UML Class Diagrams"
+    deliverables:
       - dtitle: "Homework Assignment: Weekly Scrum Reflection Due"
         dlink: "./Project/ScrumReflection"
         points: 10
@@ -412,6 +413,7 @@ schedule:
   - week: "11"
     date: "2"
     title: "Cloud Architectures"
+    deliverables:
       - dtitle: "Homework Assignment: Weekly Scrum Reflection Due"
         dlink: "./Project/ScrumReflection"
         points: 10
@@ -463,6 +465,7 @@ schedule:
   - week: "13"
     date: "2"
     title: "Project Workshop"
+    deliverables:
       - dtitle: "Homework Assignment: Weekly Scrum Reflection Due"
         dlink: "./Project/ScrumReflection"
         points: 10

@@ -233,7 +233,7 @@ DTSTAMP:20230208T000000Z
 DTSTART;VALUE=DATE:20230208
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Homework Assignment: Weekly Scrum Reflection Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/ScrumReflection
+DESCRIPTION:\nDeliverable: Homework Assignment: Weekly Scrum Reflection Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/ScrumReflection
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -296,7 +296,7 @@ DTSTAMP:20230217T000000Z
 DTSTART;VALUE=DATE:20230217
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/DesignPatterns\nReading: DPE Textbook\nDeliverable: Software Design: Design Report Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/Design\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/ScrumReflection
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/DesignPatterns\nReading: DPE Textbook\nDeliverable: Software Design: Design Report Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/Design\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/ScrumReflection
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -341,7 +341,7 @@ DTSTAMP:20230224T000000Z
 DTSTART;VALUE=DATE:20230224
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/ScrumReflection
+DESCRIPTION:\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/ScrumReflection
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -413,7 +413,7 @@ DTSTAMP:20230313T000000Z
 DTSTART;VALUE=DATE:20230313
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Participation: First Self-Assessment Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/Participation/SelfAssessment\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/ScrumReflection
+DESCRIPTION:\nDeliverable: Participation: First Self-Assessment Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/Participation/SelfAssessment\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/ScrumReflection
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -467,7 +467,7 @@ DTSTAMP:20230320T000000Z
 DTSTART;VALUE=DATE:20230320
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/ScrumReflection
+DESCRIPTION:\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/ScrumReflection
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -503,7 +503,7 @@ DTSTAMP:20230327T000000Z
 DTSTART;VALUE=DATE:20230327
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/GUI\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/ScrumReflection
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/GUI\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/ScrumReflection
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -566,7 +566,7 @@ DTSTAMP:20230407T000000Z
 DTSTART;VALUE=DATE:20230407
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/ScrumReflection
+DESCRIPTION:\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/ScrumReflection
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -620,7 +620,7 @@ DTSTAMP:20230414T000000Z
 DTSTART;VALUE=DATE:20230414
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/EthicalCaseTherac25\nReading: Medical Devices: The Therac-25 by Nancy Levinson https://www.cs.ucf.edu/~dcm/Teaching/COP4600-Fall2010/Literature/Therac25-Leveson.pdf\nReading: Therac-25 Case Narrative https://onlineethics.org/cases/therac-25/therac-25-case-narrative\nReading: THERAC-25: History's Worst Software Error by Kyle Hill https://www.youtube.com/watch?v=Ap0orGCiou8\nDeliverable: Final Presentation: Code and Presentation Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/Presentation\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/ScrumReflection
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/EthicalCaseTherac25\nReading: Medical Devices: The Therac-25 by Nancy Levinson https://www.cs.ucf.edu/~dcm/Teaching/COP4600-Fall2010/Literature/Therac25-Leveson.pdf\nReading: Therac-25 Case Narrative https://onlineethics.org/cases/therac-25/therac-25-case-narrative\nReading: THERAC-25: History's Worst Software Error by Kyle Hill https://www.youtube.com/watch?v=Ap0orGCiou8\nDeliverable: Final Presentation: Code and Presentation Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/Presentation\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/ScrumReflection
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -665,7 +665,7 @@ DTSTAMP:20230421T000000Z
 DTSTART;VALUE=DATE:20230421
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/ScrumReflection
+DESCRIPTION:\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/ScrumReflection
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -728,7 +728,7 @@ DTSTAMP:20230428T000000Z
 DTSTART;VALUE=DATE:20230428
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Final Presentation: Code and Presentation Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/Presentation\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/ScrumReflection
+DESCRIPTION:\nDeliverable: Final Presentation: Code and Presentation Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/Presentation\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/ScrumReflection
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT

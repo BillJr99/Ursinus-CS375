@@ -262,7 +262,7 @@ schedule:
     title: "Scrum Meetings"
     deliverables:
       - dtitle: "Homework Assignment: Weekly Scrum Reflection Handed Out"
-        dlink: "./Project/ScrumReflection"
+        dlink: "./Assignments/ScrumReflection"
         points: 10
         submission_types: "written"
   - week: "3"
@@ -289,18 +289,18 @@ schedule:
     date: "2"
     title: "Software Design: Design Patterns"
     link: "./Activities/DesignPatterns"
-    readings:
-      - rtitle: "DPE Textbook"
-        rlink: false
     deliverables:
       - dtitle: "Software Design: Design Report Handed Out"
         dlink: "./Project/Design"
         points: 100
         submission_types: "written"
       - dtitle: "Homework Assignment: Weekly Scrum Reflection Due"
-        dlink: "./Project/ScrumReflection"
+        dlink: "./Assignments/ScrumReflection"
         points: 10
         submission_types: "written"
+    readings:
+      - rtitle: "DPE Textbook"
+        rlink: false
   - week: "5"
     date: "0"
     title: "Software Design: Design Patterns"
@@ -318,7 +318,7 @@ schedule:
     title: "UML Class Diagrams"
     deliverables:
       - dtitle: "Homework Assignment: Weekly Scrum Reflection Due"
-        dlink: "./Project/ScrumReflection"
+        dlink: "./Assignments/ScrumReflection"
         points: 10
         submission_types: "written"
   - week: "6"
@@ -351,7 +351,7 @@ schedule:
         points: 10
         submission_types: "written"
       - dtitle: "Homework Assignment: Weekly Scrum Reflection Due"
-        dlink: "./Project/ScrumReflection"
+        dlink: "./Assignments/ScrumReflection"
         points: 10
         submission_types: "written"
   - week: "8"
@@ -374,7 +374,7 @@ schedule:
     title: "Output Testing (black box)"
     deliverables:
       - dtitle: "Homework Assignment: Weekly Scrum Reflection Due"
-        dlink: "./Project/ScrumReflection"
+        dlink: "./Assignments/ScrumReflection"
         points: 10
         submission_types: "written"
   - week: "9"
@@ -389,7 +389,7 @@ schedule:
     link: "./Activities/GUI"
     deliverables:
       - dtitle: "Homework Assignment: Weekly Scrum Reflection Due"
-        dlink: "./Project/ScrumReflection"
+        dlink: "./Assignments/ScrumReflection"
         points: 10
         submission_types: "written"
   - week: "10"
@@ -418,7 +418,7 @@ schedule:
     title: "Cloud Architectures"
     deliverables:
       - dtitle: "Homework Assignment: Weekly Scrum Reflection Due"
-        dlink: "./Project/ScrumReflection"
+        dlink: "./Assignments/ScrumReflection"
         points: 10
         submission_types: "written"
   - week: "12"
@@ -444,7 +444,7 @@ schedule:
         dlink: "./Project/Presentation"
         points: 100
       - dtitle: "Homework Assignment: Weekly Scrum Reflection Due"
-        dlink: "./Project/ScrumReflection"
+        dlink: "./Assignments/ScrumReflection"
         points: 10
         submission_types: "written"
     readings:
@@ -470,7 +470,7 @@ schedule:
     title: "Project Workshop"
     deliverables:
       - dtitle: "Homework Assignment: Weekly Scrum Reflection Due"
-        dlink: "./Project/ScrumReflection"
+        dlink: "./Assignments/ScrumReflection"
         points: 10
         submission_types: "written"
   - week: "14"
@@ -497,7 +497,7 @@ schedule:
         dlink: "./Project/Presentation"
         points: 100
       - dtitle: "Homework Assignment: Weekly Scrum Reflection Due"
-        dlink: "./Project/ScrumReflection"
+        dlink: "./Assignments/ScrumReflection"
         points: 10
         submission_types: "written"
   - week: "15"

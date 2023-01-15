@@ -209,6 +209,7 @@ schedule:
         dlink: "./Project/Proposal"
         points: 100
         submission_types: "written"
+        rubricpath: "_pages/Project/project-proposal.md"
     readings:
       - rtitle: "MMM Chapter 16"
         rlink: false
@@ -237,6 +238,7 @@ schedule:
       - dtitle: "Homework Assignment: git Handed Out"
         dlink: "./Assignments/git"
         points: 100
+        rubricpath: "_pages/Assignments/assignment-git.md"
   - week: "2"
     date: "1"
     title: "Stakeholder-based Design"
@@ -254,6 +256,7 @@ schedule:
         dlink: "./Project/Proposal"
         points: 100
         submission_types: "written"
+        rubricpath: "_pages/Project/project-proposal.md"
     readings:
       - rtitle: "MMM Chapter 2"
         rlink: false
@@ -265,6 +268,7 @@ schedule:
         dlink: "./Assignments/ScrumReflection"
         points: 10
         submission_types: "written"
+        rubricpath: "_pages/Assignments/assignment-scrumreflection.md"
   - week: "3"
     date: "2"
     title: "Software Architecture (front end, microservices, backend)"
@@ -279,6 +283,7 @@ schedule:
       - dtitle: "Homework Assignment: git Due"
         dlink: "./Assignments/git"
         points: 100
+        rubricpath: "_pages/Assignments/assignment-git.md"
     readings:
       - rtitle: "On the Use of Radio Frequency Identification for Continuous Biomedical Monitoring by William M. Mongan"
         rlink: "https://dl.acm.org/doi/pdf/10.1145/3054977.3055002?download=true"
@@ -294,10 +299,12 @@ schedule:
         dlink: "./Project/Design"
         points: 100
         submission_types: "written"
+        rubricpath: "_pages/Project/project-design.md"
       - dtitle: "Homework Assignment: Weekly Scrum Reflection Due"
         dlink: "./Assignments/ScrumReflection"
         points: 10
         submission_types: "written"
+        rubricpath: "_pages/Assignments/assignment-scrumreflection.md"
     readings:
       - rtitle: "DPE Textbook"
         rlink: false
@@ -321,6 +328,7 @@ schedule:
         dlink: "./Assignments/ScrumReflection"
         points: 10
         submission_types: "written"
+        rubricpath: "_pages/Assignments/assignment-scrumreflection.md"
   - week: "6"
     date: "0"
     title: "User Acceptance Testing"
@@ -330,6 +338,7 @@ schedule:
         dlink: "./Project/UserAcceptanceTestPlan"
         points: 100
         submission_types: "written"
+        rubricpath: "_pages/Project/project-useracceptancetestplan.md"
   - week: "6"
     date: "1"
     title: "Software Testing"
@@ -339,6 +348,7 @@ schedule:
         dlink: "./Project/Design"
         points: 100
         submission_types: "written"
+        rubricpath: "_pages/Project/project-design.md"
   - week: "6"
     date: "2"
     title: "Scrum Meetings"
@@ -354,6 +364,7 @@ schedule:
         dlink: "./Assignments/ScrumReflection"
         points: 10
         submission_types: "written"
+        rubricpath: "_pages/Assignments/assignment-scrumreflection.md"
   - week: "8"
     date: "1"
     title: "Code Coverage"
@@ -362,10 +373,12 @@ schedule:
         dlink: "./Project/UserAcceptanceTestPlan"
         points: 100
         submission_types: "written"
+        rubricpath: "_pages/Project/project-useracceptancetestplan.md"
       - dtitle: "Software Test Plan: Test Plan Handed Out"
         dlink: "./Project/TestPlan"
         points: 100
         submission_types: "written"
+        rubricpath: "_pages/Project/project-testplan.md"
   - week: "8"
     date: "2"
     title: "Scrum Meetings"
@@ -377,6 +390,7 @@ schedule:
         dlink: "./Assignments/ScrumReflection"
         points: 10
         submission_types: "written"
+        rubricpath: "_pages/Assignments/assignment-scrumreflection.md"
   - week: "9"
     date: "1"
     title: "Control Flow Coverage"
@@ -392,6 +406,7 @@ schedule:
         dlink: "./Assignments/ScrumReflection"
         points: 10
         submission_types: "written"
+        rubricpath: "_pages/Assignments/assignment-scrumreflection.md"
   - week: "10"
     date: "1"
     title: "Scrum Meetings"
@@ -400,6 +415,7 @@ schedule:
         dlink: "./Project/TestPlan"
         points: 100
         submission_types: "written"
+        rubricpath: "_pages/Project/project-testplan.md"
   - week: "10"
     date: "2"
     title: "GUI"
@@ -421,6 +437,7 @@ schedule:
         dlink: "./Assignments/ScrumReflection"
         points: 10
         submission_types: "written"
+        rubricpath: "_pages/Assignments/assignment-scrumreflection.md"
   - week: "12"
     date: "0"
     title: "Cloud Architectures"
@@ -429,6 +446,7 @@ schedule:
         dlink: "./Project/DocumentationFinalReport"
         points: 100
         submission_types: "written"
+        rubricpath: "_pages/Project/project-documentationfinalreport.md"
     readings:
       - rtitle: "Developing an Agent Systems Reference Architecture by Duc N. Nguyen et al"
         rlink: "https://apps.dtic.mil/dtic/tr/fulltext/u2/a549190.pdf"
@@ -443,10 +461,12 @@ schedule:
       - dtitle: "Final Presentation: Code and Presentation Handed Out"
         dlink: "./Project/Presentation"
         points: 100
+        rubricpath: "_pages/Project/project-presentation.md"
       - dtitle: "Homework Assignment: Weekly Scrum Reflection Due"
         dlink: "./Assignments/ScrumReflection"
         points: 10
         submission_types: "written"
+        rubricpath: "_pages/Assignments/assignment-scrumreflection.md"
     readings:
       - rtitle: "Medical Devices: The Therac-25 by Nancy Levinson"
         rlink: "https://www.cs.ucf.edu/~dcm/Teaching/COP4600-Fall2010/Literature/Therac25-Leveson.pdf"
@@ -473,6 +493,7 @@ schedule:
         dlink: "./Assignments/ScrumReflection"
         points: 10
         submission_types: "written"
+        rubricpath: "_pages/Assignments/assignment-scrumreflection.md"
   - week: "14"
     date: "0"
     title: "Project Workshop"
@@ -481,6 +502,7 @@ schedule:
         dlink: "./Project/DocumentationFinalReport"
         points: 100
         submission_types: "written"
+        rubricpath: "_pages/Project/project-documentationfinalreport.md"
   - week: "14"
     date: "1"
     title: "Scrum Meetings"
@@ -496,10 +518,12 @@ schedule:
       - dtitle: "Final Presentation: Code and Presentation Due"
         dlink: "./Project/Presentation"
         points: 100
+        rubricpath: "_pages/Project/project-presentation.md"
       - dtitle: "Homework Assignment: Weekly Scrum Reflection Due"
         dlink: "./Assignments/ScrumReflection"
         points: 10
         submission_types: "written"
+        rubricpath: "_pages/Assignments/assignment-scrumreflection.md"
   - week: "15"
     date: "0"
     title: "Final Presentations"
@@ -508,6 +532,7 @@ schedule:
         dlink: "./Project/PeerReview"
         points: 10
         submission_types: "written"
+        rubricpath: "_pages/Project/project-peerreview.md"
   - week: "15"
     date: "1"
     title: "Final Presentations"
@@ -516,6 +541,7 @@ schedule:
         dlink: "./Project/PeerReview"
         points: 10
         submission_types: "written"
+        rubricpath: "_pages/Project/project-peerreview.md"
             
 university:
   semester: "Spring"

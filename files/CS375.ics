@@ -107,7 +107,7 @@ DTSTAMP:20230120T000000Z
 DTSTART;VALUE=DATE:20230120
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Participation: Pre-Assessment Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/Participation/PreAssessment
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./files/software-engineering/01-introduction.pdf\nDeliverable: Participation: Pre-Assessment Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/Participation/PreAssessment
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -161,7 +161,7 @@ DTSTAMP:20230127T000000Z
 DTSTART;VALUE=DATE:20230127
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/git\nDeliverable: Participation: Pre-Assessment Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/Participation/PreAssessment
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./files/software-engineering/02-git-oop.pdf\nDeliverable: Participation: Pre-Assessment Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/Participation/PreAssessment
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -179,7 +179,7 @@ DTSTAMP:20230130T000000Z
 DTSTART;VALUE=DATE:20230130
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/SEParadigms\nDeliverable: Homework Assignment: git Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/git
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./files/software-engineering/04-software-processes.pdf\nDeliverable: Homework Assignment: git Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/git
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -197,7 +197,7 @@ DTSTAMP:20230203T000000Z
 DTSTART;VALUE=DATE:20230203
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/UserStories
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./files/software-engineering/05-agile-methods.pdf
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -242,7 +242,7 @@ DTSTAMP:20230210T000000Z
 DTSTART;VALUE=DATE:20230210
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/Architecture\nReading: Re-Engineering a Reverse Engineering Portal to a Distributed SOA by William M. Mongan https://www.cs.drexel.edu/~spiros/papers/ICPC08.pdf
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./files/software-engineering/12-requirements-engineering.pdf\nReading: Re-Engineering a Reverse Engineering Portal to a Distributed SOA by William M. Mongan https://www.cs.drexel.edu/~spiros/papers/ICPC08.pdf
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -260,7 +260,7 @@ DTSTAMP:20230213T000000Z
 DTSTART;VALUE=DATE:20230213
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: On the Use of Radio Frequency Identification for Continuous Biomedical Monitoring by William M. Mongan https://dl.acm.org/doi/pdf/10.1145/3054977.3055002?download=true\nDeliverable: Homework Assignment: git Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/git
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/Architecture\nReading: On the Use of Radio Frequency Identification for Continuous Biomedical Monitoring by William M. Mongan https://dl.acm.org/doi/pdf/10.1145/3054977.3055002?download=true\nDeliverable: Homework Assignment: git Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/git
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -296,7 +296,7 @@ DTSTAMP:20230217T000000Z
 DTSTART;VALUE=DATE:20230217
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/UML\nDeliverable: Software Design: Design Report Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/Design\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/ScrumReflection
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./files/software-engineering/03-uml-testing.pdf\nDeliverable: Software Design: Design Report Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/Design\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/ScrumReflection
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -314,7 +314,7 @@ DTSTAMP:20230220T000000Z
 DTSTART;VALUE=DATE:20230220
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/DesignPatterns\nReading: DPE Textbook\nDeliverable: Participation: First Self-Assessment Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/Participation/SelfAssessment
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./files/software-engineering/06-design-patterns-intro.pdf\nReading: DPE Textbook\nDeliverable: Participation: First Self-Assessment Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/Participation/SelfAssessment
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -341,7 +341,7 @@ DTSTAMP:20230224T000000Z
 DTSTART;VALUE=DATE:20230224
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/ScrumReflection
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./files/software-engineering/07-design-patterns-2.pdf\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/ScrumReflection
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -359,7 +359,7 @@ DTSTAMP:20230227T000000Z
 DTSTART;VALUE=DATE:20230227
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/UserAcceptanceTesting\nDeliverable: User Acceptance Test Plan: Test Plan Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/UserAcceptanceTestPlan
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./files/software-engineering/11-testing-ci.pdf\nDeliverable: User Acceptance Test Plan: Test Plan Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/UserAcceptanceTestPlan
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -377,7 +377,7 @@ DTSTAMP:20230301T000000Z
 DTSTART;VALUE=DATE:20230301
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/Testing\nDeliverable: Software Design: Design Report Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/Design
+DESCRIPTION:\nDeliverable: Software Design: Design Report Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/Design
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -413,7 +413,7 @@ DTSTAMP:20230313T000000Z
 DTSTART;VALUE=DATE:20230313
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Participation: First Self-Assessment Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/Participation/SelfAssessment\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/ScrumReflection
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/Testing\nDeliverable: Participation: First Self-Assessment Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/Participation/SelfAssessment\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/ScrumReflection
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -476,7 +476,7 @@ DTSTAMP:20230322T000000Z
 DTSTART;VALUE=DATE:20230322
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./files/software-engineering/08-code-quality.pdf
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT

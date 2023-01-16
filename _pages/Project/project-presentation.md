@@ -17,6 +17,7 @@ info:
     - "The project website includes links to the software repository and all relevant documents from the course"
     - "A software demo was included with the project"
     - "The presentation included a review of the codebase"
+    - "The project website includes a video of a usage demonstration"
     b:
     - "Each item required for a grade of C is included"
     - "The presentation includes a summary of the proposal, stakeholders, requirements, design, and test plan"
@@ -38,4 +39,4 @@ Your presentation should summarize your proposal, stakeholders, requirements, de
 
 ### Website
 
-Include your presentation and a link to your project github codebase on the project website.
+Include your presentation and a link to your project github codebase on the project website.  Record a short demo of the major features of the software to a video, and upload the video to your website.  You can use Screencast-o-Matic ([https://screencast-o-matic.com/](https://screencast-o-matic.com/)) for this purpose, and can upload your work to youtube (or upload and link to the file on your webiste directly).

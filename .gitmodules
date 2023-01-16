@@ -10,3 +10,6 @@
 [submodule "code"]
 	path = code
 	url = https://github.com/BillJr99/Ursinus-Boilerplate-Code.git
+[submodule "files/software-engineering"]
+	path = files/software-engineering
+	url = https://github.com/floe/software-engineering.git

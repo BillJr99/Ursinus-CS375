@@ -121,6 +121,11 @@ textbooks:
   link: false
   isrequired: false 
   freelyavailable: http://www.cesarkallas.net/arquivos/livros/informatica/Addison.Wesley.The.Mythical.Man-Month.Essays.on.Software.Engineering.20th.Anniversary.Edition.pdf
+- title: Software Enginering Lectures
+  authors: Bauhaus-Uni Weimar
+  link: https://github.com/floe/software-engineering
+  isrequired: false
+  freelyavailable: https://www.youtube.com/playlist?list=PLjEglKdMOevU2STTGq79duxTXDFuO-k1H
   
 objectives:
 - objective: "To gain perspective into software engineering best practices that enable teams to work together efficiently"
@@ -292,8 +297,8 @@ schedule:
     title: "Scrum Meetings"
   - week: "4"
     date: "2"
-    title: "Software Design: Design Patterns"
-    link: "./Activities/DesignPatterns"
+    title: "UML Class Diagrams"
+    link: "./Activities/UML"
     deliverables:
       - dtitle: "Software Design: Design Report Handed Out"
         dlink: "./Project/Design"
@@ -305,12 +310,13 @@ schedule:
         points: 10
         submission_types: "written"
         rubricpath: "_pages/Assignments/assignment-scrumreflection.md"
-    readings:
-      - rtitle: "DPE Textbook"
-        rlink: false
   - week: "5"
     date: "0"
     title: "Software Design: Design Patterns"
+    link: "./Activities/DesignPatterns"
+    readings:
+      - rtitle: "DPE Textbook"
+        rlink: false    
     deliverables:
       - dtitle: "Participation: First Self-Assessment Handed Out"
         dlink: "./Assignments/Participation/SelfAssessment"
@@ -319,10 +325,9 @@ schedule:
   - week: "5"
     date: "1"
     title: "Scrum Meetings"
-    link: "./Activities/UML"
   - week: "5"
     date: "2"
-    title: "UML Class Diagrams"
+    title: "Software Design: Design Patterns"
     deliverables:
       - dtitle: "Homework Assignment: Weekly Scrum Reflection Due"
         dlink: "./Assignments/ScrumReflection"

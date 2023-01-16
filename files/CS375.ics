@@ -296,7 +296,7 @@ DTSTAMP:20230217T000000Z
 DTSTART;VALUE=DATE:20230217
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/DesignPatterns\nReading: DPE Textbook\nDeliverable: Software Design: Design Report Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/Design\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/ScrumReflection
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/UML\nDeliverable: Software Design: Design Report Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/Design\nDeliverable: Homework Assignment: Weekly Scrum Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/ScrumReflection
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -314,7 +314,7 @@ DTSTAMP:20230220T000000Z
 DTSTART;VALUE=DATE:20230220
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Participation: First Self-Assessment Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/Participation/SelfAssessment
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/DesignPatterns\nReading: DPE Textbook\nDeliverable: Participation: First Self-Assessment Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/Participation/SelfAssessment
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -323,7 +323,7 @@ DTSTAMP:20230222T000000Z
 DTSTART;VALUE=DATE:20230222
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/UML
+DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT

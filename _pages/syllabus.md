@@ -245,7 +245,6 @@ schedule:
       - dtitle: "Homework Assignment: git Handed Out"
         dlink: "./Assignments/git"
         points: 100
-        rubricpath: "_pages/Assignments/assignment-git.md"
   - week: "2"
     date: "1"
     title: "Stakeholder-based Design"
@@ -291,7 +290,6 @@ schedule:
       - dtitle: "Homework Assignment: git Due"
         dlink: "./Assignments/git"
         points: 100
-        rubricpath: "_pages/Assignments/assignment-git.md"
     readings:
       - rtitle: "On the Use of Radio Frequency Identification for Continuous Biomedical Monitoring by William M. Mongan"
         rlink: "https://dl.acm.org/doi/pdf/10.1145/3054977.3055002?download=true"

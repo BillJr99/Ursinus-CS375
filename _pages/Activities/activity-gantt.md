@@ -106,7 +106,8 @@ info:
       questions:
         - "In terms of scheduling, what determines if a task is on the <strong>critical path</strong>?"
         - "The expected time estimate of a task is given by a Beta Distribution over the optimistic time, the most likely time, and the pessimistic time.  It is a weighted average of the optimistic time, the pessimistic time, and four times the most likely time.  Write this formula and verify the time estimates in the table above."
-        - "Create a table of expected tasks for the semester for your project, and a Gantt chart, which you will include in your design report."
+        - "Create a table of expected tasks for the semester for your project, and a Gantt chart, which you will include in your requirements report."
+        - "Explore a tool like Asana or Trello for creating Kanban board that you can share with your group.  Describe what a Kanban is."
 
   additional_reading:
     - link: https://www.onlinegantt.com/#/gantt

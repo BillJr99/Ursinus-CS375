@@ -123,6 +123,7 @@ textbooks:
   freelyavailable: http://www.cesarkallas.net/arquivos/livros/informatica/Addison.Wesley.The.Mythical.Man-Month.Essays.on.Software.Engineering.20th.Anniversary.Edition.pdf
 - title: Software Enginering Lectures
   authors: Bauhaus-Uni Weimar
+  edition: "CC-NC-SA 4.0 Licensed"
   link: https://github.com/floe/software-engineering
   isrequired: false
   freelyavailable: https://www.youtube.com/playlist?list=PLjEglKdMOevU2STTGq79duxTXDFuO-k1H
@@ -200,7 +201,8 @@ schedule:
         submission_types: "noupload"
   - week: "0"
     date: "2"
-    title: "Course Overview"
+    title: "Introduction"
+    link: "./files/software-engineering/01-introduction.pdf"
     deliverables:
       - dtitle: "Participation: Pre-Assessment Handed Out"
         dlink: "./Assignments/Participation/PreAssessment"
@@ -229,7 +231,7 @@ schedule:
   - week: "1"
     date: "2"
     title: "Version Control with git"
-    link: "./Activities/git"
+    link: "./files/software-engineering/02-git-oop.pdf"
     deliverables:
       - dtitle: "Participation: Pre-Assessment Due"
         dlink: "./Assignments/Participation/PreAssessment"
@@ -238,7 +240,7 @@ schedule:
   - week: "2"
     date: "0"
     title: "Software Engineering: from Waterfall to Agile"
-    link: "./Activities/SEParadigms"
+    link: "./files/software-engineering/04-software-processes.pdf"
     deliverables:
       - dtitle: "Homework Assignment: git Handed Out"
         dlink: "./Assignments/git"
@@ -250,8 +252,8 @@ schedule:
     link: "./Activities/StakeholderDesign"
   - week: "2"
     date: "2"
-    title: "User Stories"
-    link: "./Activities/UserStories"
+    title: "Agile Methods: User Stories"
+    link: "./files/software-engineering/05-agile-methods.pdf"
   - week: "3"
     date: "0"
     title: "Task Dependencies: GANTT Charts and the Critical Path"
@@ -276,14 +278,15 @@ schedule:
         rubricpath: "_pages/Assignments/assignment-scrumreflection.md"
   - week: "3"
     date: "2"
-    title: "Software Architecture (front end, microservices, backend)"
-    link: "./Activities/Architecture"
+    title: "Requirements Engineering"
+    link: "./files/software-engineering/12-requirements-engineering.pdf"
     readings:
       - rtitle: "Re-Engineering a Reverse Engineering Portal to a Distributed SOA by William M. Mongan"
         rlink: "https://www.cs.drexel.edu/~spiros/papers/ICPC08.pdf"
   - week: "4"
     date: "0"
     title: "Software Architecture (front end, microservices, backend)"
+    link: "./Activities/Architecture"
     deliverables:
       - dtitle: "Homework Assignment: git Due"
         dlink: "./Assignments/git"
@@ -298,7 +301,7 @@ schedule:
   - week: "4"
     date: "2"
     title: "UML Class Diagrams"
-    link: "./Activities/UML"
+    link: "./files/software-engineering/03-uml-testing.pdf"
     deliverables:
       - dtitle: "Software Design: Design Report Handed Out"
         dlink: "./Project/Design"
@@ -313,7 +316,7 @@ schedule:
   - week: "5"
     date: "0"
     title: "Software Design: Design Patterns"
-    link: "./Activities/DesignPatterns"
+    link: "./files/software-engineering/06-design-patterns-intro.pdf"
     readings:
       - rtitle: "DPE Textbook"
         rlink: false    
@@ -327,7 +330,8 @@ schedule:
     title: "Scrum Meetings"
   - week: "5"
     date: "2"
-    title: "Software Design: Design Patterns"
+    title: "Software Design: Design Patterns (Continued)"
+    link: "./files/software-engineering/07-design-patterns-2.pdf"
     deliverables:
       - dtitle: "Homework Assignment: Weekly Scrum Reflection Due"
         dlink: "./Assignments/ScrumReflection"
@@ -336,8 +340,8 @@ schedule:
         rubricpath: "_pages/Assignments/assignment-scrumreflection.md"
   - week: "6"
     date: "0"
-    title: "User Acceptance Testing"
-    link: "./Activities/UserAcceptanceTesting"
+    title: "Software Testing: User Acceptance Testing"
+    link: "./files/software-engineering/11-testing-ci.pdf"
     deliverables:
       - dtitle: "User Acceptance Test Plan: Test Plan Handed Out"
         dlink: "./Project/UserAcceptanceTestPlan"
@@ -346,8 +350,7 @@ schedule:
         rubricpath: "_pages/Project/project-useracceptancetestplan.md"
   - week: "6"
     date: "1"
-    title: "Software Testing"
-    link: "./Activities/Testing"
+    title: "Software Testing: Unit Testing"
     deliverables:
       - dtitle: "Software Design: Design Report Due"
         dlink: "./Project/Design"
@@ -359,7 +362,8 @@ schedule:
     title: "Scrum Meetings"
   - week: "8"
     date: "0"
-    title: "Unit Tests (white box)"
+    title: "Unit Tests (white box) and Code Coverage"
+    link: "./Activities/Testing"
     deliverables:
       - dtitle: "Participation: First Self-Assessment Due"
         dlink: "./Assignments/Participation/SelfAssessment"
@@ -372,7 +376,7 @@ schedule:
         rubricpath: "_pages/Assignments/assignment-scrumreflection.md"
   - week: "8"
     date: "1"
-    title: "Code Coverage"
+    title: "Output Testing (black box)"
     deliverables:
       - dtitle: "User Acceptance Test Plan: Test Plan Due"
         dlink: "./Project/UserAcceptanceTestPlan"
@@ -389,7 +393,7 @@ schedule:
     title: "Scrum Meetings"
   - week: "9"
     date: "0"
-    title: "Output Testing (black box)"
+    title: "Control Flow Coverage"
     deliverables:
       - dtitle: "Homework Assignment: Weekly Scrum Reflection Due"
         dlink: "./Assignments/ScrumReflection"
@@ -398,7 +402,8 @@ schedule:
         rubricpath: "_pages/Assignments/assignment-scrumreflection.md"
   - week: "9"
     date: "1"
-    title: "Control Flow Coverage"
+    title: "Code Quality"
+    link: "./files/software-engineering/08-code-quality.pdf"
   - week: "9"
     date: "2"
     title: "Scrum Meetings"

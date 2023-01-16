@@ -123,7 +123,7 @@ textbooks:
   freelyavailable: http://www.cesarkallas.net/arquivos/livros/informatica/Addison.Wesley.The.Mythical.Man-Month.Essays.on.Software.Engineering.20th.Anniversary.Edition.pdf
 - title: Software Enginering Lectures
   authors: Bauhaus-Uni Weimar
-  edition: "CC-NC-SA 4.0 Licensed"
+  edition: "CC NC-SA 4.0 Licensed"
   link: https://github.com/floe/software-engineering
   isrequired: false
   freelyavailable: https://www.youtube.com/playlist?list=PLjEglKdMOevU2STTGq79duxTXDFuO-k1H
@@ -256,8 +256,8 @@ schedule:
     link: "./files/software-engineering/05-agile-methods.pdf"
   - week: "3"
     date: "0"
-    title: "Task Dependencies: GANTT Charts and the Critical Path"
-    link: "./Activities/GANTT"
+    title: "Task Dependencies: Gantt Charts and the Critical Path"
+    link: "./Activities/Gantt"
     deliverables:
       - dtitle: "Software Project Proposal: Project Proposal Due"
         dlink: "./Project/Proposal"
@@ -286,7 +286,7 @@ schedule:
   - week: "4"
     date: "0"
     title: "Software Architecture (front end, microservices, backend)"
-    link: "./Activities/Architecture"
+    link: "./files/software-architecture/software-architecture.pdf"
     deliverables:
       - dtitle: "Homework Assignment: git Due"
         dlink: "./Assignments/git"
@@ -350,7 +350,11 @@ schedule:
         rubricpath: "_pages/Project/project-useracceptancetestplan.md"
   - week: "6"
     date: "1"
-    title: "Software Testing: Unit Testing"
+    title: "Software Testing: Unit Testing (white box) and Output Testing (black box)"
+    link: "./Activities/TestingCodeCoverage"
+    readings:
+      - rlink: "https://ocw.mit.edu/ans7870/6/6.005/s16/classes/03-testing/"
+        rtitle: "Software Testing"
     deliverables:
       - dtitle: "Software Design: Design Report Due"
         dlink: "./Project/Design"
@@ -362,8 +366,7 @@ schedule:
     title: "Scrum Meetings"
   - week: "8"
     date: "0"
-    title: "Unit Tests (white box) and Code Coverage"
-    link: "./Activities/Testing"
+    title: "Software Testing: Unit Testing (white box) and Output Testing (black box)"
     deliverables:
       - dtitle: "Participation: First Self-Assessment Due"
         dlink: "./Assignments/Participation/SelfAssessment"
@@ -376,7 +379,7 @@ schedule:
         rubricpath: "_pages/Assignments/assignment-scrumreflection.md"
   - week: "8"
     date: "1"
-    title: "Output Testing (black box)"
+    title: "Code Coverage and Control Flow Coverage"
     deliverables:
       - dtitle: "User Acceptance Test Plan: Test Plan Due"
         dlink: "./Project/UserAcceptanceTestPlan"
@@ -411,6 +414,9 @@ schedule:
     date: "0"
     title: "GUI"
     link: "./Activities/GUI"
+    readings:
+    - rlink: "https://www.usability.gov/what-and-why/user-interface-design.html"
+      rtitle: "User Interface Design Basics from usability.gov"    
     deliverables:
       - dtitle: "Homework Assignment: Weekly Scrum Reflection Due"
         dlink: "./Assignments/ScrumReflection"
@@ -539,7 +545,7 @@ schedule:
     title: "Final Presentations"
     deliverables:
       - dtitle: "Peer Review: Peer Review Survey Handed Out"
-        dlink: "./Project/PeerReview"
+        dlink: "./Assignments/PeerReview"
         points: 10
         submission_types: "written"
         rubricpath: "_pages/Project/project-peerreview.md"
@@ -548,7 +554,7 @@ schedule:
     title: "Final Presentations"
     deliverables:
       - dtitle: "Peer Review: Peer Review Survey Due"
-        dlink: "./Project/PeerReview"
+        dlink: "./Assignments/PeerReview"
         points: 10
         submission_types: "written"
         rubricpath: "_pages/Project/project-peerreview.md"

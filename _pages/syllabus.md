@@ -517,6 +517,10 @@ schedule:
         points: 100
         submission_types: "written"
         rubricpath: "_pages/Project/project-documentationfinalreport.md"
+      - dtitle: "Peer Review: Peer Review Survey Handed Out"
+        dlink: "./Assignments/PeerReview"
+        points: 10
+        submission_types: "written"
   - week: "14"
     date: "1"
     title: "Scrum Meetings"
@@ -541,12 +545,6 @@ schedule:
   - week: "15"
     date: "0"
     title: "Final Presentations"
-    deliverables:
-      - dtitle: "Peer Review: Peer Review Survey Handed Out"
-        dlink: "./Assignments/PeerReview"
-        points: 10
-        submission_types: "written"
-        rubricpath: "_pages/Project/project-peerreview.md"
   - week: "15"
     date: "1"
     title: "Final Presentations"
@@ -555,7 +553,6 @@ schedule:
         dlink: "./Assignments/PeerReview"
         points: 10
         submission_types: "written"
-        rubricpath: "_pages/Project/project-peerreview.md"
             
 university:
   semester: "Spring"

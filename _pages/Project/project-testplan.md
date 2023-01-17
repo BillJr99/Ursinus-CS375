@@ -11,19 +11,19 @@ info:
     - To produce a test plan including unit tests, output tests, and user acceptance tests
 
   rubric:
-  - weight: 100
+  - weight: 40
     description: Black Box and White Box Tests
     preemerging: Unit tests (or output tests) are generally unclear, missing, or inappropriate for the project being tested
     beginning: Unit tests (or output tests) are given for each software method or component, but some boundary or erroneous inputs are missing that would result in a more robust test plan
     progressing: Unit tests (or output tests) with appropriate inputs are given for nearly all software methods or components
     proficient: Unit tests (or output tests) with appropriate inputs are given for each software method or component
-  - weight: 100
+  - weight: 40
     description: User Acceptance Tests
     preemerging: User acceptance test scripts are missing, unclear, or missing dependencies with respect to software requirements
     beginning: User acceptance test scripts are written for many software requirements and are cross-referenced with acceptance tests for many dependent requirements    
     progressing: User acceptance test scripts are written in a mostly non-technical voice for nearly all software requirements and are cross-referenced with acceptance tests for dependent requirements    
     proficient: User acceptance test scripts are written in a non-technical voice for all software requirements and are cross-referenced with acceptance tests for dependent requirements    
-  - weight: 100
+  - weight: 20
     description: Planned Test Coverage
     preemerging: Both the acceptance and software test plans are lacking in coverage
     beginning: Either the acceptance or software test plan is lacking in coverage

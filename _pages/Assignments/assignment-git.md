@@ -150,4 +150,4 @@ Alternatively, you can type `git checkout --theirs` to use the server copy and o
 3. Create a branch, make some edits, and merge the branch.
 4. Create a conflict, resolve it, and check in the resolved file.
 5. Share the repository with the instructor, who can verify your work using your git commit history.  Submit the git ssh link.
-6. Create a branch in your repository called gh-pages, and add a file called index.md.  Put some text into that file, commit and push it.  In the settings for your repository, enable github pages, and go to https://<your git username>.github.io/<your github repository name>.  You should see your content!
+6. Create a branch in your repository called gh-pages, and add a file called index.md.  Put some text into that file, commit and push it.  In the settings for your repository, enable github pages, and go to https://your-git-username.github.io/your-github-repository-name.  You should see your content!

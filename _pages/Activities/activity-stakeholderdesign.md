@@ -37,7 +37,7 @@ info:
       title: "Design Thinking Process"
       questions: 
         - "What are the 5 stages in the design thinking process?" 
-        - "When designing a 1000 story elevator, who are your stakeholders, and what might be their unique individual needs?        
+        - "When designing a 1000 story elevator, who are your stakeholders, and what might be their unique individual needs?"        
         
 tags:
   - ux

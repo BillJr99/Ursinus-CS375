@@ -144,7 +144,7 @@ goals:
 grade_breakdown:
 - category: "Software Project Proposal"
   weight: "5%"
-- category: Software Requirements Report"
+- category: "Software Requirements Report"
   weight: "5%"
 - category: "Software Design"
   weight: "10%"

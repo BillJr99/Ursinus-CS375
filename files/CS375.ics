@@ -269,7 +269,7 @@ DTSTAMP:20230213T000000Z
 DTSTART;VALUE=DATE:20230213
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./files/software-architecture/software-architecture.pdf\nReading: On the Use of Radio Frequency Identification for Continuous Biomedical Monitoring by William M. Mongan https://dl.acm.org/doi/pdf/10.1145/3054977.3055002?download=true\nDeliverable: Homework Assignment: git Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/git
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./files/software-architecture/software-architecture.pdf\nReading: On the Use of Radio Frequency Identification for Continuous Biomedical Monitoring by William M. Mongan https://dl.acm.org/doi/pdf/10.1145/3054977.3055002?download=true\nReading: Python Flask Database Example https://replit.com/@BillJr99/FlaskDBDemo#main.py\nDeliverable: Homework Assignment: git Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/git
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT

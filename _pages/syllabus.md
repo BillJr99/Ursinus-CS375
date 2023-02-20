@@ -299,6 +299,8 @@ schedule:
     readings:
       - rtitle: "On the Use of Radio Frequency Identification for Continuous Biomedical Monitoring by William M. Mongan"
         rlink: "https://dl.acm.org/doi/pdf/10.1145/3054977.3055002?download=true"
+      - rtitle: "Python Flask Database Example"
+        rlink: "https://replit.com/@BillJr99/FlaskDBDemo#main.py"
   - week: "4"
     date: "1"
     title: "Standup Meetings"

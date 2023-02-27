@@ -156,12 +156,15 @@ info:
         ]]></script>        
       title: Unit Testing and Code Coverage
       embed: |
-        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/PyTestingAndCoverage?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>       
+        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/PyTestingAndCoverage?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>     
+        <br>
+        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/GithubWorkflowPythonTestExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe> 
       questions:
         - "Run the unit tests above and generate a code coverage report."
         - "How can you improve code coverage to 100%, by testing all code branches?"
         - "Should you continue to write and run additional unit tests beyond 100% code coverage?  Give an example of why this might be necessary."
         - "Would you write your code first or your unit tests first?  How might it help to write your unit tests before writing the code?"
+        - "How can unit testing and code coverage be automated via a github workflow?  When would unit testing be executed?"
 
   additional_reading:
     - link: https://ocw.mit.edu/ans7870/6/6.005/s16/classes/03-testing/#blackbox_and_whitebox_testing

@@ -39,6 +39,8 @@ info:
   readings:
     - rlink: "../files/exampledocs/NLiVE_Design.pdf"
       rtitle: "Example design document"
+    - rlink: "https://dbdiagram.io/home"
+      rtilte: "DB Diagram for Schema Generation"
 
 tags:
   - project

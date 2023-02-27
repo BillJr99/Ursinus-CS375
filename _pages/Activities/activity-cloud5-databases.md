@@ -172,7 +172,13 @@ info:
     - model: See the Example Below
       title: RESTful Services with a Database Backend    
       embed: <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/ExpressMySQLExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-        
+
+  additional_reading:
+    - link: https://dbdiagram.io/home
+      title: "dbdiagram.io"  
+    - link: https://dev.to/techschoolguru/design-db-schema-and-generate-sql-code-with-dbdiagram-io-4ko5
+      title: "Design DB Schema and Generate SQL Code with dbdiagram"
+      
 tags:
   - databases
   

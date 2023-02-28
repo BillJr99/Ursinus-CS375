@@ -378,11 +378,6 @@ schedule:
     date: "0"
     title: "Software Testing: Unit Testing (white box) and Output Testing (black box)"
     deliverables:
-      - dtitle: "Homework Assignment: Weekly Standup Reflection Due"
-        dlink: "./Assignments/StandupReflection"
-        points: 10
-        submission_types: "written"
-        rubricpath: "_pages/Assignments/assignment-Standupreflection.md"
       - dtitle: "Software Test Plan: Test Plan Handed Out"
         dlink: "./Project/TestPlan"
         points: 100
@@ -394,15 +389,15 @@ schedule:
   - week: "8"
     date: "2"
     title: "Standup Meetings"
-  - week: "9"
-    date: "0"
-    title: "Control Flow Coverage"
     deliverables:
       - dtitle: "Homework Assignment: Weekly Standup Reflection Due"
         dlink: "./Assignments/StandupReflection"
         points: 10
         submission_types: "written"
-        rubricpath: "_pages/Assignments/assignment-Standupreflection.md"
+        rubricpath: "_pages/Assignments/assignment-Standupreflection.md"    
+  - week: "9"
+    date: "0"
+    title: "Control Flow Coverage"
   - week: "9"
     date: "1"
     title: "Code Quality"
@@ -410,6 +405,12 @@ schedule:
   - week: "9"
     date: "2"
     title: "Standup Meetings"
+    deliverables:
+      - dtitle: "Homework Assignment: Weekly Standup Reflection Due"
+        dlink: "./Assignments/StandupReflection"
+        points: 10
+        submission_types: "written"
+        rubricpath: "_pages/Assignments/assignment-Standupreflection.md"    
   - week: "10"
     date: "0"
     title: "GUI"
@@ -417,12 +418,6 @@ schedule:
     readings:
     - rlink: "https://www.usability.gov/what-and-why/user-interface-design.html"
       rtitle: "User Interface Design Basics from usability.gov"    
-    deliverables:
-      - dtitle: "Homework Assignment: Weekly Standup Reflection Due"
-        dlink: "./Assignments/StandupReflection"
-        points: 10
-        submission_types: "written"
-        rubricpath: "_pages/Assignments/assignment-Standupreflection.md"
   - week: "10"
     date: "1"
     title: "Standup Meetings"
@@ -435,6 +430,12 @@ schedule:
   - week: "10"
     date: "2"
     title: "GUI"
+    deliverables:
+      - dtitle: "Homework Assignment: Weekly Standup Reflection Due"
+        dlink: "./Assignments/StandupReflection"
+        points: 10
+        submission_types: "written"
+        rubricpath: "_pages/Assignments/assignment-Standupreflection.md"    
   - week: "11"
     date: "0"
     title: "Cloud Architectures"

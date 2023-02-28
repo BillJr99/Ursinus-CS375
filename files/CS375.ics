@@ -411,7 +411,7 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc28
 DTSTAMP:20230313T000000Z
 DTSTART;VALUE=DATE:20230313
-SUMMARY:CS375 Software Engineering: Homework Assignment: Weekly Standup Reflection Due
+SUMMARY:CS375 Software Engineering: Software Test Plan: Test Plan Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
@@ -420,25 +420,25 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc29
 DTSTAMP:20230313T000000Z
 DTSTART;VALUE=DATE:20230313
-SUMMARY:CS375 Software Engineering: Software Test Plan: Test Plan Handed Out
+SUMMARY:CS375 Software Engineering: Class Meeting
+LOCATION:
+DESCRIPTION:\nDeliverable: Software Test Plan: Test Plan Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/TestPlan
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-03691d6afc2a
+DTSTAMP:20230315T000000Z
+DTSTART;VALUE=DATE:20230315
+SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc2a
-DTSTAMP:20230313T000000Z
-DTSTART;VALUE=DATE:20230313
-SUMMARY:CS375 Software Engineering: Class Meeting
-LOCATION:
-DESCRIPTION:\nDeliverable: Homework Assignment: Weekly Standup Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/StandupReflection\nDeliverable: Software Test Plan: Test Plan Handed Out https://www.billmongan.com/Ursinus-CS375-Spring2023/./Project/TestPlan
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc2b
-DTSTAMP:20230315T000000Z
-DTSTART;VALUE=DATE:20230315
-SUMMARY:CS375 Software Engineering: Class Meeting
+DTSTAMP:20230317T000000Z
+DTSTART;VALUE=DATE:20230317
+SUMMARY:CS375 Software Engineering: Homework Assignment: Weekly Standup Reflection Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
@@ -449,29 +449,20 @@ DTSTAMP:20230317T000000Z
 DTSTART;VALUE=DATE:20230317
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:\nDeliverable: Homework Assignment: Weekly Standup Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/StandupReflection
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc2d
 DTSTAMP:20230320T000000Z
 DTSTART;VALUE=DATE:20230320
-SUMMARY:CS375 Software Engineering: Homework Assignment: Weekly Standup Reflection Due
+SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc2e
-DTSTAMP:20230320T000000Z
-DTSTART;VALUE=DATE:20230320
-SUMMARY:CS375 Software Engineering: Class Meeting
-LOCATION:
-DESCRIPTION:\nDeliverable: Homework Assignment: Weekly Standup Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/StandupReflection
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc2f
 DTSTAMP:20230322T000000Z
 DTSTART;VALUE=DATE:20230322
 SUMMARY:CS375 Software Engineering: Class Meeting
@@ -480,34 +471,34 @@ DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./files/software
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc30
+UID:00000000-0000-0000-0000-03691d6afc2f
 DTSTAMP:20230324T000000Z
 DTSTART;VALUE=DATE:20230324
-SUMMARY:CS375 Software Engineering: Class Meeting
-LOCATION:
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc31
-DTSTAMP:20230327T000000Z
-DTSTART;VALUE=DATE:20230327
 SUMMARY:CS375 Software Engineering: Homework Assignment: Weekly Standup Reflection Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc32
+UID:00000000-0000-0000-0000-03691d6afc30
+DTSTAMP:20230324T000000Z
+DTSTART;VALUE=DATE:20230324
+SUMMARY:CS375 Software Engineering: Class Meeting
+LOCATION:
+DESCRIPTION:\nDeliverable: Homework Assignment: Weekly Standup Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/StandupReflection
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-03691d6afc31
 DTSTAMP:20230327T000000Z
 DTSTART;VALUE=DATE:20230327
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/GUI\nReading: User Interface Design Basics from usability.gov https://www.usability.gov/what-and-why/user-interface-design.html\nDeliverable: Homework Assignment: Weekly Standup Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/StandupReflection
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS375-Spring2023/./Activities/GUI\nReading: User Interface Design Basics from usability.gov https://www.usability.gov/what-and-why/user-interface-design.html
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc33
+UID:00000000-0000-0000-0000-03691d6afc32
 DTSTAMP:20230329T000000Z
 DTSTART;VALUE=DATE:20230329
 SUMMARY:CS375 Software Engineering: Software Test Plan: Test Plan Due
@@ -516,7 +507,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-03691d6afc34
+UID:00000000-0000-0000-0000-03691d6afc33
 DTSTAMP:20230329T000000Z
 DTSTART;VALUE=DATE:20230329
 SUMMARY:CS375 Software Engineering: Class Meeting
@@ -525,12 +516,21 @@ DESCRIPTION:\nDeliverable: Software Test Plan: Test Plan Due https://www.billmon
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
+UID:00000000-0000-0000-0000-03691d6afc34
+DTSTAMP:20230331T000000Z
+DTSTART;VALUE=DATE:20230331
+SUMMARY:CS375 Software Engineering: Homework Assignment: Weekly Standup Reflection Due
+LOCATION:
+DESCRIPTION:
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc35
 DTSTAMP:20230331T000000Z
 DTSTART;VALUE=DATE:20230331
 SUMMARY:CS375 Software Engineering: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:\nDeliverable: Homework Assignment: Weekly Standup Reflection Due https://www.billmongan.com/Ursinus-CS375-Spring2023/./Assignments/StandupReflection
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT

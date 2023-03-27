@@ -138,7 +138,7 @@ goals:
 - goal: "To develop and implement a code test plan with good code and control flow coverage"
 - goal: "To develop and implement a user acceptance test plan"
 - goal: "To document a software system for both end-users and other developers"
-- goal: "To work efficiently on a software team according to softwre engineering best practices"
+- goal: "To work efficiently on a software team according to software engineering best practices"
 - goal: "To design, develop, test, implement, document, and present a non-trivial software system"
 
 grade_breakdown:

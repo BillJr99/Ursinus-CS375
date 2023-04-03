@@ -16,7 +16,7 @@ info:
     - To use OAuth to enable user authentication when interacting with a RESTful web service
   models:
     - model: |
-        <iframe src="http://thecodebarbarian.com/github-oauth-login-with-node-js.html" width="100%" height="1068" scrolling="yes"></iframe>
+        <a href="http://thecodebarbarian.com/github-oauth-login-with-node-js.html">Review this article</a>
       title: RESTful Service Clients
       questions:
         - "Using the <a href=\"http://thecodebarbarian.com/github-oauth-login-with-node-js.html\">tutorial above</a>, write a program to support OAuth login to GitHub, writing a web service using express to capture the callback with the user's token.  You can enter the repl.it URL into a new tab in your browser to load the page, and set that same URL as the callback URL (add <code>/oauth-callback</code> to the callback URL field on the GitHub application page)."

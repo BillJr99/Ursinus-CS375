@@ -28,7 +28,7 @@ tags:
 
 ### What to Do
 
-In the self-reflection, you are to periodically comment on three areas:
+In the self-reflection, you are to periodically comment on these areas:
 
 1. Your individual contributions during the prior sprint
 2. Your planned individual contributions during the upcoming sprint

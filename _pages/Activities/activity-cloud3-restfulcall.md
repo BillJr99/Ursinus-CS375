@@ -2,7 +2,7 @@
 layout: activity
 permalink: /Activities/Cloud3
 title: "CS375: Software Engineering - RESTful Calls"
-excerpt: "CS375: Software Engineering - RESTful Calls"
+
 
 info:
   next: ./Cloud4

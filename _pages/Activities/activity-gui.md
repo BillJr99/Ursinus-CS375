@@ -2,7 +2,7 @@
 layout: activity
 permalink: /Activities/GUI
 title: "CS375: Software Engineering - GUI"
-excerpt: "CS375: Software Engineering - GUI"
+
 
 info:
   goals:

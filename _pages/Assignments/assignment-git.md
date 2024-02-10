@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Assignments/git
 title: "CS375: Software Engineering - git"
-excerpt: "CS375: Software Engineering - git"
+
 
 info:
   coursenum: CS375

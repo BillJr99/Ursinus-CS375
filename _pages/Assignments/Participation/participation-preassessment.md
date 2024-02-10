@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Assignments/Participation/PreAssessment
 title: "CS375: Software Engineering - Participation Pre Assessment"
-excerpt: "CS375: Software Engineering - Participation Pre Assessment"
+
 
 info:
   coursenum: CS375

@@ -2,7 +2,7 @@
 layout: activity
 permalink: /Activities/TestingCodeCoverage
 title: "CS375: Software Engineering - Software Testing and Code Coverage"
-excerpt: "CS375: Software Engineering - Software Testing and Code Coverage"
+
 
 info:
   goals:

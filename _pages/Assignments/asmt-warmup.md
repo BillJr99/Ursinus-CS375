@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Assignments/Warmup
 title: "CS375: Software Engineering - Warmup"
-excerpt: "CS375: Software Engineering - Warmup"
+
 
 info:
   coursenum: CS375

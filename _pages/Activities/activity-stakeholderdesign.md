@@ -2,7 +2,7 @@
 layout: activity
 permalink: /Activities/StakeholderDesign
 title: "CS375: Software Engineering - Stakeholder-based Design"
-excerpt: "CS375: Software Engineering - Stakeholder-based Design"
+
 
 info: 
   goals: 

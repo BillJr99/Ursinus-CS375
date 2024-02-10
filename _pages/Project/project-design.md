@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Project/Design
 title: "CS375: Software Engineering - Design Report"
-excerpt: "CS375: Software Engineering - Design Report"
+
 
 info:
   coursenum: CS375

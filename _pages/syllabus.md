@@ -2,7 +2,7 @@
 layout: syllabus
 permalink: /
 title: "CS375: Software Engineering"
-excerpt: "CS375: Software Engineering"
+
     
 info:
   course_number: CS375

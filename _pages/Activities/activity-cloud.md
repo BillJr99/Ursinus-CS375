@@ -2,7 +2,7 @@
 layout: activity
 permalink: /Activities/Cloud
 title: "CS375: Software Engineering - Cloud Architectures"
-excerpt: "CS375: Software Engineering - Cloud Architectures"
+
 
 info:
   next: ./Cloud2

@@ -2,7 +2,7 @@
 layout: activity
 permalink: /Activities/Gantt
 title: "CS375: Software Engineering - Task Dependencies: Gantt Charts and the Critical Path"
-excerpt: "CS375: Software Engineering - Task Dependencies: Gantt Charts and the Critical Path"
+
 
 info:
   goals:

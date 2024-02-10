@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Project/TestPlan
 title: "CS375: Software Engineering - Test Plan"
-excerpt: "CS375: Software Engineering - Test Plan"
+
 
 info:
   coursenum: CS375

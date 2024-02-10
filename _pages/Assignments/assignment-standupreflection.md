@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Assignments/StandupReflection
 title: "CS375: Software Engineering - Weekly Standup Reflection"
-excerpt: "CS375: Software Engineering - Weekly Standup Reflection"
+
 
 info:
   coursenum: CS375

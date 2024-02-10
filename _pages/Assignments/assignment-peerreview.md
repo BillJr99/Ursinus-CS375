@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Assignments/PeerReview
 title: "CS375: Software Engineering - Peer Review Survey"
-excerpt: "CS375: Software Engineering - Peer Review Survey"
+
 
 info:
   coursenum: CS375

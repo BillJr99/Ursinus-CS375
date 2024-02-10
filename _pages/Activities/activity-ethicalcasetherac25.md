@@ -2,7 +2,7 @@
 layout: activity
 permalink: /Activities/EthicalCaseTherac25
 title: "CS375: Software Engineering - Ethical Software Engineering Case Study: The Therac-25"
-excerpt: "CS375: Software Engineering - Ethical Software Engineering Case Study: The Therac-25"
+
 
 info:
   goals:

@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Assignments/Participation/SelfAssessment
 title: "CS375: Software Engineering - Participation Self Assessment"
-excerpt: "CS375: Software Engineering - Participation Self Assessment"
+
 
 info:
   coursenum: CS375

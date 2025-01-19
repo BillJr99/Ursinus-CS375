@@ -376,7 +376,7 @@ schedule:
         dlink: "./Assignments/StandupReflection"
         points: 10
         submission_types: "written"
-        rubricpath: "_pages/Assignments/assignment-Standupreflection.md"	
+        rubricpath: "_pages/Assignments/assignment-Standupreflection.md"
   - week: "8"
     date: "2"
     title: "Code Quality"

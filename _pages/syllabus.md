@@ -15,7 +15,7 @@ info:
   teamshelproom: https://teams.microsoft.com/l/channel/19%3AYlwiq3gdUgkGHpdG32JhKwdn2zIYZE4QOLqUF5U2rEU1%40thread.tacv2/?groupId=f2920d68-3bf2-4d1d-a726-e10f577ac5ab
   ical: files/CS375.ics
   course_prerequisites: "CS174"
-  course_start_date: "2025/01/22"
+  course_start_date: "2025/01/20"
   course_end_date: "2025/05/07"
   course_description: "Topics integral to the design, implementation and testing of a medium-scale software system combined with the practical experience of implementing such a project as a member of a programming team. Use of the Unified Modeling Language (UML) for software design. Prerequisite: A grade of C– or higher in CS-271. Offered in the spring semester. Three hours per week. Four semester hours. (Q.)"
   welcome_message: "Welcome to CS375!" 

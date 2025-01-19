@@ -10,12 +10,13 @@ info:
   - section: "A"
   course_title: "Software Engineering"
   credit_hours: "4 Semester Hours"
-  course_homepage: "https://www.billmongan.com/Ursinus-CS375-Spring2023/"
-  class_notebook: https://ursinuscollege365-my.sharepoint.com/personal/wmongan_ursinus_edu/Documents/Class%20Notebooks/CS375%20Spring%202023
+  course_homepage: "https://www.billmongan.com/Ursinus-CS375-Spring2025/"
+  class_notebook: https://ursinuscollege365-my.sharepoint.com/personal/wmongan_ursinus_edu/Documents/Class%20Notebooks/CS375%20Spring%202025
+  teamshelproom: https://teams.microsoft.com/l/channel/19%3AYlwiq3gdUgkGHpdG32JhKwdn2zIYZE4QOLqUF5U2rEU1%40thread.tacv2/?groupId=f2920d68-3bf2-4d1d-a726-e10f577ac5ab
   ical: files/CS375.ics
   course_prerequisites: "CS174"
-  course_start_date: "2023/01/16"
-  course_end_date: "2023/05/03"
+  course_start_date: "2025/01/22"
+  course_end_date: "2025/05/07"
   course_description: "Topics integral to the design, implementation and testing of a medium-scale software system combined with the practical experience of implementing such a project as a member of a programming team. Use of the Unified Modeling Language (UML) for software design. Prerequisite: A grade of C– or higher in CS-271. Offered in the spring semester. Three hours per week. Four semester hours. (Q.)"
   welcome_message: "Welcome to CS375!" 
   questions: |
@@ -37,29 +38,29 @@ info:
   class_meets_locations:
   - section:
     - day: "M"
-      starttime: "11:00 AM"
-      endtime: "11:50 AM"
-      place: "PFA 007"
+      starttime: "10:00 AM"
+      endtime: "10:50 AM"
+      place: "PFA 107"
     - day: "W"
-      starttime: "11:00 AM"
-      endtime: "11:50 AM"
-      place: "PFA 007"     
+      starttime: "10:00 AM"
+      endtime: "10:50 AM"
+      place: "PFA 107"   
     - day: "F"
-      starttime: "11:00 AM"
-      endtime: "11:50 AM"
-      place: "PFA 007"
+      starttime: "10:00 AM"
+      endtime: "10:50 AM"
+      place: "PFA 107"
   midtermexam: 
     - mdate: "TBD"
       mstarttime: "TBD"
       mendtime: "TBD"
       mroom: "TBD"      
   finalexam: 
-    - fdate: "2023/05/09"
-      fstarttime: "1:00 PM"
-      fendtime: "4:00 PM"
+    - fdate: "TBD"
+      fstarttime: "TBD"
+      fendtime: "TBD"
       froom: "Regular Class Period"
-  flexible_submission_policy: "In the absence of <a href=\"#accommodations\">accommodations</a> arranged in advance with the instructor or college, all assignments are due at 10:59PM Eastern Time on the date(s) stated on the schedule.  Assignments will be accepted without prior permission following this time with a points deduction of 4% per day if submitted before 10:59 PM Eastern Time on the day submitted.  Each student will receive a total of 10 &quot;slack days&quot; for the semester with which to waive these grade reductions; for example, one assignment may be submitted 10 days late, or two assignments may be submitted 5 days late, with no grade reduction.  Extra credit will not be awarded for assignments submitted under the flexible submission policy.  Students with accommodations will receive additional &quot;slack days&quot; as specified within the accommodations letter; however, some deliverables cannot be subject to accommodations due to the time-sensitive nature of the assignment (for example, group assignments, presentations, and course surveys).  Students who add the class late shall receive additional slack days equal to the number of days between the start of classes and the first date that approval is given or that class is attended (whichever occurs first).  Under no circumstances (including accommodations) can late work be accepted after the final class meeting, nor during final exams week, nor after the exam." 
-  late_penalty_per_period: 4
+  flexible_submission_policy: "In the absence of <a href=\"#accommodations\">accommodations</a> arranged in advance with the instructor or college, all assignments are due at 11:59 PM Eastern Time on the date(s) stated on the schedule.  With prior permission and a reasonable first draft submission by the deliverable deadline, any student may request a three day extension on any deliverable, as often as needed.  Assignments will be accepted without prior permission following the original deadline, or, if requested, following the three-day extension deadline, with a points deduction of 10% per day if submitted before 11:59 PM Eastern Time on the day submitted.  If a student adds the course late, deliverables due prior to or on the day of that student's registration will be due twice the number of days following the first day of the semester that they registered (for example, a student who registers on the third day of the semester shall receive six days to submit assignments from the first three days, and then the remainder of this policy takes effect for those and for all other deliverables).  Under no circumstances (including accommodations) can late work be accepted after the final class meeting, nor during final exams week, nor after the exam." 
+  late_penalty_per_period: 10
   late_penalty_period: "day"
   banner: |
     <div style="width: 100%; display: table; border-collapse:separate; border-spacing:5px;">
@@ -86,24 +87,20 @@ instructors:
   picture: /images/profile.png
   officehours:
   - day: "M"
-    starttime: "12:00 PM"
-    endtime: "1:00 PM"
+    starttime: "11:00 AM"
+    endtime: "12:00 PM"
     location: "Pfahler 101L"        
   - day: "W"
-    starttime: "12:00 PM"
-    endtime: "1:00 PM"
-    location: "Pfahler 101L" 
-  - day: "R"
-    starttime: "9:00 AM"
-    endtime: "10:00 PM"
-    location: "Pfahler 101L"     
-  - day: "R"
     starttime: "11:00 AM"
     endtime: "12:00 PM"
     location: "Pfahler 101L" 
+  - day: "R"
+    starttime: "10:00 AM"
+    endtime: "12:00 PM"
+    location: "Pfahler 101L"     
   - day: "F"
-    starttime: "12:00 PM"
-    endtime: "1:00 PM"
+    starttime: "11:00 AM"
+    endtime: "12:00 PM"
     location: "Pfahler 101L" 
     
 textbooks:
@@ -237,83 +234,52 @@ schedule:
         dlink: "./Assignments/Participation/PreAssessment"
         points: 10
         submission_types: "written"
-  - week: "2"
-    date: "0"
-    title: "Software Engineering: from Waterfall to Agile"
-    link: "./files/software-engineering/04-software-processes.pdf"
-    deliverables:
       - dtitle: "Homework Assignment: git Handed Out"
         dlink: "./Assignments/git"
         points: 100
-  - week: "2"
-    date: "1"
-    title: "Stakeholder-based Design"
-    link: "./Activities/StakeholderDesign"
-  - week: "2"
-    date: "2"
-    title: "Agile Methods: User Stories"
-    link: "./files/software-engineering/05-agile-methods.pdf"
+  - week: "3"
+    date: "0"
+    title: "Software Engineering: from Waterfall to Agile"
+    link: "./files/software-engineering/04-software-processes.pdf"
     deliverables:
       - dtitle: "Software Project Proposal: Project Proposal Due"
         dlink: "./Project/Proposal"
         points: 100
         submission_types: "written"
-        rubricpath: "_pages/Project/project-proposal.md"    
+        rubricpath: "_pages/Project/project-proposal.md"
   - week: "3"
-    date: "0"
-    title: "Task Dependencies: Gantt Charts and the Critical Path"
-    link: "./Activities/Gantt"
-    readings:
-      - rtitle: "MMM Chapter 2"
-        rlink: false
+    date: "1"
+    title: "Stakeholder-based Design"
+    link: "./Activities/StakeholderDesign"
     deliverables:
       - dtitle: "Software Requirements Report: Requirements Document Handed Out"
         dlink: "./Project/Requirements"
         points: 100
         submission_types: "written"
-        rubricpath: "_pages/Project/project-requirements.md"                
+        rubricpath: "_pages/Project/project-requirements.md"
   - week: "3"
-    date: "1"
-    title: "Standup Meetings"
+    date: "2"
+    title: "Agile Methods: User Stories"
+    link: "./files/software-engineering/05-agile-methods.pdf"
     deliverables:
+      - dtitle: "Homework Assignment: git Due"
+        dlink: "./Assignments/git"
+        points: 100
       - dtitle: "Homework Assignment: Weekly Standup Reflection Handed Out"
         dlink: "./Assignments/StandupReflection"
         points: 10
         submission_types: "written"
         rubricpath: "_pages/Assignments/assignment-standupreflection.md"
-  - week: "3"
-    date: "2"
-    title: "Requirements Engineering"
-    link: "./files/software-engineering/12-requirements-engineering.pdf"
-    readings:
-      - rtitle: "Re-Engineering a Reverse Engineering Portal to a Distributed SOA by William M. Mongan"
-        rlink: "https://www.cs.drexel.edu/~spiros/papers/ICPC08.pdf"
   - week: "4"
     date: "0"
-    title: "Software Architecture (front end, microservices, backend)"
-    link: "./files/software-architecture/software-architecture.pdf"
-    deliverables:
-      - dtitle: "Homework Assignment: git Due"
-        dlink: "./Assignments/git"
-        points: 100
-    readings:
-      - rtitle: "On the Use of Radio Frequency Identification for Continuous Biomedical Monitoring by William M. Mongan"
-        rlink: "https://dl.acm.org/doi/pdf/10.1145/3054977.3055002?download=true"
-      - rtitle: "Python Flask Database Example"
-        rlink: "https://replit.com/@BillJr99/FlaskDBDemo#main.py"
-  - week: "4"
-    date: "1"
-    title: "Standup Meetings"
-  - week: "4"
-    date: "2"
-    title: "UML Class Diagrams"
-    link: "./files/software-engineering/03-uml-testing.pdf"
+    title: "Task Dependencies: Gantt Charts and the Critical Path"
+    link: "./Activities/Gantt"
     deliverables:
       - dtitle: "Software Requirements Report: Requirements Document Due"
         dlink: "./Project/Requirements"
         points: 100
         submission_types: "written"
-        rubricpath: "_pages/Project/project-requirements.md"            
+        rubricpath: "_pages/Project/project-requirements.md"
       - dtitle: "Software Design: Design Report Handed Out"
         dlink: "./Project/Design"
         points: 100
@@ -322,166 +288,147 @@ schedule:
       - dtitle: "Homework Assignment: Weekly Standup Reflection Due"
         dlink: "./Assignments/StandupReflection"
         points: 10
-        submission_types: "written"
         rubricpath: "_pages/Assignments/assignment-Standupreflection.md"
-  - week: "5"
-    date: "0"
-    title: "Software Design: Design Patterns"
-    link: "./files/software-engineering/06-design-patterns-intro.pdf"
     readings:
-      - rtitle: "DPE Textbook"
-        rlink: false    
+      - rtitle: "MMM Chapter 2"
+        rlink: false
+  - week: "4"
+    date: "1"
+    title: "Requirements Engineering"
+    link: "./files/software-engineering/12-requirements-engineering.pdf"
     deliverables:
       - dtitle: "Participation: First Self-Assessment Handed Out"
         dlink: "./Assignments/Participation/SelfAssessment"
         points: 10
         submission_types: "written"
-  - week: "5"
-    date: "1"
-    title: "Standup Meetings"
-  - week: "5"
+  - week: "4"
     date: "2"
-    title: "Software Design: Design Patterns (Continued)"
-    link: "./files/software-engineering/07-design-patterns-2.pdf"
+    title: "Software Architecture (front end, microservices, backend)"
+    link: "./files/software-architecture/software-architecture.pdf"
+    readings:
+      - rtitle: "Re-Engineering a Reverse Engineering Portal to a Distributed SOA by William M. Mongan"
+        rlink: "https://www.cs.drexel.edu/~spiros/papers/ICPC08.pdf"
+  - week: "5"
+    date: "0"
+    title: "UML Class Diagrams"
+    link: "./files/software-engineering/03-uml-testing.pdf"
     deliverables:
       - dtitle: "Homework Assignment: Weekly Standup Reflection Due"
         dlink: "./Assignments/StandupReflection"
         points: 10
         submission_types: "written"
         rubricpath: "_pages/Assignments/assignment-Standupreflection.md"
-  - week: "6"
-    date: "0"
-    title: "Software Testing: User Acceptance Testing"
-    link: "./files/software-engineering/11-testing-ci.pdf"    
-  - week: "6"
-    date: "1"
-    title: "Software Testing: Unit Testing (white box) and Output Testing (black box)"
-    link: "./Activities/TestingCodeCoverage"
     readings:
-      - rlink: "https://ocw.mit.edu/ans7870/6/6.005/s16/classes/03-testing/"
-        rtitle: "Software Testing"
+      - rtitle: "On the Use of Radio Frequency Identification for Continuous Biomedical Monitoring by William M. Mongan"
+        rlink: "https://dl.acm.org/doi/pdf/10.1145/3054977.3055002?download=true"
+      - rtitle: "Python Flask Database Example"
+        rlink: "https://replit.com/@BillJr99/FlaskDBDemo#main.py"
+  - week: "5"
+    date: "1"
+    title: "Software Design: Design Patterns"
+    link: "./files/software-engineering/06-design-patterns-intro.pdf"
+    readings:
+      - rtitle: "DPE Textbook"
+        rlink: false
+  - week: "5"
+    date: "2"
+    title: "Software Design: Design Patterns (Continued)"
+    link: "./files/software-engineering/07-design-patterns-2.pdf"
     deliverables:
       - dtitle: "Software Design: Design Report Due"
         dlink: "./Project/Design"
         points: 100
         submission_types: "written"
-        rubricpath: "_pages/Project/project-design.md"        
+        rubricpath: "_pages/Project/project-design.md"
   - week: "6"
-    date: "2"
-    title: "Standup Meetings"   
+    date: "0"
+    title: "Software Testing: User Acceptance Testing"
+    link: "./files/software-engineering/11-testing-ci.pdf"
     deliverables:
       - dtitle: "Participation: First Self-Assessment Due"
         dlink: "./Assignments/Participation/SelfAssessment"
         points: 10
-        submission_types: "written"    
-  - week: "8"
-    date: "0"
+        submission_types: "written"
+  - week: "6"
+    date: "1"
     title: "Software Testing: Unit Testing (white box) and Output Testing (black box)"
+    link: "./Activities/TestingCodeCoverage"
     deliverables:
       - dtitle: "Software Test Plan: Test Plan Handed Out"
         dlink: "./Project/TestPlan"
         points: 100
         submission_types: "written"
-        rubricpath: "_pages/Project/project-testplan.md"         
-  - week: "8"
-    date: "1"
-    title: "Code Coverage and Control Flow Coverage"
-  - week: "8"
+        rubricpath: "_pages/Project/project-testplan.md"
+    readings:
+      - rtitle: "Software Testing"
+        rlink: "https://ocw.mit.edu/ans7870/6/6.005/s16/classes/03-testing/"
+  - week: "6"
     date: "2"
-    title: "Standup Meetings"
+    title: "Software Testing: Unit Testing (white box) and Output Testing (black box)"
+  - week: "8"
+    date: "0"
+    title: "Code Coverage and Control Flow Coverage"
     deliverables:
       - dtitle: "Homework Assignment: Weekly Standup Reflection Due"
         dlink: "./Assignments/StandupReflection"
         points: 10
         submission_types: "written"
-        rubricpath: "_pages/Assignments/assignment-Standupreflection.md"    
-  - week: "9"
-    date: "0"
-    title: "Control Flow Coverage"
-  - week: "9"
+        rubricpath: "_pages/Assignments/assignment-Standupreflection.md"
+  - week: "8"
     date: "1"
+    title: "Control Flow Coverage"
+  - week: "8"
+    date: "2"
     title: "Code Quality"
     link: "./files/software-engineering/08-code-quality.pdf"
-  - week: "9"
-    date: "2"
-    title: "Standup Meetings"
-    deliverables:
-      - dtitle: "Homework Assignment: Weekly Standup Reflection Due"
-        dlink: "./Assignments/StandupReflection"
-        points: 10
-        submission_types: "written"
-        rubricpath: "_pages/Assignments/assignment-Standupreflection.md"    
   - week: "10"
     date: "0"
     title: "GUI"
     link: "./Activities/GUI"
+    deliverables:
+      - dtitle: "Homework Assignment: Weekly Standup Reflection Due"
+        dlink: "./Assignments/StandupReflection"
+        points: 10
+        submission_types: "written"
+        rubricpath: "_pages/Assignments/assignment-Standupreflection.md"
     readings:
-    - rlink: "https://www.usability.gov/what-and-why/user-interface-design.html"
-      rtitle: "User Interface Design Basics from usability.gov"    
+      - rtitle: "User Interface Design Basics from usability.gov"
+        rlink: "https://www.usability.gov/what-and-why/user-interface-design.html"
   - week: "10"
     date: "1"
-    title: "Standup Meetings"
+    title: "GUI"
+  - week: "10"
+    date: "2"
+    title: "Cloud Architectures"
+    link: "./Activities/Cloud"
     deliverables:
       - dtitle: "Software Test Plan: Test Plan Due"
         dlink: "./Project/TestPlan"
         points: 100
         submission_types: "written"
         rubricpath: "_pages/Project/project-testplan.md"
-  - week: "10"
-    date: "2"
-    title: "GUI"
-    deliverables:
-      - dtitle: "Homework Assignment: Weekly Standup Reflection Due"
-        dlink: "./Assignments/StandupReflection"
-        points: 10
-        submission_types: "written"
-        rubricpath: "_pages/Assignments/assignment-Standupreflection.md"    
-  - week: "11"
-    date: "0"
-    title: "Cloud Architectures"
-    link: "./Activities/Cloud"
     readings:
       - rtitle: "Development and Specification of a Reference Model for Agent-Based Systems by William C. Regli et al"
         rlink: "https://tjkopena.com/publications/04926156.pdf"
   - week: "11"
-    date: "1"
-    title: "Standup Meetings"
-  - week: "11"
-    date: "2"
-    title: "Cloud Architectures"
-    deliverables:
-      - dtitle: "Homework Assignment: Weekly Standup Reflection Due"
-        dlink: "./Assignments/StandupReflection"
-        points: 10
-        submission_types: "written"
-        rubricpath: "_pages/Assignments/assignment-Standupreflection.md"
-  - week: "12"
     date: "0"
     title: "Cloud Architectures"
     deliverables:
-      - dtitle: "Software Documentation: Final Report Handed Out"
-        dlink: "./Project/DocumentationFinalReport"
-        points: 100
-        submission_types: "written"
-    readings:
-      - rtitle: "Developing an Agent Systems Reference Architecture by Duc N. Nguyen et al"
-        rlink: "https://apps.dtic.mil/dtic/tr/fulltext/u2/a549190.pdf"
-  - week: "12"
-    date: "1"
-    title: "Standup Meetings"
-  - week: "12"
-    date: "2"
-    title: "Ethical Software Engineering Case Study: The Therac-25"
-    link: "./Activities/EthicalCaseTherac25"
-    deliverables:
-      - dtitle: "Final Presentation: Code and Presentation Handed Out"
-        dlink: "./Project/Presentation"
-        points: 100
       - dtitle: "Homework Assignment: Weekly Standup Reflection Due"
         dlink: "./Assignments/StandupReflection"
         points: 10
         submission_types: "written"
         rubricpath: "_pages/Assignments/assignment-Standupreflection.md"
+  - week: "11"
+    date: "1"
+    title: "Cloud Architectures"
+    readings:
+      - rtitle: "Developing an Agent Systems Reference Architecture by Duc N. Nguyen et al"
+        rlink: "https://apps.dtic.mil/dtic/tr/fulltext/u2/a549190.pdf"
+  - week: "11"
+    date: "2"
+    title: "Ethical Software Engineering Case Study: The Therac-25"
+    link: "./Activities/EthicalCaseTherac25"
     readings:
       - rtitle: "Medical Devices: The Therac-25 by Nancy Levinson"
         rlink: "https://www.cs.ucf.edu/~dcm/Teaching/COP4600-Fall2010/Literature/Therac25-Leveson.pdf"
@@ -489,19 +436,8 @@ schedule:
         rlink: "https://onlineethics.org/cases/therac-25/therac-25-case-narrative"
       - rtitle: "THERAC-25: History's Worst Software Error by Kyle Hill"
         rlink: "https://www.youtube.com/watch?v=Ap0orGCiou8"
-  - week: "13"
+  - week: "12"
     date: "0"
-    title: "Project Workshop"
-  - week: "13"
-    date: "1"
-    title: "Standup Meetings"
-    deliverables:
-      - dtitle: "Participation: Second Self-Assessment Handed Out"
-        dlink: "./Assignments/Participation/SelfAssessment"
-        points: 10
-        submission_types: "written"
-  - week: "13"
-    date: "2"
     title: "Project Workshop"
     deliverables:
       - dtitle: "Homework Assignment: Weekly Standup Reflection Due"
@@ -509,114 +445,141 @@ schedule:
         points: 10
         submission_types: "written"
         rubricpath: "_pages/Assignments/assignment-Standupreflection.md"
+  - week: "12"
+    date: "1"
+    title: "Project Workshop"
+    deliverables:
+      - dtitle: "Software Documentation: Final Report Handed Out"
+        dlink: "./Project/DocumentationFinalReport"
+        points: 100
+        submission_types: "written"
+  - week: "12"
+    date: "2"
+    title: "Project Workshop"
+  - week: "13"
+    date: "0"
+    title: "Project Workshop"
+    deliverables:
+      - dtitle: "Homework Assignment: Weekly Standup Reflection Due"
+        dlink: "./Assignments/StandupReflection"
+        points: 10
+        submission_types: "written"
+        rubricpath: "_pages/Assignments/assignment-Standupreflection.md"
+      - dtitle: "Final Presentation: Code and Presentation Handed Out"
+        dlink: "./Project/Presentation"
+        points: 100
+  - week: "13"
+    date: "2"
+    title: "Project Workshop"
+    deliverables:
+      - dtitle: "Participation: Second Self-Assessment Handed Out"
+        dlink: "./Assignments/Participation/SelfAssessment"
+        points: 10
+        submission_types: "written"
   - week: "14"
     date: "0"
     title: "Project Workshop"
     deliverables:
-      - dtitle: "Software Documentation: Final Report Due"
-        dlink: "./Project/DocumentationFinalReport"
-        points: 100
-        submission_types: "written"
       - dtitle: "Peer Review: Peer Review Survey Handed Out"
         dlink: "./Assignments/PeerReview"
         points: 10
         submission_types: "written"
   - week: "14"
     date: "1"
-    title: "Standup Meetings"
+    title: "Project Workshop"
+  - week: "14"
+    date: "2"
+    title: "Project Workshop"
+    deliverables:
+      - dtitle: "Software Documentation: Final Report Due"
+        dlink: "./Project/DocumentationFinalReport"
+        points: 100
+        submission_types: "written"
+  - week: "15"
+    date: "0"
+    title: "Project Workshop"
     deliverables:
       - dtitle: "Participation: Second Self-Assessment Due"
         dlink: "./Assignments/Participation/SelfAssessment"
         points: 10
         submission_types: "written"
-  - week: "14"
-    date: "2"
+  - week: "15"
+    date: "1"
     title: "Project Workshop"
     deliverables:
       - dtitle: "Final Presentation: Code and Presentation Due"
         dlink: "./Project/Presentation"
         points: 100
-      - dtitle: "Homework Assignment: Weekly Standup Reflection Due"
-        dlink: "./Assignments/StandupReflection"
-        points: 10
-        submission_types: "written"
-        rubricpath: "_pages/Assignments/assignment-Standupreflection.md"
-  - week: "15"
-    date: "0"
-    title: "Final Presentations"
-  - week: "15"
-    date: "1"
-    title: "Final Presentations"
-    deliverables:
       - dtitle: "Peer Review: Peer Review Survey Due"
         dlink: "./Assignments/PeerReview"
         points: 10
         submission_types: "written"
             
 university:
-  semester: "Spring"
-  academicyear: "2022-23"
+  semester: "Fall"
+  academicyear: "2024-25"
   fall:
   - kname: "Add Deadline"
-    kdate: "2022/09/10"
+    kdate: "2024/09/6"
     kdisplay: true
-  - kname: "Drop with a W Deadline"
-    kdate: "2022/10/27"
-    kdisplay: true  
   - kname: "Mid Semester Grades Posted"
-    kdate: "2022/10/15"
+    kdate: "2024/10/11"
     kdisplay: false
+  - kname: "Drop with a W Deadline"
+    kdate: "2024/11/19"
+    kdisplay: true      
   - kname: "Reading Day"
-    kdate: "2022/12/11"
+    kdate: "2024/12/10"
     kdisplay: true
   - kname: "Finals Week Begins"
-    kdate: "2022/12/13"
+    kdate: "2024/12/11"
     kdisplay: false
   - kname: "Finals Week Ends"
-    kdate: "2022/12/18"
+    kdate: "2024/12/17"
     kdisplay: false
   spring:
   - kname: "Add Deadline"
-    kdate: "2023/1/31"
-    kdisplay: true
-  - kname: "Drop with a W Deadline"
-    kdate: "2023/03/22"
+    kdate: "2025/02/4"
     kdisplay: true
   - kname: "Mid Semester Grades Posted"
-    kdate: "2023/03/3"
+    kdate: "2025/03/7"
     kdisplay: false
+  - kname: "Drop with a W Deadline"
+    kdate: "2025/04/18"
+    kdisplay: true    
   - kname: "CoSA"
-    kdate: "2023/04/19"
-    kdisplay: true  
+    kdate: "2025/04/23"
+    kdisplay: true   
   - kname: "Reading Day"
-    kdate: "2023/05/4"
-    kdisplay: false    
-  - kname: "Baccalaureate"
-    kdate: "2023/05/12"
-    kdisplay: false
-  - kname: "Commencement"
-    kdate: "2023/05/13"
+    kdate: "2025/05/8"
     kdisplay: false
   - kname: "Finals Week Begins"
-    kdate: "2023/05/05"
+    kdate: "2025/05/09"
     kdisplay: false
   - kname: "Finals Week Ends"
-    kdate: "2023/05/11"
+    kdate: "2025/05/15"
+    kdisplay: false    
+  - kname: "Baccalaureate"
+    kdate: "2025/05/16"
+    kdisplay: false
+  - kname: "Commencement"
+    kdate: "2025/05/17"
     kdisplay: false    
   fallholidays:
-  - date: "2022/10/17"
-  - date: "2022/10/18"
-  - date: "2022/11/24"
-  - date: "2022/11/25"
-  - date: "2022/11/26" 
+  - date: "2024/10/14"
+  - date: "2024/10/15"
+  - date: "2024/10/16"
+  - date: "2024/11/27"
+  - date: "2024/11/28"
+  - date: "2024/11/29" 
   springholidays:
-  - date: "2023/01/16"  
-  - date: "2023/01/17"
-  - date: "2023/03/6"  
-  - date: "2023/03/7"
-  - date: "2023/03/8" 
-  - date: "2023/03/9"
-  - date: "2023/03/10"   
+  - date: "2025/01/20"  
+  - date: "2025/01/21"
+  - date: "2025/03/10"  
+  - date: "2025/03/11"
+  - date: "2025/03/12" 
+  - date: "2025/03/13"
+  - date: "2025/03/14"   
   
 ---
 

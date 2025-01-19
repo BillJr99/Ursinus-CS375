@@ -1,0 +1,22 @@
+plugins:
+  - jekyll-relative-links
+#  - jekyll-target-blank
+
+relative_links:
+  enabled: true
+  collections: true
+
+theme: jekyll-theme-slate
+
+title: "CS375"
+description: "Software Engineering"
+
+url                      : https://BillJr99.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/Ursinus-CS375-Spring2023" # the subpath of your site, e.g. "/blog"
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
+

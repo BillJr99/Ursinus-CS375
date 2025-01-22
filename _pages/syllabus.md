@@ -516,7 +516,7 @@ schedule:
         submission_types: "written"
             
 university:
-  semester: "Fall"
+  semester: "Spring"
   academicyear: "2024-25"
   fall:
   - kname: "Add Deadline"

@@ -73,6 +73,10 @@ Finally, identify those non-functional requirements (for example, hardware deplo
 
 Include a Gantt chart for your project that schedules each of your sprints.  Each sprint should culminate in a prototype or proof-of-concept toward your final project.  The Gantt chart should identify dependencies between tasks within each sprint.
 
+### Press Release
+
+Write up a "press release" document that describes your project to the layperson.  Show this to at least three people outside of your class project, and validate the feasibility of your project as well as their understanding of its goals and capabilities.  Provide and answer a list of frequently asked questions about your project.
+
 ### Website
 
 Include your requirements report on the project website.

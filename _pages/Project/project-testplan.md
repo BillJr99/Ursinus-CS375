@@ -33,6 +33,8 @@ info:
   readings:
     - rlink: "../files/exampledocs/NLiVE_TestPlan.pdf"
       rtitle: "Example test plan document"
+    - rlink: "https://docs.github.com/en/actions/writing-workflows/about-workflows"
+      rtitle: "GitHub Workflows"
 
 tags:
   - project
@@ -53,6 +55,9 @@ Methods that are difficult to test using unit tests can be tested with output te
 
 ### User Acceptance Testing
 For each functional requirement, write a script that is appropriate for giving to an end user (a non-technical user) that would allow them to exercise the functional requirement.  Indicate what result they should observe if the feature executed correctly.  If the requirement depends on other requirements, you can first write the acceptance test script for those requirements, and simply refer to them by acceptance test number (for example: "Precondition: complete user acceptance test #1 to log in").
+
+### Automation
+Create GitHub workflows to execute your suite of tests and coverage reports on each checkin.  Examples for various language platforms can be found [here](https://docs.github.com/en/actions/use-cases-and-examples/building-and-testing).
 
 ### Website
 

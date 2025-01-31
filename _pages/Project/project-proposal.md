@@ -63,7 +63,8 @@ Include a rotation schedule for these roles.  Every 3-5 weeks, these roles shoul
 Your proposal should contain the following, likely as document sections:
 
 1. A description of your project
-2. A compelling need for the project
+2. A compelling need for the project 
+* Be clear about the problem you are solving, and for whom you plan to solve those problems
 3. A description of your stakeholder groups
 4. The technical expertise of your project group, as well as each member's roles and responsibilities
 * A discussion of technical aspects your group may need to learn in order to be successful

@@ -83,13 +83,15 @@ Follow the steps below to create a github repository.  Your project will present
 
 #### Checking out your Repository
 
-Cloning the repository downloads it to your local computer.  You can do this as many times as you wish, and synchronize across them.  You can even share the repository with other users, and they can operate on the repository locally as well.
+Cloning the repository downloads it to your local computer.  You can do this as many times as you wish, and synchronize across them.  
 
 ![Cloning a GitHub Repository](../images/github/git-clone.gif)
 
+You can even share the repository with other users, and they can operate on the repository locally as well.  To do this, click the menu button from your repository page, and select `Settings`.  Go to the `Collaborators` menu from here, and add the username or email address of the user you want to share your repository with.  You can share with multiple collaborators, and give each varying degrees of access to your repository.
+
 #### Pushing and Pulling to your Repository
 
-Sometimes, you'll have private files in your repository directory that are important, but too senstive (or just custom to each local computer) to save to the remote repository in the cloud.  For this reason, you'll explicitly ***add*** each file that you want to upload to the cloud.  Note that you also add files that you've modified even if they already exist.  
+Sometimes, you'll have private files in your repository directory that are important, but too sensitive (or just custom to each local computer) to save to the remote repository in the cloud.  For this reason, you'll explicitly ***add*** each file that you want to upload to the cloud.  Note that you also add files that you've modified even if they already exist.  
 
 Once you've added your file(s), you can ***commit*** your changes to the repository.  This creates a log timestamp that you can see in the repository to track who did what and when.  You can even roll back your repository to any point in time marked by one of these commits.  It's a good idea to commit relatively often, whenever a major milestone is reached that you might like to revert to or review someday.  It's also a good idea to specify a commit log message so that these commits make sense beyond simply what files were modified and how.  This is specified with the ``-m`` flag to ``git commit``.
 

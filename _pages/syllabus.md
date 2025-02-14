@@ -274,11 +274,6 @@ schedule:
     date: "0"
     title: "Task Dependencies: Gantt Charts and the Critical Path"
     link: "./Activities/Gantt"
-    deliverables:
-      - dtitle: "Homework Assignment: Weekly Standup Reflection Due"
-        dlink: "./Assignments/StandupReflection"
-        points: 10
-        rubricpath: "_pages/Assignments/assignment-Standupreflection.md"
     readings:
       - rtitle: "MMM Chapter 2"
         rlink: false

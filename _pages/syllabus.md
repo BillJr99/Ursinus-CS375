@@ -275,16 +275,6 @@ schedule:
     title: "Task Dependencies: Gantt Charts and the Critical Path"
     link: "./Activities/Gantt"
     deliverables:
-      - dtitle: "Software Requirements Report: Requirements Document Due"
-        dlink: "./Project/Requirements"
-        points: 100
-        submission_types: "written"
-        rubricpath: "_pages/Project/project-requirements.md"
-      - dtitle: "Software Design: Design Report Handed Out"
-        dlink: "./Project/Design"
-        points: 100
-        submission_types: "written"
-        rubricpath: "_pages/Project/project-design.md"
       - dtitle: "Homework Assignment: Weekly Standup Reflection Due"
         dlink: "./Assignments/StandupReflection"
         points: 10
@@ -313,6 +303,16 @@ schedule:
     title: "UML Class Diagrams"
     link: "./files/software-engineering/03-uml-testing.pdf"
     deliverables:
+      - dtitle: "Software Requirements Report: Requirements Document Due"
+        dlink: "./Project/Requirements"
+        points: 100
+        submission_types: "written"
+        rubricpath: "_pages/Project/project-requirements.md"
+      - dtitle: "Software Design: Design Report Handed Out"
+        dlink: "./Project/Design"
+        points: 100
+        submission_types: "written"
+        rubricpath: "_pages/Project/project-design.md"    
       - dtitle: "Homework Assignment: Weekly Standup Reflection Due"
         dlink: "./Assignments/StandupReflection"
         points: 10
@@ -335,11 +335,6 @@ schedule:
     title: "Software Design: Design Patterns (Continued)"
     link: "./files/software-engineering/07-design-patterns-2.pdf"
     deliverables:
-      - dtitle: "Software Design: Design Report Due"
-        dlink: "./Project/Design"
-        points: 100
-        submission_types: "written"
-        rubricpath: "_pages/Project/project-design.md"
   - week: "6"
     date: "0"
     title: "Software Testing: User Acceptance Testing"
@@ -354,6 +349,11 @@ schedule:
     title: "Software Testing: Unit Testing (white box) and Output Testing (black box)"
     link: "./Activities/TestingCodeCoverage"
     deliverables:
+      - dtitle: "Software Design: Design Report Due"
+        dlink: "./Project/Design"
+        points: 100
+        submission_types: "written"
+        rubricpath: "_pages/Project/project-design.md"    
       - dtitle: "Software Test Plan: Test Plan Handed Out"
         dlink: "./Project/TestPlan"
         points: 100

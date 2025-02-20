@@ -281,11 +281,6 @@ schedule:
     date: "1"
     title: "Requirements Engineering"
     link: "./files/software-engineering/12-requirements-engineering.pdf"
-    deliverables:
-      - dtitle: "Participation: First Self-Assessment Handed Out"
-        dlink: "./Assignments/Participation/SelfAssessment"
-        points: 10
-        submission_types: "written"
   - week: "4"
     date: "2"
     title: "Software Architecture (front end, microservices, backend)"
@@ -322,6 +317,11 @@ schedule:
     date: "1"
     title: "Software Design: Design Patterns"
     link: "./files/software-engineering/06-design-patterns-intro.pdf"
+    deliverables:
+      - dtitle: "Participation: First Self-Assessment Handed Out"
+        dlink: "./Assignments/Participation/SelfAssessment"
+        points: 10
+        submission_types: "written"    
     readings:
       - rtitle: "DPE Textbook"
         rlink: false
@@ -334,11 +334,6 @@ schedule:
     date: "0"
     title: "Software Testing: User Acceptance Testing"
     link: "./files/software-engineering/11-testing-ci.pdf"
-    deliverables:
-      - dtitle: "Participation: First Self-Assessment Due"
-        dlink: "./Assignments/Participation/SelfAssessment"
-        points: 10
-        submission_types: "written"
   - week: "6"
     date: "1"
     title: "Software Testing: Unit Testing (white box) and Output Testing (black box)"
@@ -360,6 +355,11 @@ schedule:
   - week: "6"
     date: "2"
     title: "Software Testing: Unit Testing (white box) and Output Testing (black box)"
+    deliverables:
+      - dtitle: "Participation: First Self-Assessment Due"
+        dlink: "./Assignments/Participation/SelfAssessment"
+        points: 10
+        submission_types: "written"    
   - week: "8"
     date: "0"
     title: "Code Coverage and Control Flow Coverage"

@@ -354,12 +354,7 @@ schedule:
         rlink: "https://ocw.mit.edu/ans7870/6/6.005/s16/classes/03-testing/"
   - week: "6"
     date: "2"
-    title: "Software Testing: Unit Testing (white box) and Output Testing (black box)"
-    deliverables:
-      - dtitle: "Participation: First Self-Assessment Due"
-        dlink: "./Assignments/Participation/SelfAssessment"
-        points: 10
-        submission_types: "written"    
+    title: "Software Testing: Unit Testing (white box) and Output Testing (black box)"  
   - week: "8"
     date: "0"
     title: "Code Coverage and Control Flow Coverage"
@@ -376,6 +371,11 @@ schedule:
     date: "2"
     title: "Code Quality"
     link: "./files/software-engineering/08-code-quality.pdf"
+    deliverables:
+      - dtitle: "Participation: First Self-Assessment Due"
+        dlink: "./Assignments/Participation/SelfAssessment"
+        points: 10
+        submission_types: "written"      
   - week: "10"
     date: "0"
     title: "GUI"

@@ -352,6 +352,10 @@ schedule:
     readings:
       - rtitle: "Software Testing"
         rlink: "https://ocw.mit.edu/ans7870/6/6.005/s16/classes/03-testing/"
+      - rtitle: "Python Test Cases and Github Workflows"
+        rlink: "https://replit.com/@BillJr99/GithubWorkflowPythonTestExample#main.py"
+      - rtitle: "Python Test Cases and Code Coverage"
+        rlink: "https://replit.com/@BillJr99/PyTestingAndCoverage"
   - week: "6"
     date: "2"
     title: "Software Testing: Unit Testing (white box) and Output Testing (black box)"  

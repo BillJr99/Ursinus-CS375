@@ -375,6 +375,9 @@ schedule:
     date: "2"
     title: "Code Quality"
     link: "./files/software-engineering/08-code-quality.pdf"
+    readings:
+      - rtitle: "Refactoring Guru"
+        rlink: "https://refactoring.guru/"
     deliverables:
       - dtitle: "Participation: First Self-Assessment Due"
         dlink: "./Assignments/Participation/SelfAssessment"

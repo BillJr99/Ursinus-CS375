@@ -376,7 +376,7 @@ schedule:
     title: "Code Quality"
     link: "./files/software-engineering/08-code-quality.pdf"
     readings:
-      - rtitle: "Refactoring Guru"
+      - rtitle: "Refactoring Guru (Courtesy of Eugene Thompson)"
         rlink: "https://refactoring.guru/"
     deliverables:
       - dtitle: "Participation: First Self-Assessment Due"

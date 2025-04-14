@@ -433,7 +433,7 @@ schedule:
     link: "./Activities/EthicalCaseTherac25"
     readings:
       - rtitle: "Medical Devices: The Therac-25 by Nancy Levinson"
-        rlink: "https://www.cs.ucf.edu/~dcm/Teaching/COP4600-Fall2010/Literature/Therac25-Leveson.pdf"
+        rlink: "https://web.archive.org/web/20230315023228/https://www.cs.ucf.edu/~dcm/Teaching/COP4600-Fall2010/Literature/Therac25-Leveson.pdf"
       - rtitle: "Therac-25 Case Narrative"
         rlink: "https://onlineethics.org/cases/therac-25/therac-25-case-narrative"
       - rtitle: "THERAC-25: History's Worst Software Error by Kyle Hill"

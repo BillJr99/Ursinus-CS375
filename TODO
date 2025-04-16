@@ -2,3 +2,7 @@ Add github kanban/workflow timeline as gantt chart
 Add docker 
 Add CI via github
 Add MVC jwt node example and database example from replit
+testing at MVC - black/white/acceptance at each level
+don't need timestamp default values like createDate at the view, can put in the sql query (model) or in the intermediary (controller)
+Wireshark
+Color palettes

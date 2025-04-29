@@ -1,9 +1,12 @@
 Add github kanban/workflow timeline as gantt chart
-Add docker 
+Add docker and CD
 Add CI via github
+GitHub pages website
 Add MVC jwt node example and database example from replit
 testing at MVC - black/white/acceptance at each level
 don't need timestamp default values like createDate at the view, can put in the sql query (model) or in the intermediary (controller)
 Wireshark
 Color palettes
 Assign to people from gantt chart
+Requirements, Objects/API summary, Test Plan, User manual only
+Submit standup minutes including attendance each week

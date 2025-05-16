@@ -329,7 +329,6 @@ schedule:
     date: "2"
     title: "Software Design: Design Patterns (Continued)"
     link: "./files/software-engineering/07-design-patterns-2.pdf"
-    deliverables:
   - week: "6"
     date: "0"
     title: "Software Testing: User Acceptance Testing"

@@ -5,6 +5,9 @@ title: "CS375: Software Engineering - RESTful Services"
 
 
 info:
+  additional_reading:
+    - title: "Weather Client Example"
+      link: "https://repl.it/@BillJr99/WeatherClientExample"   
   next: ./Cloud3
   prev: ./Cloud
   
@@ -31,8 +34,6 @@ info:
         - What do the curly braces represent?
         - What does the square bracket represent?
         - Modify the program to access this RESTful endpoint and, in a loop, print out each day's date (using <code>validt</code>) and temperature. An example <code>for</code> loop in <a href=\"https://www.w3schools.com/js/js_json_arrays.asp\">JavaScript</a> is given above.
-      embed: |
-        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/WeatherClientExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
     - model: |
         <div align="left">
         <pre>

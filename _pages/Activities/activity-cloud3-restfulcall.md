@@ -5,6 +5,9 @@ title: "CS375: Software Engineering - RESTful Calls"
 
 
 info:
+  additional_reading:
+    - title: "Weather Client Example"
+      link: "https://repl.it/@BillJr99/WeatherClientExample"   
   next: ./Cloud4
   prev: ./Cloud2
   
@@ -28,8 +31,6 @@ info:
       title: RESTful Exchanges
       questions:
         - Modify the program to print out the length of daylight (between sunrise and sunset) in hours, minutes, and seconds.  Note that the sunrise and sunset times are given in Unix epoch time, which is the number of seconds that have elapsed since January 1, 1970.
-      embed: |
-        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/WeatherClientExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
         
 tags:
   - rest

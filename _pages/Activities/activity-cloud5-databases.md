@@ -44,9 +44,8 @@ info:
             </table>      
           </div>
       title: Relational Databases
-      embed: <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/MySQLExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>        
       questions:
-        - Draw a flow chart of the function calls in the program below.
+        - Draw a flow chart of the function calls in the MySql example program.
     - model: |
           <div>
             <strong>People</strong><br />
@@ -169,15 +168,18 @@ info:
         - "If you put a <code>process.exit()</code>statement at the bottom of the first example, what do you think would happen?"
         - "In the second example, why is there a <code>return</code> statement in the middle of execution?  This statement does not return from the function: what do you think it does?"
         - "What are the advantages and disadvantages of the <code>await</code> statements in the third example?"     
-    - model: See the Example Below
-      title: RESTful Services with a Database Backend    
-      embed: <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/ExpressMySQLExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
   additional_reading:
     - link: https://dbdiagram.io/home
       title: "dbdiagram.io"  
     - link: https://dev.to/techschoolguru/design-db-schema-and-generate-sql-code-with-dbdiagram-io-4ko5
       title: "Design DB Schema and Generate SQL Code with dbdiagram"
+    - link: https://repl.it/@BillJr99/MySQLExample
+      title: "MySQL Example"        
+    - link: https://repl.it/@BillJr99/ExpressMySQLExample
+      title: "Express MySQL Example"  
+    - link: https://repl.it/@BillJr99/MySQLPromiseExample
+      title: "MySQL Promise Example"    
       
 tags:
   - databases

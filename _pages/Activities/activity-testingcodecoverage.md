@@ -155,10 +155,6 @@ info:
           unittest.main()
         ]]></script>        
       title: Unit Testing and Code Coverage
-      embed: |
-        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/PyTestingAndCoverage?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>     
-        <br>
-        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/GithubWorkflowPythonTestExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe> 
       questions:
         - "Run the unit tests above and generate a code coverage report."
         - "How can you improve code coverage to 100%, by testing all code branches?"
@@ -169,7 +165,11 @@ info:
   additional_reading:
     - link: https://ocw.mit.edu/ans7870/6/6.005/s16/classes/03-testing/#blackbox_and_whitebox_testing
       title: "Software Testing by MIT"
-
+    - link: https://repl.it/@BillJr99/PyTestingAndCoverage
+      title: "Python Testing and Coverage Example"
+    - link: https://repl.it/@BillJr99/GithubWorkflowPythonTestExample
+      title: "Github Automated Testing Workflow Example"
+      
 tags:
   - testing
 

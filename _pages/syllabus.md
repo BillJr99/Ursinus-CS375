@@ -66,13 +66,13 @@ info:
     <div style="width: 100%; display: table; border-collapse:separate; border-spacing:5px;">
     <div style="width: 100%; display: table-row;">
         <div style="display: table-cell; padding:5px; width:33%;">
-            <a title="Aflafla1, CC0, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Iterative_development_model.svg"><img width="100%" alt="Iterative development model" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Iterative_development_model.svg"></a>
+            <a title="Aflafla1, CC0, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Iterative_development_model.svg"><img width="100%" alt="Iterative development model" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Iterative_development_model.svg"></a>
         </div>
         <div style="display: table-cell; padding:5px; width:33%;">
-            <a title="Trashtoy, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:UML_class_diagram_example.svg"><img width="100%" alt="UML class diagram example" src="https://upload.wikimedia.org/wikipedia/commons/3/34/UML_class_diagram_example.svg"></a>
+            <a title="Trashtoy, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:UML_class_diagram_example.svg"><img width="100%" alt="UML class diagram example" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/UML_class_diagram_example.svg"></a>
         </div>
         <div style="display: table-cell; padding:5px; width:33%;">
-            <a title="Ayalshi, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Agile_testing_process_by_ayal_shimoni.png"><img width="100%" alt="Agile testing process by ayal shimoni" src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Agile_testing_process_by_ayal_shimoni.png"></a>
+            <a title="Ayalshi, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Agile_testing_process_by_ayal_shimoni.png"><img width="100%" alt="Agile testing process by ayal shimoni" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Agile_testing_process_by_ayal_shimoni.png"></a>
         </div>
     </div>
     </div>

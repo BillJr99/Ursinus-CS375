@@ -100,7 +100,7 @@ info:
         </tbody>
         </table>
         <br>
-        <a title="Dbsheajr at the English-language Wikipedia, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Pert_example_gantt_chart.gif"><img width="512" alt="Pert example gantt chart" src="https://upload.wikimedia.org/wikipedia/commons/7/73/Pert_example_gantt_chart.gif"></a>
+        <a title="Dbsheajr at the English-language Wikipedia, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Pert_example_gantt_chart.gif"><img width="512" alt="Pert example gantt chart" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Pert_example_gantt_chart.gif"></a>
         </div>
       title: Gantt Charts
       questions:

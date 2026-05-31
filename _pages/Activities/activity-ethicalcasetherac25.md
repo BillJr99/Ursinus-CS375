@@ -11,7 +11,7 @@ info:
 
   models:
     - model: |
-        <a title="Ajzh2074, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Therac_25_Malfunction_54_8_sec.gif"><img width="512" alt="Therac 25 Malfunction 54 8 sec" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Therac_25_Malfunction_54_8_sec.gif/512px-Therac_25_Malfunction_54_8_sec.gif"></a>
+        <a title="Ajzh2074, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Therac_25_Malfunction_54_8_sec.gif"><img width="512" alt="Therac 25 Malfunction 54 8 sec" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Therac_25_Malfunction_54_8_sec.gif"></a>
       title: "Case Study: The Therac-25"
       questions:
         - "What was Malfunction 54?  What steps reproduced Malfunction 54?"

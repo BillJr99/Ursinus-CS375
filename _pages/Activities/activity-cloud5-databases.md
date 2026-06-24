@@ -160,9 +160,9 @@ info:
         - What is the problem being demonstrated here?  How might you write a program that is vulnerable to this type of attack?
         - "What can we do to prevent this?  The solution is <a href=\"https://www.veracode.com/blog/secure-development/how-prevent-sql-injection-nodejs\">provided automatically by a node.js library</a>, which you should use when concatenating user input to executable code."
     - model: |
-        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/MySQLExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
+        <iframe height="400px" width="100%" src="https://www.billmongan.com/Ursinus-CS375/assets/code-viewer.html?zip=https%3A%2F%2Fraw.githubusercontent.com%2FBillJr99%2FUrsinus-CS375%2Fgh-pages%2Ffiles%2Freplit%2FMySQLExample.zip&title=My%20SQLExample" scrolling="yes" frameborder="no" allowfullscreen="true" sandbox="allow-scripts allow-same-origin"></iframe>  
       title: node.js Promises, Revisited
-      embed: <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/MySQLPromiseExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe><br /><iframe height="400px" width="100%" src="https://repl.it/@BillJr99/MySQLAwaitExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+      embed: <iframe height="400px" width="100%" src="https://www.billmongan.com/Ursinus-CS375/assets/code-viewer.html?zip=https%3A%2F%2Fraw.githubusercontent.com%2FBillJr99%2FUrsinus-CS375%2Fgh-pages%2Ffiles%2Freplit%2FMySQLPromiseExample.zip&title=My%20SQLPromise%20Example" scrolling="yes" frameborder="no" allowfullscreen="true" sandbox="allow-scripts allow-same-origin"></iframe><br /><iframe height="400px" width="100%" src="https://www.billmongan.com/Ursinus-CS375/assets/code-viewer.html?zip=https%3A%2F%2Fraw.githubusercontent.com%2FBillJr99%2FUrsinus-CS375%2Fgh-pages%2Ffiles%2Freplit%2FMySQLAwaitExample.zip&title=My%20SQLAwait%20Example" scrolling="yes" frameborder="no" allowfullscreen="true" sandbox="allow-scripts allow-same-origin"></iframe>
       questions:
         - In the first example, why is the code hard to follow?
         - "If you put a <code>process.exit()</code>statement at the bottom of the first example, what do you think would happen?"
@@ -174,15 +174,13 @@ info:
       title: "dbdiagram.io"  
     - link: https://dev.to/techschoolguru/design-db-schema-and-generate-sql-code-with-dbdiagram-io-4ko5
       title: "Design DB Schema and Generate SQL Code with dbdiagram"
-    - link: https://repl.it/@BillJr99/MySQLExample
-      title: "MySQL Example"        
-    - link: https://repl.it/@BillJr99/ExpressMySQLExample
-      title: "Express MySQL Example"  
-    - link: https://repl.it/@BillJr99/MySQLPromiseExample
-      title: "MySQL Promise Example"    
       
 tags:
   - databases
   
 ---
 
+
+## Example: Express MySQL Example
+
+<iframe height="500px" width="100%" src="https://www.billmongan.com/Ursinus-CS375/assets/code-viewer.html?zip=https%3A%2F%2Fraw.githubusercontent.com%2FBillJr99%2FUrsinus-CS375%2Fgh-pages%2Ffiles%2Freplit%2FExpressMySQLExample.zip&title=Express%20MySQL%20Example" scrolling="yes" frameborder="no" allowfullscreen="true" sandbox="allow-scripts allow-same-origin"></iframe>

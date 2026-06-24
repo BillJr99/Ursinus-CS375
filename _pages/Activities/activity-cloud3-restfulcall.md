@@ -5,9 +5,6 @@ title: "CS375: Software Engineering - RESTful Calls"
 
 
 info:
-  additional_reading:
-    - title: "Weather Client Example"
-      link: "https://repl.it/@BillJr99/WeatherClientExample"   
   next: ./Cloud4
   prev: ./Cloud2
   
@@ -37,3 +34,7 @@ tags:
   
 ---
 
+
+## Example: Weather Client Example
+
+<iframe height="500px" width="100%" src="https://www.billmongan.com/Ursinus-CS375/assets/code-viewer.html?zip=https%3A%2F%2Fraw.githubusercontent.com%2FBillJr99%2FUrsinus-CS375%2Fgh-pages%2Ffiles%2Freplit%2FWeatherClientExample.zip&title=Weather%20Client%20Example" scrolling="yes" frameborder="no" allowfullscreen="true" sandbox="allow-scripts allow-same-origin"></iframe>

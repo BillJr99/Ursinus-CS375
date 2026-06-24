@@ -5,9 +5,6 @@ title: "CS375: Software Engineering - RESTful Services"
 
 
 info:
-  additional_reading:
-    - title: "Weather Client Example"
-      link: "https://repl.it/@BillJr99/WeatherClientExample"   
   next: ./Cloud3
   prev: ./Cloud
   
@@ -117,10 +114,10 @@ info:
         <img src="../images/examples/restfulserviceexample/curl-restserviceexample-postputget.png" alt="Performing an update with cURL">
         <br>
       title: RESTful Service
-      embed: <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/RESTfulServiceExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
+      embed: <iframe height="400px" width="100%" src="https://www.billmongan.com/Ursinus-CS375/assets/code-viewer.html?zip=https%3A%2F%2Fraw.githubusercontent.com%2FBillJr99%2FUrsinus-CS375%2Fgh-pages%2Ffiles%2Freplit%2FRESTfulServiceExample.zip&title=RESTful%20Service%20Example" scrolling="yes" frameborder="no" allowfullscreen="true" sandbox="allow-scripts allow-same-origin"></iframe>  
       questions:
         - "Launch the given web service and invoke it using your choice of web client.  To do this, you will want to set up a <a href=\"http://mongodb.com\">mongodb</a> database, add a test user with a password, and allow access from any IP address.  MongoDB will give you a connection string that you can paste into <code>index.js</code> over my default <code>test_user</code> connection string.  <a href=\"https://dev.to/lennythedev/rest-api-with-mongodb-atlas-cloud-node-and-express-in-10-minutes-2ii1\">This article</a> details setting up a MongoDB account and data store.  In the code example, you can update your mongodb link, including your username and password, in the mongoose.connect line.  Be sure to remove these from your code when you're done, or better yet, de-activate that user account on mongodb (you can schedule this to expire when you create it)!"
-        - "Invoke the service using a node.js application or a JavaScript browser client.  You can use the Advanced REST Client plugin for Chrome (or Postman, or a similar REST client plugin, on other browsers) or the <code>curl</code> command to execute your web service, in addition to the client code examples we saw previously.  Just update the link to your repl.it server project link in the commands or URL's shown here."
+        - "Invoke the service using a node.js application or a JavaScript browser client.  You can use the Advanced REST Client plugin for Chrome (or Postman, or a similar REST client plugin, on other browsers) or the <code>curl</code> command to execute your web service, in addition to the client code examples we saw previously.  Just update the link to your server project link in the commands or URL's shown here."
         - What HTTP verb is used to create a new item?  To retrieve an item?  To update an item?  To delete an item?
         - Why is POST used to create items while PUT is used to update them?  Aren't these interchangeable?
         - "What if you wanted to support other verbs on these items, like <code>putOnSale</code>?  Are service endpoints typically nouns or verbs, and how might you re-work a sale verb like this one into an appropriate CRUD endpoint?"
@@ -133,3 +130,7 @@ tags:
   
 ---
 
+
+## Example: Weather Client Example
+
+<iframe height="500px" width="100%" src="https://www.billmongan.com/Ursinus-CS375/assets/code-viewer.html?zip=https%3A%2F%2Fraw.githubusercontent.com%2FBillJr99%2FUrsinus-CS375%2Fgh-pages%2Ffiles%2Freplit%2FWeatherClientExample.zip&title=Weather%20Client%20Example" scrolling="yes" frameborder="no" allowfullscreen="true" sandbox="allow-scripts allow-same-origin"></iframe>

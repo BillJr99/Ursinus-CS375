@@ -165,13 +165,17 @@ info:
   additional_reading:
     - link: https://ocw.mit.edu/ans7870/6/6.005/s16/classes/03-testing/#blackbox_and_whitebox_testing
       title: "Software Testing by MIT"
-    - link: https://repl.it/@BillJr99/PyTestingAndCoverage
-      title: "Python Testing and Coverage Example"
-    - link: https://repl.it/@BillJr99/GithubWorkflowPythonTestExample
-      title: "Github Automated Testing Workflow Example"
       
 tags:
   - testing
 
 ---
 
+
+## Example: Python Testing and Coverage Example
+
+<iframe height="500px" width="100%" src="https://www.billmongan.com/Ursinus-CS375/assets/code-viewer.html?zip=https%3A%2F%2Fraw.githubusercontent.com%2FBillJr99%2FUrsinus-CS375%2Fgh-pages%2Ffiles%2Freplit%2FPyTestingAndCoverage.zip&title=Python%20Testing%20and%20Coverage%20Example" scrolling="yes" frameborder="no" allowfullscreen="true" sandbox="allow-scripts allow-same-origin"></iframe>
+
+## Example: Github Automated Testing Workflow Example
+
+<iframe height="500px" width="100%" src="https://www.billmongan.com/Ursinus-CS375/assets/code-viewer.html?zip=https%3A%2F%2Fraw.githubusercontent.com%2FBillJr99%2FUrsinus-CS375%2Fgh-pages%2Ffiles%2Freplit%2FGithubWorkflowPythonTestExample.zip&title=Github%20Automated%20Testing%20Workflow%20Example" scrolling="yes" frameborder="no" allowfullscreen="true" sandbox="allow-scripts allow-same-origin"></iframe>

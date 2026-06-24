@@ -311,8 +311,6 @@ schedule:
     readings:
       - rtitle: "On the Use of Radio Frequency Identification for Continuous Biomedical Monitoring by William M. Mongan"
         rlink: "https://dl.acm.org/doi/pdf/10.1145/3054977.3055002?download=true"
-      - rtitle: "Python Flask Database Example"
-        rlink: "https://replit.com/@BillJr99/FlaskDBDemo#main.py"
   - week: "5"
     date: "1"
     title: "Software Design: Design Patterns"
@@ -351,10 +349,6 @@ schedule:
     readings:
       - rtitle: "Software Testing"
         rlink: "https://ocw.mit.edu/ans7870/6/6.005/s16/classes/03-testing/"
-      - rtitle: "Python Test Cases and Github Workflows"
-        rlink: "https://replit.com/@BillJr99/GithubWorkflowPythonTestExample#main.py"
-      - rtitle: "Python Test Cases and Code Coverage"
-        rlink: "https://replit.com/@BillJr99/PyTestingAndCoverage"
   - week: "6"
     date: "2"
     title: "Software Testing: Unit Testing (white box) and Output Testing (black box)"  

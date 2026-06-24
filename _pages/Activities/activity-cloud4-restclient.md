@@ -11,8 +11,6 @@ info:
   additional_reading:
     - title: "GitHub OAuth Login with Node.js"
       link: "http://thecodebarbarian.com/github-oauth-login-with-node-js.html"
-    - title: "Weather Client Example"
-      link: "https://repl.it/@BillJr99/WeatherClientExample"      
   goals: 
     - To explore Representational State Transfer (REST) as applied to HTTP web calls
     - To use OAuth to enable user authentication when interacting with a RESTful web service
@@ -29,3 +27,7 @@ tags:
   
 ---
 
+
+## Example: Weather Client Example
+
+<iframe height="500px" width="100%" src="https://www.billmongan.com/Ursinus-CS375/assets/code-viewer.html?zip=https%3A%2F%2Fraw.githubusercontent.com%2FBillJr99%2FUrsinus-CS375%2Fgh-pages%2Ffiles%2Freplit%2FWeatherClientExample.zip&title=Weather%20Client%20Example" scrolling="yes" frameborder="no" allowfullscreen="true" sandbox="allow-scripts allow-same-origin"></iframe>

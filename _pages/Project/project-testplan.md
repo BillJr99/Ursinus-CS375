@@ -59,6 +59,10 @@ For each software component/method, decision branch, and line of code, ensure th
 ### Black Box (Output) Testing
 Methods that are difficult to test using unit tests can be tested with output tests.  Here, you can indicate that you will run a particular portion of the program and verify its output.  It is best if these are written in a shell script.
 
+### Testing at Each Architectural Layer
+
+Organize your black box and white box tests by architectural layer, as practiced in the [testing activity](../Activities/TestingCodeCoverage): for each layer of your system (model, controller/service, and view), your plan should identify white box (unit) tests, black box (input/output) tests, and the acceptance tests that exercise that layer.  A 3x3 layer-by-strategy matrix summarizing where each of your tests falls is an effective way to present this and to spot gaps (for example, a controller with no black box tests, or a view that is never exercised by an acceptance script).  Note how coverage is measured differently in each column: code coverage for white box tests, input classes and boundaries for black box tests, and requirements coverage for acceptance tests.
+
 ### User Acceptance Testing
 For each functional requirement, write a script that is appropriate for giving to an end user (a non-technical user) that would allow them to exercise the functional requirement.  Indicate what result they should observe if the feature executed correctly.  If the requirement depends on other requirements, you can first write the acceptance test script for those requirements, and simply refer to them by acceptance test number (for example: "Precondition: complete user acceptance test #1 to log in").
 

@@ -20,7 +20,7 @@ info:
     - "The project website includes a video of a usage demonstration"
     b:
     - "Each item required for a grade of C is included"
-    - "The presentation includes a summary of the proposal, stakeholders, requirements, design, and test plan"
+    - "The presentation includes a summary of the project concept, stakeholders, requirements, Objects/API summary, and test plan"
     - "The project submitted was substantially consistent with the project proposed to and approved by the Professor"
     c:
     - "Each item required for a grade of D is included"
@@ -35,7 +35,7 @@ tags:
 
 Submit your final presentation and codebase.  Each member of your group should have a speaking role in the presentation, which should last approximately 20 minutes (15 minutes speaking and demonstration, with 5 minutes of questions and answers).  You should rehearse your presentation as a group at least once before presenting!  Dress appropriately for the presentation, if you are able.
 
-Your presentation should summarize your proposal, stakeholders, requirements, design, and test plan, and should also include a review of the codebase and a demo of the software.
+Your presentation should summarize your project concept, stakeholders, requirements, Objects/API summary, and test plan, and should also include a review of the codebase and a demo of the software.
 
 ### Website
 

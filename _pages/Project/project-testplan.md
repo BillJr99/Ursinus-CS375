@@ -11,13 +11,19 @@ info:
     - To produce a test plan including unit tests, output tests, and user acceptance tests
 
   rubric:
-  - weight: 40
+  - weight: 10
+    description: Continuous Integration
+    preemerging: No continuous integration workflow is present in the project repository
+    beginning: A continuous integration workflow exists but does not run the project test suite, or fails on the current main branch
+    progressing: A continuous integration workflow runs the test suite on each push, and passes on the current main branch
+    proficient: A continuous integration workflow runs the test suite and coverage report on each push, passes on the current main branch, and the report links to a passing run
+  - weight: 35
     description: Black Box and White Box Tests
     preemerging: Unit tests (or output tests) are generally unclear, missing, or inappropriate for the project being tested
     beginning: Unit tests (or output tests) are given for each software method or component, but some boundary or erroneous inputs are missing that would result in a more robust test plan
     progressing: Unit tests (or output tests) with appropriate inputs are given for nearly all software methods or components
     proficient: Unit tests (or output tests) with appropriate inputs are given for each software method or component
-  - weight: 40
+  - weight: 35
     description: User Acceptance Tests
     preemerging: User acceptance test scripts are missing, unclear, or missing dependencies with respect to software requirements
     beginning: User acceptance test scripts are written for many software requirements and are cross-referenced with acceptance tests for many dependent requirements    
@@ -53,11 +59,17 @@ For each software component/method, decision branch, and line of code, ensure th
 ### Black Box (Output) Testing
 Methods that are difficult to test using unit tests can be tested with output tests.  Here, you can indicate that you will run a particular portion of the program and verify its output.  It is best if these are written in a shell script.
 
+### Testing at Each Architectural Layer
+
+Organize your black box and white box tests by architectural layer, as practiced in the [testing activity](../Activities/TestingCodeCoverage): for each layer of your system (model, controller/service, and view), your plan should identify white box (unit) tests, black box (input/output) tests, and the acceptance tests that exercise that layer.  A 3x3 layer-by-strategy matrix summarizing where each of your tests falls is an effective way to present this and to spot gaps (for example, a controller with no black box tests, or a view that is never exercised by an acceptance script).  Note how coverage is measured differently in each column: code coverage for white box tests, input classes and boundaries for black box tests, and requirements coverage for acceptance tests.
+
 ### User Acceptance Testing
 For each functional requirement, write a script that is appropriate for giving to an end user (a non-technical user) that would allow them to exercise the functional requirement.  Indicate what result they should observe if the feature executed correctly.  If the requirement depends on other requirements, you can first write the acceptance test script for those requirements, and simply refer to them by acceptance test number (for example: "Precondition: complete user acceptance test #1 to log in").
 
-### Automation
-Create GitHub workflows to execute your suite of tests and coverage reports on each checkin.  Examples for various language platforms can be found [here](https://docs.github.com/en/actions/use-cases-and-examples/building-and-testing).
+### Automation: Continuous Integration Must Pass
+Create GitHub workflows to execute your suite of tests and coverage reports on each checkin, as practiced in the [CI/CD activity](../Activities/CICD).  Examples for various language platforms can be found [here](https://docs.github.com/en/actions/use-cases-and-examples/building-and-testing).
+
+A **passing CI workflow is a requirement of this deliverable**: your repository must contain a GitHub Actions workflow that runs your test suite on every push, and that workflow must be passing (green) on your main branch at the time you submit.  Include in your report a link to (or screenshot of) a passing workflow run from the **Actions** tab of your repository.  From this point forward in the project, treat a red X on main as a stop-the-line event: fixing the build takes priority over new feature work, just as it does on a professional team.
 
 ### Website
 

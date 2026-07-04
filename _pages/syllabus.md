@@ -139,15 +139,13 @@ goals:
 - goal: "To design, develop, test, implement, document, and present a non-trivial software system"
 
 grade_breakdown:
-- category: "Software Project Proposal"
-  weight: "5%"
-- category: "Software Requirements Report"
-  weight: "5%"
-- category: "Software Design"
+- category: "Software Requirements Report (including the Project Concept)"
+  weight: "10%"
+- category: "Objects/API Summary"
   weight: "10%"
 - category: "Software Test Plan"
   weight: "15%"
-- category: "Software Documentation"
+- category: "User Manual and Technical Documentation"
   weight: "20%"  
 - category: "Final Presentation"
   weight: "20%"  
@@ -209,11 +207,11 @@ schedule:
     date: "0"
     title: "Software Project Brainstorm"
     deliverables:
-      - dtitle: "Software Project Proposal: Project Proposal Handed Out"
-        dlink: "./Project/Proposal"
+      - dtitle: "Software Requirements Report: Project Concept (Requirements Part 1) Handed Out"
+        dlink: "./Project/Requirements"
         points: 100
         submission_types: "written"
-        rubricpath: "_pages/Project/project-proposal.md"
+        rubricpath: "_pages/Project/project-requirements.md"
     readings:
       - rtitle: "MMM Chapter 16"
         rlink: false
@@ -242,17 +240,17 @@ schedule:
     title: "Software Engineering: from Waterfall to Agile"
     link: "./files/software-engineering/04-software-processes.pdf"
     deliverables:
-      - dtitle: "Software Project Proposal: Project Proposal Due"
-        dlink: "./Project/Proposal"
+      - dtitle: "Software Requirements Report: Project Concept (Requirements Part 1) Due"
+        dlink: "./Project/Requirements"
         points: 100
         submission_types: "written"
-        rubricpath: "_pages/Project/project-proposal.md"
+        rubricpath: "_pages/Project/project-requirements.md"
   - week: "3"
     date: "1"
     title: "Stakeholder-based Design"
     link: "./Activities/StakeholderDesign"
     deliverables:
-      - dtitle: "Software Requirements Report: Requirements Document Handed Out"
+      - dtitle: "Software Requirements Report: Full Requirements Report Handed Out"
         dlink: "./Project/Requirements"
         points: 100
         submission_types: "written"
@@ -293,12 +291,12 @@ schedule:
     title: "UML Class Diagrams"
     link: "./files/software-engineering/03-uml-testing.pdf"
     deliverables:
-      - dtitle: "Software Requirements Report: Requirements Document Due"
+      - dtitle: "Software Requirements Report: Full Requirements Report Due"
         dlink: "./Project/Requirements"
         points: 100
         submission_types: "written"
         rubricpath: "_pages/Project/project-requirements.md"
-      - dtitle: "Software Design: Design Report Handed Out"
+      - dtitle: "Objects/API Summary: Objects/API Summary Report Handed Out"
         dlink: "./Project/Design"
         points: 100
         submission_types: "written"
@@ -307,7 +305,7 @@ schedule:
         dlink: "./Assignments/StandupReflection"
         points: 10
         submission_types: "written"
-        rubricpath: "_pages/Assignments/assignment-Standupreflection.md"
+        rubricpath: "_pages/Assignments/assignment-standupreflection.md"
     readings:
       - rtitle: "On the Use of Radio Frequency Identification for Continuous Biomedical Monitoring by William M. Mongan"
         rlink: "https://dl.acm.org/doi/pdf/10.1145/3054977.3055002?download=true"
@@ -336,7 +334,7 @@ schedule:
     title: "Software Testing: Unit Testing (white box) and Output Testing (black box)"
     link: "./Activities/TestingCodeCoverage"
     deliverables:
-      - dtitle: "Software Design: Design Report Due"
+      - dtitle: "Objects/API Summary: Objects/API Summary Report Due"
         dlink: "./Project/Design"
         points: 100
         submission_types: "written"
@@ -351,7 +349,11 @@ schedule:
         rlink: "https://ocw.mit.edu/ans7870/6/6.005/s16/classes/03-testing/"
   - week: "6"
     date: "2"
-    title: "Software Testing: Unit Testing (white box) and Output Testing (black box)"  
+    title: "Continuous Integration and Continuous Deployment (CI/CD) with GitHub Actions and Docker"
+    link: "./Activities/CICD"
+    readings:
+      - rtitle: "Continuous Integration by Martin Fowler"
+        rlink: "https://martinfowler.com/articles/continuousIntegration.html"
   - week: "8"
     date: "0"
     title: "Code Coverage and Control Flow Coverage"
@@ -363,7 +365,7 @@ schedule:
         dlink: "./Assignments/StandupReflection"
         points: 10
         submission_types: "written"
-        rubricpath: "_pages/Assignments/assignment-Standupreflection.md"
+        rubricpath: "_pages/Assignments/assignment-standupreflection.md"
   - week: "8"
     date: "2"
     title: "Code Quality"
@@ -385,13 +387,17 @@ schedule:
         dlink: "./Assignments/StandupReflection"
         points: 10
         submission_types: "written"
-        rubricpath: "_pages/Assignments/assignment-Standupreflection.md"
+        rubricpath: "_pages/Assignments/assignment-standupreflection.md"
     readings:
       - rtitle: "User Interface Design Basics from usability.gov"
         rlink: "https://www.usability.gov/what-and-why/user-interface-design.html"
   - week: "10"
     date: "1"
-    title: "GUI"
+    title: "Model-View-Controller (MVC) Architecture"
+    link: "./Activities/MVC"
+    readings:
+      - rtitle: "MVC from MDN Web Docs"
+        rlink: "https://developer.mozilla.org/en-US/docs/Glossary/MVC"
   - week: "10"
     date: "2"
     title: "Cloud Architectures"
@@ -413,7 +419,7 @@ schedule:
         dlink: "./Assignments/StandupReflection"
         points: 10
         submission_types: "written"
-        rubricpath: "_pages/Assignments/assignment-Standupreflection.md"
+        rubricpath: "_pages/Assignments/assignment-standupreflection.md"
   - week: "11"
     date: "1"
     title: "Cloud Architectures"
@@ -439,12 +445,12 @@ schedule:
         dlink: "./Assignments/StandupReflection"
         points: 10
         submission_types: "written"
-        rubricpath: "_pages/Assignments/assignment-Standupreflection.md"
+        rubricpath: "_pages/Assignments/assignment-standupreflection.md"
   - week: "12"
     date: "1"
     title: "Project Workshop"
     deliverables:
-      - dtitle: "Software Documentation: Final Report Handed Out"
+      - dtitle: "User Manual: User Manual and Technical Documentation Handed Out"
         dlink: "./Project/DocumentationFinalReport"
         points: 100
         submission_types: "written"
@@ -459,7 +465,7 @@ schedule:
         dlink: "./Assignments/StandupReflection"
         points: 10
         submission_types: "written"
-        rubricpath: "_pages/Assignments/assignment-Standupreflection.md"
+        rubricpath: "_pages/Assignments/assignment-standupreflection.md"
       - dtitle: "Final Presentation: Code and Presentation Handed Out"
         dlink: "./Project/Presentation"
         points: 100
@@ -486,7 +492,7 @@ schedule:
     date: "2"
     title: "Project Workshop"
     deliverables:
-      - dtitle: "Software Documentation: Final Report Due"
+      - dtitle: "User Manual: User Manual and Technical Documentation Due"
         dlink: "./Project/DocumentationFinalReport"
         points: 100
         submission_types: "written"

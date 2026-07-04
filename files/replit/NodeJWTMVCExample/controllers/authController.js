@@ -52,4 +52,4 @@ function login(req, res) {
   return res.json({ token });
 }
 
-module.exports = { register, login, JWT_SECRET };
+module.exports = { register, login };

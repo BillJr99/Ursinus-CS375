@@ -49,7 +49,7 @@ info:
     - rlink: "../files/exampledocs/NLiVE_RS.pdf"
       rtitle: "Example requirements document"
     - rlink: "https://docs.github.com/en/pages/quickstart"
-      rtitle: "Github Pages Quickstart"
+      rtitle: "GitHub Pages Quickstart"
 
 tags:
   - project
@@ -89,7 +89,7 @@ Your concept should contain the following, likely as document sections:
 5. The minimum viable project scope: what functionality would you absolutely need to complete to be successful?
 6. Aspirant scope: what additional features do you want to incorporate if time permits?
 7. A rough timeline of the project scope, estimating on an hourly basis (assuming 8 hours per week per group member) the duration of each feature you identified as minimally viable and aspirant.
-8. A summary of the intellectural merit of your project: why is it worth doing, and what is novel about it?
+8. A summary of the intellectual merit of your project: why is it worth doing, and what is novel about it?
 9. A summary of the broader impacts of your project: who benefits beyond your project group, and how?
 
 ### Suggestions

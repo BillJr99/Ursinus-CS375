@@ -30,8 +30,16 @@ slot in without changing the models.
 
 ```
 npm install
-node server.js
+JWT_SECRET="pick-a-long-random-string" node server.js
 ```
+
+The `JWT_SECRET` environment variable is the key the server uses to sign
+and verify tokens.  If you omit it, the code falls back to a hard-coded
+development-only value (`dev-secret-change-me`) so the example runs out of
+the box -- but anyone who knows that default could forge tokens, so set a
+real secret (and keep it out of source control, e.g. in a `.env` file or
+your deployment platform's secrets settings) anywhere beyond your own
+laptop.
 
 ## Try it
 

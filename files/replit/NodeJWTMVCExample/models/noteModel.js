@@ -34,6 +34,14 @@ function findByOwner(ownerId) {
 }
 
 function createNote(ownerId, text) {
+  // The model enforces the data rules even though the controller also
+  // validates: every path into storage goes through this check, so a bug
+  // (or a future second controller) cannot persist a blank note.  Unit
+  // tests can exercise this error branch directly.
+  if (typeof text !== 'string' || text.trim() === '') {
+    throw new Error('note text must be a non-empty string');
+  }
+
   const notes = loadNotes();
   const note = {
     id: notes.length === 0 ? 1 : notes[notes.length - 1].id + 1,

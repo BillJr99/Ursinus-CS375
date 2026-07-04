@@ -22,8 +22,10 @@ function listNotes(req, res) {
 function createNote(req, res) {
   const { text } = req.body || {};
 
-  if (!text) {
-    return res.status(400).json({ error: 'text is required' });
+  // "text is required" means a real, non-blank string -- reject numbers,
+  // objects, and whitespace-only strings too, not just missing values.
+  if (typeof text !== 'string' || text.trim() === '') {
+    return res.status(400).json({ error: 'text is required and must be a non-empty string' });
   }
 
   const note = noteModel.createNote(req.user.sub, text);

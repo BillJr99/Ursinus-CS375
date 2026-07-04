@@ -114,9 +114,9 @@ To add CI to a Python project:
 
 The complete working example below contains a small Python program, a `pytest` test suite, and the workflow file wired together; browse the code and note where each piece lives in the directory tree.
 
-### Example: Github Automated Testing Workflow Example
+### Example: GitHub Automated Testing Workflow Example
 
-<iframe height="500px" width="100%" src="https://www.billmongan.com/Ursinus-CS375/assets/code-viewer.html?zip=https%3A%2F%2Fraw.githubusercontent.com%2FBillJr99%2FUrsinus-CS375%2Fgh-pages%2Ffiles%2Freplit%2FGithubWorkflowPythonTestExample.zip&title=Github%20Automated%20Testing%20Workflow%20Example" scrolling="yes" frameborder="no" allowfullscreen="true" sandbox="allow-scripts allow-same-origin"></iframe>
+<iframe height="500px" width="100%" src="https://www.billmongan.com/Ursinus-CS375/assets/code-viewer.html?zip=https%3A%2F%2Fraw.githubusercontent.com%2FBillJr99%2FUrsinus-CS375%2Fgh-pages%2Ffiles%2Freplit%2FGitHubWorkflowPythonTestExample.zip&title=GitHub%20Automated%20Testing%20Workflow%20Example" scrolling="yes" frameborder="no" allowfullscreen="true" sandbox="allow-scripts allow-same-origin"></iframe>
 
 For other languages (node.js, Java, and others), GitHub provides starter workflows: see the "Building and Testing" link in the readings, or click **Actions**, then **New workflow** in your repository and GitHub will suggest one that matches your project.
 

@@ -96,7 +96,7 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc05
 DTSTAMP:20250127T000000Z
 DTSTART;VALUE=DATE:20250127
-SUMMARY:CS375 Software Engineering: Software Project Proposal: Project Proposal Handed Out
+SUMMARY:CS375 Software Engineering: Software Requirements Report: Project Concept (Requirements Part 1) Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
@@ -132,7 +132,7 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc09
 DTSTAMP:20250210T000000Z
 DTSTART;VALUE=DATE:20250210
-SUMMARY:CS375 Software Engineering: Software Project Proposal: Project Proposal Due
+SUMMARY:CS375 Software Engineering: Software Requirements Report: Project Concept (Requirements Part 1) Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
@@ -141,7 +141,7 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc0a
 DTSTAMP:20250212T000000Z
 DTSTART;VALUE=DATE:20250212
-SUMMARY:CS375 Software Engineering: Software Requirements Report: Requirements Document Handed Out
+SUMMARY:CS375 Software Engineering: Software Requirements Report: Full Requirements Report Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
@@ -168,7 +168,7 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc0d
 DTSTAMP:20250224T000000Z
 DTSTART;VALUE=DATE:20250224
-SUMMARY:CS375 Software Engineering: Software Requirements Report: Requirements Document Due
+SUMMARY:CS375 Software Engineering: Software Requirements Report: Full Requirements Report Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
@@ -177,7 +177,7 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc0e
 DTSTAMP:20250224T000000Z
 DTSTART;VALUE=DATE:20250224
-SUMMARY:CS375 Software Engineering: Software Design: Design Report Handed Out
+SUMMARY:CS375 Software Engineering: Objects/API Summary: Objects/API Summary Report Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
@@ -204,7 +204,7 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc11
 DTSTAMP:20250305T000000Z
 DTSTART;VALUE=DATE:20250305
-SUMMARY:CS375 Software Engineering: Software Design: Design Report Due
+SUMMARY:CS375 Software Engineering: Objects/API Summary: Objects/API Summary Report Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
@@ -276,7 +276,7 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc19
 DTSTAMP:20250416T000000Z
 DTSTART;VALUE=DATE:20250416
-SUMMARY:CS375 Software Engineering: Software Documentation: Final Report Handed Out
+SUMMARY:CS375 Software Engineering: User Manual: User Manual and Technical Documentation Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
@@ -321,7 +321,7 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-03691d6afc1e
 DTSTAMP:20250502T000000Z
 DTSTART;VALUE=DATE:20250502
-SUMMARY:CS375 Software Engineering: Software Documentation: Final Report Due
+SUMMARY:CS375 Software Engineering: User Manual: User Manual and Technical Documentation Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3

@@ -395,7 +395,11 @@ schedule:
         rlink: "https://www.usability.gov/what-and-why/user-interface-design.html"
   - week: "10"
     date: "1"
-    title: "GUI"
+    title: "Model-View-Controller (MVC) Architecture"
+    link: "./Activities/MVC"
+    readings:
+      - rtitle: "MVC from MDN Web Docs"
+        rlink: "https://developer.mozilla.org/en-US/docs/Glossary/MVC"
   - week: "10"
     date: "2"
     title: "Cloud Architectures"

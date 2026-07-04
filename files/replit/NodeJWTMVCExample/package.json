@@ -1,0 +1,13 @@
+{
+  "name": "node-jwt-mvc-example",
+  "version": "1.0.0",
+  "description": "A minimal Model-View-Controller (MVC) web service in node.js/Express with JWT authentication, for CS375 Software Engineering",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}

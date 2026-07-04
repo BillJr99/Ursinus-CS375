@@ -351,7 +351,11 @@ schedule:
         rlink: "https://ocw.mit.edu/ans7870/6/6.005/s16/classes/03-testing/"
   - week: "6"
     date: "2"
-    title: "Software Testing: Unit Testing (white box) and Output Testing (black box)"  
+    title: "Continuous Integration and Continuous Deployment (CI/CD) with GitHub Actions and Docker"
+    link: "./Activities/CICD"
+    readings:
+      - rtitle: "Continuous Integration by Martin Fowler"
+        rlink: "https://martinfowler.com/articles/continuousIntegration.html"
   - week: "8"
     date: "0"
     title: "Code Coverage and Control Flow Coverage"

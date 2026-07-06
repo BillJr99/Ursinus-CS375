@@ -143,7 +143,7 @@ docker build -t myapp .        # build the image from the Dockerfile
 docker run -p 3000:3000 myapp  # run it, publishing container port 3000 to your machine
 ```
 
-Then browse to `http://localhost:3000`.  The application is running in an isolated container: it does not matter what versions of node (or anything else) are installed on your laptop, and the identical image will behave identically on a teammate's laptop or a cloud server.  (The `DatabaseMVCExample` from the [MVC activity](./MVC) ships with a `Dockerfile` and `docker-compose.yml` you can experiment with.)
+Then browse to `http://localhost:3000`.  The application is running in an isolated container: it does not matter what versions of node (or anything else) are installed on your laptop, and the identical image will behave identically on a teammate's laptop or a cloud server.  (The `DatabaseMVCExample` from the [MVC activity](./MVC) ships with a `Dockerfile` and `docker-compose.yml` you can experiment with.)  The [Containers activity](./Containers) goes deeper on Docker as a shared development and testing environment -- sharing folders with **volumes**, running a whole stack with **docker-compose**, and **isolation** for safety.
 
 ## Step 3: Continuous Deployment
 
@@ -175,7 +175,7 @@ jobs:
           docker push ghcr.io/$&#123;&#123; github.repository &#125;&#125;:latest
 </code></pre>
 
-From there, *where* the container actually runs is a configuration detail that varies by team: a cloud provider (AWS, Azure, Google Cloud, Render, Fly.io), a department server, or an orchestrator like Kubernetes simply **pulls the newest image from the registry and restarts the container**.  The essential idea is the same everywhere: deployment is a pull of an already-tested artifact, not a rebuild from source on the production machine.
+From there, *where* the container actually runs is a configuration detail that varies by team: a cloud provider (AWS, Azure, Google Cloud, Render, Fly.io), a department server, or an orchestrator like Kubernetes simply **pulls the newest image from the registry and restarts the container**.  The essential idea is the same everywhere: deployment is a pull of an already-tested artifact, not a rebuild from source on the production machine.  Pushing an image to a registry is only one way to ship; the [Publishing and Deployment activity](./Deploy) compares it with publishing a package to **npm**, deploying a serverless function with **Cloudflare Wrangler**, and hosting a static site on **GitHub Pages**.
 
 Notice how the three stages form a chain of gates: a change cannot be deployed unless it was merged, it should not be merged unless CI is green, and CI is green only if the tests pass.  Your test plan is what gives those gates their meaning -- which is why your project test plan requires a passing CI workflow.
 

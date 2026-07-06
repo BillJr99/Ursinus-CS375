@@ -133,3 +133,14 @@ Write up a "press release" document that describes your project to the layperson
 ## Website
 
 A goal of this project is to help you develop a portfolio that you can share with others as you start your career.  To aid with this, one member of your group will create a github repository to hold the website for your project, where you will house your reports.  This repository must be shared with all members of your group.  Post your project concept, and later your full requirements report, as pages to this repository.  You will publish this repository as a GitHub Pages website as part of your [User Manual deliverable](./DocumentationFinalReport), so it pays to keep it organized from the start.
+
+### Setting Up Your Team Repository
+
+Your shared repository is also where you will practice the collaboration workflow that real teams use, so set it up deliberately (the mechanics are covered in the [git assignment](../Assignments/git)):
+
+1. One member creates the repository and, under **Settings** then **Collaborators**, adds **every teammate** so that all of you can push branches and review each other's work.
+2. **Protect the `main` branch** (**Settings**, then **Branches**): require a pull request with at least one approving review before merging, and -- once you have set up [continuous integration](../Activities/CICD) -- require the test check to pass.  No one, including the repository owner, should push directly to `main`.
+3. Do your work on branches and integrate it through **Pull Requests** that a teammate reviews and approves, so that every change is seen by at least two people before it reaches `main`.
+4. Track your tasks as **GitHub Issues**, assigned to owners and grouped into milestones that mirror the sprints in your [Gantt chart](../Activities/Gantt); reference the issue a pull request resolves with `Closes #<n>`.
+
+This is exactly the branch -> pull request -> review -> merge cycle from the git assignment, applied to your real project from day one.

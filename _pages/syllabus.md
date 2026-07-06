@@ -226,7 +226,7 @@ schedule:
         submission_types: "noupload"
   - week: "1"
     date: "2"
-    title: "Version Control with git"
+    title: "Version Control with git and the Command Line"
     link: "./files/software-engineering/02-git-oop.pdf"
     deliverables:
       - dtitle: "Participation: Pre-Assessment Due"
@@ -353,6 +353,8 @@ schedule:
     title: "Continuous Integration and Continuous Deployment (CI/CD) with GitHub Actions and Docker"
     link: "./Activities/CICD"
     readings:
+      - rtitle: "Activity: Reproducible Environments and Isolation with Docker"
+        rlink: "./Activities/Containers"
       - rtitle: "Continuous Integration by Martin Fowler"
         rlink: "https://martinfowler.com/articles/continuousIntegration.html"
   - week: "8"
@@ -422,6 +424,8 @@ schedule:
         submission_types: "written"
         rubricpath: "_pages/Assignments/assignment-standupreflection.md"
     readings:
+      - rtitle: "Activity: Publishing and Deployment (npm, Wrangler, ghcr/DockerHub, Pages)"
+        rlink: "./Activities/Deploy"
       - rtitle: "Developing an Agent Systems Reference Architecture by Duc N. Nguyen et al"
         rlink: "https://apps.dtic.mil/dtic/tr/fulltext/u2/a549190.pdf"
   - week: "11"

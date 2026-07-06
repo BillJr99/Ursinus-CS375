@@ -136,6 +136,7 @@ goals:
 - goal: "To develop and implement a user acceptance test plan"
 - goal: "To document a software system for both end-users and other developers"
 - goal: "To work efficiently on a software team according to software engineering best practices"
+- goal: "To identify, assess, and mitigate common software security vulnerabilities (such as the OWASP Top 10) throughout the software development lifecycle"
 - goal: "To design, develop, test, implement, document, and present a non-trivial software system"
 
 grade_breakdown:
@@ -420,12 +421,38 @@ schedule:
         points: 10
         submission_types: "written"
         rubricpath: "_pages/Assignments/assignment-standupreflection.md"
-  - week: "11"
-    date: "1"
-    title: "Cloud Architectures"
     readings:
       - rtitle: "Developing an Agent Systems Reference Architecture by Duc N. Nguyen et al"
         rlink: "https://apps.dtic.mil/dtic/tr/fulltext/u2/a549190.pdf"
+  - week: "11"
+    date: "1"
+    title: "Secure Software Engineering"
+    link: "./Activities/SoftwareSecurity"
+    deliverables:
+      - dtitle: "Homework Assignment: Securing Your Software Handed Out"
+        dlink: "./Assignments/Security"
+        points: 100
+        submission_types: "written"
+        rubricpath: "_pages/Assignments/assignment-security.md"
+      - dtitle: "Participation: Software Security Knowledge Check Handed Out"
+        dlink: "./Assignments/Participation/SecurityQuiz"
+        points: 10
+        submission_types: "written"
+      - dtitle: "Secure Code Review Assessment Handed Out"
+        dlink: "./Assignments/SecurityCodeReview"
+        points: 100
+        submission_types: "written"
+        rubricpath: "_pages/Assignments/assignment-securitycodereview.md"
+      - dtitle: "Cybersecurity Capstone (Optional Specialization) Handed Out"
+        dlink: "./Assignments/SecurityCapstone"
+        points: 100
+        submission_types: "written"
+        rubricpath: "_pages/Assignments/assignment-securitycapstone.md"
+    readings:
+      - rtitle: "OWASP Top 10"
+        rlink: "https://owasp.org/www-project-top-ten/"
+      - rtitle: "Secure Software Development Framework (SSDF), NIST SP 800-218 by Murugiah Souppaya, Karen Scarfone, and Donna Dodson"
+        rlink: "https://csrc.nist.gov/pubs/sp/800/218/final"
   - week: "11"
     date: "2"
     title: "Ethical Software Engineering Case Study: The Therac-25"
@@ -446,6 +473,10 @@ schedule:
         points: 10
         submission_types: "written"
         rubricpath: "_pages/Assignments/assignment-standupreflection.md"
+      - dtitle: "Participation: Software Security Knowledge Check Due"
+        dlink: "./Assignments/Participation/SecurityQuiz"
+        points: 10
+        submission_types: "written"
   - week: "12"
     date: "1"
     title: "Project Workshop"
@@ -466,6 +497,16 @@ schedule:
         points: 10
         submission_types: "written"
         rubricpath: "_pages/Assignments/assignment-standupreflection.md"
+      - dtitle: "Homework Assignment: Securing Your Software Due"
+        dlink: "./Assignments/Security"
+        points: 100
+        submission_types: "written"
+        rubricpath: "_pages/Assignments/assignment-security.md"
+      - dtitle: "Secure Code Review Assessment Due"
+        dlink: "./Assignments/SecurityCodeReview"
+        points: 100
+        submission_types: "written"
+        rubricpath: "_pages/Assignments/assignment-securitycodereview.md"
       - dtitle: "Final Presentation: Code and Presentation Handed Out"
         dlink: "./Project/Presentation"
         points: 100
@@ -496,6 +537,11 @@ schedule:
         dlink: "./Project/DocumentationFinalReport"
         points: 100
         submission_types: "written"
+      - dtitle: "Cybersecurity Capstone (Optional Specialization) Due"
+        dlink: "./Assignments/SecurityCapstone"
+        points: 100
+        submission_types: "written"
+        rubricpath: "_pages/Assignments/assignment-securitycapstone.md"
   - week: "15"
     date: "0"
     title: "Project Workshop"

@@ -189,7 +189,7 @@ schedule:
   - week: "0"
     date: "1"
     title: "Course Overview"
-    link: "../Ursinus-CS375-Overview"
+    link: "https://www.billmongan.com/Ursinus-CS375-Overview"
     deliverables:
       - dtitle: "Homework Assignment: Warmup Handed Out"
         dlink: "./Assignments/Warmup"

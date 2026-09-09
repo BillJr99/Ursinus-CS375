@@ -98,13 +98,13 @@ As soon as a program has a user interface *and* stored data *and* rules connecti
 
 The example below is a complete Express application managing students, courses, and enrollments (the same schema from the [databases activity](./Cloud5)), organized into `routes/`, `controllers/`, `models/`, and `views/` folders with a SQLite database and JWT authentication.  Browse the folders and notice that every file has exactly one kind of job.
 
-<iframe height="500px" width="100%" src="{{ site.baseurl }}/assets/code-viewer.html?zip=https%3A%2F%2Fraw.githubusercontent.com%2FBillJr99%2FUrsinus-CS375%2Fgh-pages%2Ffiles%2Freplit%2FDatabaseMVCExample.zip&title=Database%20MVC%20Example" scrolling="yes" frameborder="no" allowfullscreen="true" sandbox="allow-scripts allow-same-origin"></iframe>
+<iframe height="500px" width="100%" src="https://www.billmongan.com/Ursinus-CS375-Spring2025/assets/code-viewer.html?zip=https%3A%2F%2Fraw.githubusercontent.com%2FBillJr99%2FUrsinus-CS375%2Fgh-pages%2Ffiles%2Freplit%2FDatabaseMVCExample.zip&title=Database%20MVC%20Example" scrolling="yes" frameborder="no" allowfullscreen="true" sandbox="allow-scripts allow-same-origin"></iframe>
 
 ## Example: A Minimal MVC Service with JWT Authentication
 
 The second example strips the pattern down to its skeleton so you can trace every line: two resources (`/auth` and `/notes`), a JSON-file model (so it runs anywhere with just `npm install && node server.js`), and JWT login protecting the notes routes.  The request-trace table in the second model above walks through this exact code -- open the files side by side with the table.
 
-<iframe height="500px" width="100%" src="{{ site.baseurl }}/assets/code-viewer.html?zip=https%3A%2F%2Fraw.githubusercontent.com%2FBillJr99%2FUrsinus-CS375%2Fgh-pages%2Ffiles%2Freplit%2FNodeJWTMVCExample.zip&title=Node%20JWT%20MVC%20Example" scrolling="yes" frameborder="no" allowfullscreen="true" sandbox="allow-scripts allow-same-origin"></iframe>
+<iframe height="500px" width="100%" src="https://www.billmongan.com/Ursinus-CS375-Spring2025/assets/code-viewer.html?zip=https%3A%2F%2Fraw.githubusercontent.com%2FBillJr99%2FUrsinus-CS375%2Fgh-pages%2Ffiles%2Freplit%2FNodeJWTMVCExample.zip&title=Node%20JWT%20MVC%20Example" scrolling="yes" frameborder="no" allowfullscreen="true" sandbox="allow-scripts allow-same-origin"></iframe>
 
 ### How the JWT Handshake Works
 

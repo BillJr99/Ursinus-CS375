@@ -133,7 +133,7 @@ docker compose down    # stop and remove them
 
 The `DatabaseMVCExample` below ships with a real `Dockerfile` and the `docker-compose.yml` from the model.  Browse it, then try `docker compose up` on your own copy and edit a source file to watch the bind mount in action.
 
-<iframe height="500px" width="100%" src="{{ site.baseurl }}/assets/code-viewer.html?zip=https%3A%2F%2Fraw.githubusercontent.com%2FBillJr99%2FUrsinus-CS375%2Fgh-pages%2Ffiles%2Freplit%2FDatabaseMVCExample.zip&title=Database%20MVC%20Example" scrolling="yes" frameborder="no" allowfullscreen="true" sandbox="allow-scripts allow-same-origin"></iframe>
+<iframe height="500px" width="100%" src="https://www.billmongan.com/Ursinus-CS375-Spring2025/assets/code-viewer.html?zip=https%3A%2F%2Fraw.githubusercontent.com%2FBillJr99%2FUrsinus-CS375%2Fgh-pages%2Ffiles%2Freplit%2FDatabaseMVCExample.zip&title=Database%20MVC%20Example" scrolling="yes" frameborder="no" allowfullscreen="true" sandbox="allow-scripts allow-same-origin"></iframe>
 
 ## Isolation and Safety: The Sandbox
 

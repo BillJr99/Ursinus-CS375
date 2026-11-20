@@ -11,3 +11,5 @@
 
 - [ ] Have students submit any warmup survey in Canvas.
 - [ ] Include an updated syllabus quiz based on the current syllabus.
+
+- [ ] Discuss AI in the software development lifecycle (AI SDLC): where AI can help with requirements, design, implementation, testing, and maintenance, and what people still need to review and verify.

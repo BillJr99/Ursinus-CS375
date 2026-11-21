@@ -13,3 +13,4 @@
 - [ ] Include an updated syllabus quiz based on the current syllabus.
 
 - [ ] Discuss AI in the software development lifecycle (AI SDLC): where AI can help with requirements, design, implementation, testing, and maintenance, and what people still need to review and verify.
+- [ ] Expire assignments automatically when the late penalty would bring the score to zero or on the last class day, whichever comes first: update the code/ scripts (Canvas deploy, syllabus tooling) and the course skills that set due and lock dates, and install the updated skills wherever they are used.
